@@ -1,1 +1,1 @@
-# ICT105-Demo-MVP
+# ICT105-TechRats-MVP
