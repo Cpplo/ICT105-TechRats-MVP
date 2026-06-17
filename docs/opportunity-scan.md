@@ -50,3 +50,12 @@
 | 6 | Students working on academic projects (capstone, thesis, competitions) need specialized peer help — design, coding, data analysis — but there is no trusted campus-level place to find and hire fellow students for short-term collaboration | Students needing project help, student clubs, academic teams | Asking in class group chats, posting on faculty boards, hoping a friend can help | Campus-scoped freelance board where students post micro-tasks with clear deliverables and deadlines, filtered by university and skill set | React, Spring Boot, PostgreSQL, WebSocket for real-time notifications |
 
 ---
+
+## Technology Feasibility Mapping
+
+
+| Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible? |
+|---|---|---|---|---|---|
+| Idea 1: AI Knowledge Management System | Conceptual web prototype with API integration | HTML/CSS/JS frontend, OpenAI API (chat completion), Google Sheets as document index, Glitch for hosting | Sample internal documents (PDFs, notes), Q&A pairs for testing, user query examples | High | Partial |
+| Idea 2: Digital Identity & Credential Verification Platform | Form-based MVP with QR code generation | HTML/CSS/JS, Google Forms (credential submission), Google Sheets (credential records), qrcode.js library for QR generation, GitHub Pages for hosting | Student name, institution, certificate type, issue date, unique credential ID | High | Partial |
+| Idea 3: Student Freelancer Marketplace Platform | Simple web app prototype with Google Sheets backend | HTML/CSS/JS, Google Forms (profile & project submission), Google Sheets (listings database), JavaScript fetch API to display listings, GitHub Pages for hosting | Student profiles (name, skills, university), project listings (title, budget, skill needed), client contact info | Low | Yes |
