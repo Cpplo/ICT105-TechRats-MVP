@@ -224,3 +224,57 @@ The team has successfully established the project repository and defined team ro
 
 During Lab 2, the team will perform opportunity scanning and market validation activities. This includes identifying user pain points, researching existing solutions, analyzing competitors, and evaluating the feasibility of each venture idea. Based on the findings, the team will select the most promising project idea for MVP development.
 
+# Student Freelancer Marketplace Platform
+
+## Course Information
+Course Code: ICT105
+Course Name: Fundamental Technology Entrepreneurship
+Instructor: Dr. Herison Surbakti
+Project Type: 14-Labs Continuous IT Startup MVP Development
+
+## Team Name
+TechRats
+
+## Team Members and Roles
+| Name | Role | Responsibility |
+|---|---|---|
+| Hein Pyae Shan | Product Lead | Define problem, target users, and value proposition |
+| Phyo Wai Aung | Technical Lead | Manage repository and prototype feasibility |
+| Kyaw Phone Thant | UX/UI Lead + Documentation Lead | Design interface and maintain documentation |
+
+## Initial Problem Area
+University students struggle to find freelance work relevant to their skills and field of study. General platforms like Fiverr and Upwork are dominated by experienced professionals, making it difficult for students to compete and gain real work experience.
+
+## Target Users
+University students seeking freelance opportunities and work experience, and small businesses or startups looking for affordable and skilled entry-level talent.
+
+## Selected IT Venture Direction
+Our team selected a Student Freelancer Marketplace Platform. The target users are university students who currently use general platforms like Fiverr and Upwork but struggle to compete with experienced professionals. We selected this idea because it is useful, feasible, and can be prototyped as a web-based marketplace without hardware devices or advanced cybersecurity implementation.
+
+## Technology Possibility
+- Web application (HTML/CSS/JavaScript)
+- Google Forms for data submission
+- Google Sheets as simple backend
+- Figma for UI/UX prototype and wireframes
+
+## Repository Structure
+- docs: reports, profiles, idea logs, opportunity scan, and weekly logbooks
+- prototype: source code or clickable prototype files
+- data: survey responses, NUF scoring, validation data, and metrics
+- finance: financial assumptions and model
+- diagrams: user flow and technical architecture diagrams
+- screenshots: evidence of prototype and repository progress
+- pitch: pitch deck and final demo files
+
+## Weekly Progress Log
+| Lab | Main Activity | Output | Status |
+|---|---|---|---|
+| Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log | Completed |
+| Lab 2 | IT opportunity scanning | Opportunity scan, NUF scoring, selected opportunity | Completed |
+| Lab 3 | Customer discovery | Interview questions, survey, validation evidence | In progress |
+
+## Current Status
+In Lab 02, the team reviewed six possible IT opportunities and scored them using the NUF method. The Student Freelancer Marketplace Platform was selected as the semester project based on its high usefulness and feasibility scores. All required Lab 02 documents have been created and committed to the repository.
+
+## Next Step
+In Lab 03, the team will prepare customer discovery questions and collect evidence from target users. We will conduct surveys and interviews with RSU university students to validate the problem and identify the most important features for the platform.
