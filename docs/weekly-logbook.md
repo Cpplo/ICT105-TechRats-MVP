@@ -34,7 +34,7 @@ Using the NUF scoring method (scored 1–5 per dimension), the Student Freelance
 
 ### Evidence of Work
 - Opportunity scan file: `docs/opportunity-scan.md`
-- NUF scoring file: `docs/nuf-scoring-matrix.xlsx`
+- NUF scoring file: `docs/opportunity-scoring (1).xlsx`
 - Selected opportunity file: `docs/selected-opportunity.md`
 - GitHub issue screenshot: <img width="926" height="326" alt="image" src="https://github.com/user-attachments/assets/66a0e8a5-2be8-4064-8d90-344b8cf9d22c" />
 
