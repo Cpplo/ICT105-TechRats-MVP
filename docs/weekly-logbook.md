@@ -12,30 +12,32 @@
 ## Lab 02: IT Opportunity Scanning
 
 ### What We Completed
-1. Reviewed three IT venture ideas from Lab 1 and summarized them in a structured table in /docs/opportunity-scan.md.
-2. Identified six real IT opportunities from campus and daily-life contexts and completed technology feasibility mapping for all three ideas.
-3. Created NUF scoring matrix, compared all three opportunities, and selected the Student Freelancer Marketplace Platform as the semester project.
+1. Reviewed the 3 ideas from Lab 1 (AI Knowledge Management System, Digital Credential Verification Platform, and Student Freelancer Marketplace Platform) and documented their problem areas, target users, and initial technology directions.
+2. Conducted opportunity scanning by identifying 6 real-world observed problems across different user groups on campus, mapping each to a possible IT solution and feasible technology stack.
+3. Completed a NUF Scoring Matrix (New + Useful + Feasible) to evaluate and rank all 6 ideas, then selected the highest-scoring idea to move forward with.
 
 ### Selected Opportunity
-Student Freelancer Marketplace Platform
+**Student Freelancer Marketplace Platform**
 
 ### Why We Selected It
-Based on NUF scoring, the Student Freelancer Marketplace ranked first with a total score of 13/15. New (4/5) because no existing platform targets university students specifically. Useful (5/5) because it directly solves a real problem for students seeking freelance work. Feasible (4/5) because core features can be prototyped using HTML/CSS/JS and Google Sheets without IoT or advanced cybersecurity.
+Using the NUF scoring method (scored 1–5 per dimension), the Student Freelancer Marketplace received the highest total score of **13** (New: 4, Useful: 5, Feasible: 4). It scored the highest on Usefulness because it directly addresses a real and immediate pain point — university students with genuine skills have no credible platform to find paid work without competing against professionals. It also scored highly on Feasibility because the core features (profile listing, project board, and RSVP/contact form) can be built using HTML/CSS/JS and Google Sheets without requiring advanced backend infrastructure or API integration, making it realistic to prototype within the semester scope.
 
 ### What We Rejected
-We rejected the AI Knowledge Management System despite its high novelty score (5/5) because it requires advanced AI integration using OpenAI API and vector databases, which is beyond the team's current skill level. Its feasibility score was only 2/5, making it unsuitable for a semester prototype.
+**AI Knowledge Management System** (NUF Total: 11, Rank: 4) — Although it scored the highest on Newness (5/5) due to its innovative use of AI for document search, it received a low Feasibility score (2/5) because implementing a functional AI-powered Q&A system requires OpenAI API integration, vector database setup, and backend infrastructure that goes beyond what the team can reliably prototype this semester. The complexity risk was too high compared to the value it would deliver at prototype stage.
+
+**Digital Credential Verification Platform** (NUF Total: 10, Rank: 6) — This idea was also rejected because the security and encryption requirements needed to make credential verification trustworthy (JWT tokens, QR code signing, institution registry) are technically complex and outside the semester scope. A prototype without proper security would not demonstrate real value to users.
 
 ### What We Learned
-1. Starting from a real user problem is more important than starting from an exciting technology.
-2. NUF scoring helps make objective decisions based on evidence rather than personal preference.
-3. Feasibility is the most critical criterion for a semester-long IT project with limited resources.
+1. Not every innovative idea is the right idea to build — feasibility within your current skill set and timeframe matters as much as novelty, and the NUF scoring method helped us separate excitement from practicality.
+2. Real user pain points are more convincing than assumed problems — observing how students actually lose freelance opportunities on general platforms like Fiverr gave us confidence that the Student Freelancer Marketplace solves a genuine and underserved need.
+3. Simple technology stacks (HTML/CSS/JS + Google Sheets) can be powerful enough to validate a product idea at prototype stage without needing a full backend, which keeps the team focused on solving the problem rather than managing infrastructure.
 
 ### Evidence of Work
-- Opportunity scan file: /docs/opportunity-scan.md
-- NUF scoring file: /data/opportunity-scoring.xlsx
-- Selected opportunity file: /docs/selected-opportunity.md
-- GitHub issue screenshot: (add screenshot here)
-- Commit link: (add commit link here)
+- Opportunity scan file: `docs/opportunity-scan.md`
+- NUF scoring file: `docs/nuf-scoring-matrix.xlsx`
+- Selected opportunity file: `docs/selected-opportunity.md`
+- GitHub issue screenshot: *(attach screenshot of GitHub issue for Lab 02)*
+- Commit link: *(paste commit URL here after pushing to GitHub)*
 
 ### Plan for Lab 03
 The team will prepare interview and survey questions targeting RSU university students who have freelance experience or interest. We will collect at least 10 survey responses to validate whether students want a dedicated student freelance platform and identify the most important features they need.
