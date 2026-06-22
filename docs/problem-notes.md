@@ -14,47 +14,72 @@ Student Freelancer Marketplace Platform
 ## Target Respondent Profile
 - Age range: 18-25 years old
 - Currently enrolled in a university program
-- Has skills in design, programming, content writing, translation, or other freelanceable areas
+- Has skills in design, programming, content writing, or other freelanceable areas
 - Has tried or considered using Fiverr, Upwork, or social media to find work
+
+---
+
+## Evidence Summary
+
+| Response ID | Respondent Type | Freelance Experience | Severity (1-5) |
+|---|---|---|---|
+| R001 | 2nd-year student | Yes | 4 |
+| R002 | 3rd-year student | Yes | 3 |
+| R003 | 1st-year student | No | 5 |
+| R004 | International student | Yes | 4 |
+| R005 | Part-time student | Yes | 5 |
+| R006 | Small business owner | N/A | 3 |
+| R007 | Startup founder | N/A | 4 |
+| R008 | 4th-year student | Yes | 2 |
 
 ---
 
 ## Observed Pain Points
 
-| # | Pain Point | Frequency | Severity (1-5) |
-|---|---|---|---|
-| 1 | Students struggle to compete with experienced professionals on general platforms | Very common | 4 |
-| 2 | Clients do not trust student profiles without portfolio or academic verification | Common | 4 |
-| 3 | No platform specifically designed for university student freelancers | Common | 5 |
-| 4 | Students do not know how to price their services correctly | Common | 3 |
-| 5 | Finding relevant projects matching student skill level is difficult | Very common | 4 |
+| # | Pain Point | Evidence | Frequency | Severity |
+|---|---|---|---|---|
+| 1 | Students struggle to compete with experienced professionals on general platforms | R001 felt invisible; R003 gave up at profile creation on Fiverr | Very common | 5 |
+| 2 | No reliable or structured way to find recurring clients | R002 relies on luck through referrals; R007 overwhelmed by unstructured LINE responses | Common | 4 |
+| 3 | Payment uncertainty and lack of contract protection | R004 experienced late payment; R005 had account restricted on Upwork | Common | 4 |
+| 4 | Thai students face platform restrictions on international platforms | R005 had Upwork account restricted due to age and location | Occasional | 5 |
+| 5 | Clients cannot verify student skills or compare profiles easily | R006 wasted time screening; R007 hired wrong person and had to redo work | Common | 4 |
+| 6 | Students do unpaid work with no formal recognition or portfolio proof | R008 built website for relative unpaid with no credible record | Common | 3 |
+| 7 | High barrier to entry for first-time student freelancers | R003 gave up before even creating a profile due to competition | Common | 5 |
 
 ---
 
 ## Current Alternatives and Workarounds
 
-| Alternative | How It Is Used | Why It Is Insufficient |
+| Alternative | Used By | Why It Is Insufficient |
 |---|---|---|
-| Fiverr / Upwork | Students create profiles and compete for projects | Dominated by experienced professionals; hard for students to get first clients |
-| Facebook groups / LINE groups | Students post availability and skills | Informal, unstructured, no rating or trust system |
-| Personal networks | Ask friends or family for work | Very limited reach and project variety |
-| University career center | Some universities post internship or part-time opportunities | Rarely includes freelance or short-term project opportunities |
+| Facebook groups | R001, R007 | Unstructured; no profile comparison; responses go unnoticed |
+| Fiverr / Upwork | R001, R003, R005 | Too competitive; platform restrictions for Thai students; account risks |
+| Personal network / referrals | R002, R008 | Unreliable; limited reach; often leads to unpaid work |
+| Instagram / word-of-mouth | R004 | No contract; payment uncertainty; informal only |
+| LINE group | R002, R007 | Overwhelming volume; no structured proposal or skill filter |
+| University notice board | R006 | Hard to find quality candidates; no skill verification |
 
 ---
 
 ## Consequences of Unsolved Problem
-- Students miss opportunities to build work experience before graduation.
-- Students cannot earn income from their existing skills during studies.
-- Small businesses cannot find affordable and trustworthy entry-level talent easily.
-- Students graduate without a verified portfolio or professional track record.
+- Students miss opportunities to build a verified portfolio and credibility before graduation (R008).
+- Students lose income due to platform restrictions or payment disputes (R004, R005).
+- Students give up freelancing entirely due to high entry barriers (R001, R003).
+- Clients waste time and money hiring unverified or mismatched candidates (R006, R007).
+- International students face additional barriers due to language and platform restrictions (R004, R005).
 
 ---
 
-## Early Assumptions to Validate
+## Desired Features from Respondents
 
-| # | Team Assumption | Status |
-|---|---|---|
-| 1 | Students want a platform specifically for university freelancers | Not yet validated |
-| 2 | Clients prefer hiring students for affordability | Not yet validated |
-| 3 | Portfolio and academic profile increases client trust | Not yet validated |
-| 4 | Students are willing to use a new platform if it is student-focused | Not yet validated |
+| Feature | Requested By |
+|---|---|
+| Student-only space with RSU or university badge | R001, R003 |
+| Skill tags and entry-level filters | R001, R006, R007 |
+| Rating and review system | R001, R006 |
+| Payment protection and milestone tracking | R002, R004 |
+| Built-in contract template | R004, R007 |
+| Zero-review friendly onboarding for beginners | R003 |
+| Age-verified student accounts and local payment method | R005 |
+| Portfolio verification and public project badges | R006, R008 |
+| Structured proposal system | R007 |
