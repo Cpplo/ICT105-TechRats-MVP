@@ -278,3 +278,89 @@ In Lab 02, the team reviewed six possible IT opportunities from three reviewed i
 
 ## Next Step
 In Lab 03, the team will prepare customer discovery questions and collect evidence from target users. We will conduct surveys and interviews with RSU university students to validate the problem and identify the most important features for the platform.
+
+---
+
+# Lab 03 Update – Customer Problem Discovery
+
+## Customer Problem Discovery Summary
+
+In Lab 03, our team collected early problem evidence from target users to validate whether the selected problem from Lab 02 is real and significant. Through customer discovery interviews, we explored the challenges students face when searching for freelance opportunities and the difficulties clients encounter when hiring student talent. The findings confirmed that the problem exists and affects both students and potential employers.
+
+## Target Respondents
+
+The team conducted interviews with:
+
+- 6 university students interested in freelance work, portfolio building, and earning additional income.
+- 2 client respondents, including SME and startup representatives who have hired or considered hiring students for freelance projects.
+
+**Total respondents: 8**
+
+## Main Evidence Found
+
+### Student Challenges
+
+- Difficulty competing against experienced freelancers on platforms such as Fiverr and Upwork.
+- Limited portfolio visibility and lack of professional experience.
+- Difficulty gaining trust from potential clients.
+- Concerns regarding payment reliability and platform restrictions.
+- Limited access to student-friendly freelance opportunities.
+
+### Client Challenges
+
+- Difficulty identifying qualified student talent.
+- Lack of verified student profiles and structured portfolios.
+- Limited confidence when hiring through informal channels.
+
+### Current Workarounds
+
+Students currently use:
+
+- Fiverr
+- Upwork
+- Facebook Groups
+- Instagram
+- LINE Groups
+- Personal referrals
+
+Clients currently use:
+
+- Personal recommendations
+- Social media posts
+- Informal student referrals
+
+## Updated Problem Statement
+
+University students often struggle to obtain freelance opportunities because they lack professional experience, face intense competition on existing platforms, and have limited ways to demonstrate their skills to potential clients. At the same time, SMEs and startups find it difficult to identify trustworthy student talent due to insufficient verification and portfolio visibility. A dedicated student freelancer marketplace with university verification, portfolio management, project matching, and secure collaboration features could help bridge this gap and improve opportunities for both students and employers.
+
+## Decision for Next Step
+
+The team has decided to **continue with the same problem direction**.
+
+Customer discovery findings validated all major assumptions and confirmed that both students and potential clients experience challenges that are not adequately addressed by existing solutions. In the next lab, the team will define customer segments, develop user personas, create user stories, and identify the core MVP features required for the Student Freelancer Marketplace Platform.
+
+---
+
+## Updated Weekly Progress Log
+
+| Lab | Main Activity | Output | Status |
+|------|-------------|---------|---------|
+| Lab 1 | Lab setup and idea log | Repository, team profile, initial idea log | Completed |
+| Lab 2 | IT opportunity scanning | Opportunity scan, NUF scoring, selected opportunity | Completed |
+| Lab 3 | Customer discovery interviews | 8 interview responses | Completed |
+| Lab 3 | Assumption validation | Assumption vs Evidence Table | Completed |
+| Lab 3 | Problem validation | Customer Discovery Summary | Completed |
+
+---
+
+## Current Status
+
+The team has completed customer discovery activities for the Student Freelancer Marketplace Platform. Eight interviews were conducted with university students and potential clients to validate the identified problem. Findings confirmed that students face significant barriers when seeking freelance opportunities, including competition, lack of trust, and limited portfolio visibility. Client respondents also highlighted challenges in identifying qualified student talent. Based on the evidence collected, the team decided to continue developing the Student Freelancer Marketplace Platform concept and proceed with customer segmentation and MVP planning.
+
+---
+
+## Next Step
+
+For Lab 04, the team will define customer segments, develop detailed personas, and create user stories based on the interview findings. The team will also identify core MVP features and begin designing low-fidelity wireframes for the Student Freelancer Marketplace Platform.
+```
+
