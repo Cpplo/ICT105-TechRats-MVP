@@ -79,7 +79,7 @@ Based on the interview findings, we decided to continue with the Student Freelan
 
 - **GitHub repository link:** https://github.com/Cpplo/ICT105-TechRats-MVP.git
 - **Customer questions file:** `docs/customer-questions.md`
-- **Raw responses file:** `data/raw-responses.xlsx`
+- **Raw responses file:** `data/Freelancer_Marketplace_Customer_Discovery_Raw-Responses (1).xlsx`
 - **Assumption-evidence table:** `docs/assumption-evidence-table.md`
 - **Commit link:** https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/ 
 
