@@ -77,11 +77,11 @@ Based on the interview findings, we decided to continue with the Student Freelan
 
 ### Evidence of Work
 
-- **GitHub repository link:** [Insert Repository URL]
+- **GitHub repository link:** https://github.com/Cpplo/ICT105-TechRats-MVP.git
 - **Customer questions file:** `docs/customer-questions.md`
 - **Raw responses file:** `data/raw-responses.xlsx`
 - **Assumption-evidence table:** `docs/assumption-evidence-table.md`
-- **Commit link:** [Insert Commit URL]
+- **Commit link:** https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/ 
 
 ### Plan for Lab 04
 
