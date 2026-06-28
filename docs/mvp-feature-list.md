@@ -72,5 +72,41 @@ The following features will not be implemented during the semester:
 - Mobile application
 - Push notifications
 
+# Final Prototype Scope
+
+## Included in MVP
+
+The first version of the Student Freelancer Marketplace Platform will include:
+
+- Student registration and login
+- Student profile management
+- Portfolio upload and management
+- Browse and search freelance projects
+- Company profile viewing
+- Company ratings and reviews
+- Project application
+- Application status tracking
+- Messaging between students and companies
+- Company project posting
+- Student rating and review
+- Company rating and review
+
+---
+
+## Excluded from MVP
+
+The following features are planned for future versions after MVP validation:
+
+- Online payment gateway
+- Escrow payment protection
+- AI project recommendation
+- AI portfolio feedback
+- Resume builder
+- Video interview scheduling
+- Mobile application
+- Push notifications
+- Calendar integration
+- Analytics dashboard
+
 These features require additional development effort and are reserved for future versions after the MVP has been validated.
 ```
