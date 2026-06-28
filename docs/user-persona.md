@@ -1,10 +1,25 @@
 # Lab 04 - User Persona
 
+## Project Title
+
+Student Freelancer Marketplace Platform
+
+---
+
+## Primary Persona
+
+**University Student Freelancer (Beginner / Aspiring Freelancer)**
+
+This is the primary persona for the MVP because the majority of customer discovery respondents (6 out of 8) were university students who experienced similar challenges in finding freelance opportunities. The interview findings showed recurring problems such as strong competition on existing freelance platforms, difficulty building client trust, and limited opportunities for beginners. Therefore, the first version of the platform is designed primarily to address the needs of university student freelancers.
+
+---
+
 ## 1. Persona Name
 
 Emily – University Student Freelancer
 
----
+```
+
 
 ## 2. User Type
 
