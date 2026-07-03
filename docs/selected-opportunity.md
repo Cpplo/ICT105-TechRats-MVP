@@ -22,7 +22,7 @@ A dedicated web-based recruitment platform where university students and fresh g
 
 ## Why This Opportunity Was Selected
 
-Based on NUF scoring, the Student Internship & Entry-Level Job Platform ranked first with a total score of **13/15**.
+Based on the NUF opportunity scoring conducted in Lab 02, the Student Internship & Entry-Level Job Platform received the highest score of **13/15**, making it the selected semester project.
 
 - **New (4/5):** Most recruitment platforms focus on experienced professionals, while this platform is specifically designed for university students and fresh graduates.
 - **Useful (5/5):** Addresses a common challenge faced by students when searching for internships and first jobs while helping employers recruit early-career talent more efficiently.
