@@ -18,7 +18,7 @@ Students currently use general job platforms such as LinkedIn Jobs, Indeed, Glas
 
 ## Proposed IT Solution
 
-A dedicated web-based recruitment platform where university students and fresh graduates can create professional profiles, upload resumes and portfolios, browse internship and entry-level job opportunities, apply directly through the platform, communicate with employers, and track application status. Employers can create verified company profiles, post job vacancies, review applicant profiles, and recruit suitable early-career candidates.
+A dedicated web-based recruitment platform where university students and fresh graduates can create professional profiles, upload resumes and portfolios, browse verified internship and entry-level job opportunities, apply directly through the platform, communicate with employers, and track application status. Employers can create verified company profiles, post job vacancies, review applicant profiles, and recruit suitable early-career candidates.
 
 ## Why This Opportunity Was Selected
 
@@ -26,7 +26,7 @@ Based on the NUF opportunity scoring conducted in Lab 02, the Student Internship
 
 - **New (4/5):** Most recruitment platforms focus on experienced professionals, while this platform is specifically designed for university students and fresh graduates.
 - **Useful (5/5):** Addresses a common challenge faced by students when searching for internships and first jobs while helping employers recruit early-career talent more efficiently.
-- **Feasible (4/5):** Core features such as user registration, company profiles, job postings, applications, messaging, and application tracking can be prototyped within one semester using web technologies.
+- **Feasible (4/5):** Core features such as user registration, company verification, company profiles, internship and entry-level job postings, resume and portfolio management, job applications, messaging, and application tracking can be prototyped using HTML, CSS, JavaScript, and Google Sheets within one semester.
 
 ## Why This Is Feasible Without IoT or Advanced Cybersecurity
 
