@@ -1,33 +1,43 @@
 # Selected Semester Project Opportunity
 
 ## Selected Project Title
-Student Freelancer Marketplace Platform
+
+Student Internship & Entry-Level Job Platform
 
 ## Target User
-University students who want to gain work experience and find freelance opportunities, and small businesses or startups looking for affordable entry-level talent.
+
+University students seeking internship opportunities, fresh graduates looking for entry-level jobs, and companies, startups, or SMEs recruiting early-career talent.
 
 ## Problem Statement
-University students struggle to find freelance work relevant to their skills and field of study. General platforms like Fiverr and Upwork are dominated by experienced professionals, making it difficult for students to compete. At the same time, small businesses and startups have difficulty finding affordable and skilled entry-level talent they can trust.
+
+University students and fresh graduates often struggle to find internship and entry-level job opportunities that match their skills and qualifications. Most existing recruitment platforms primarily target experienced professionals, making it difficult for beginners to discover suitable positions. At the same time, employers find it challenging to reach qualified student talent through a platform specifically designed for early-career recruitment.
 
 ## Current Alternative
-Students currently use general freelance platforms such as Fiverr and Upwork, social media groups, personal networks, or university career boards. These alternatives are not specifically designed for students and do not provide academic context or portfolio-based trust signals.
+
+Students currently use general job platforms such as LinkedIn Jobs, Indeed, Glassdoor, JobThai, company career pages, university career centers, social media groups, and personal networks. However, these platforms often contain limited internship opportunities, require prior work experience, or make it difficult to identify entry-level positions suitable for students and fresh graduates.
 
 ## Proposed IT Solution
-A dedicated web-based marketplace where university students can create professional profiles, showcase portfolios, browse and apply for projects, and receive ratings from clients. The platform will include project posting by clients, application management, and basic matching based on skills and categories.
+
+A dedicated web-based recruitment platform where university students and fresh graduates can create professional profiles, upload resumes and portfolios, browse internship and entry-level job opportunities, apply directly through the platform, communicate with employers, and track application status. Employers can create verified company profiles, post job vacancies, review applicant profiles, and recruit suitable early-career candidates.
 
 ## Why This Opportunity Was Selected
-Based on NUF scoring, the Student Freelancer Marketplace ranked first with a total score of 13/15:
-- **New (4/5):** No existing platform is specifically designed for university students with academic profile integration.
-- **Useful (5/5):** Directly solves a real and common problem experienced by students and small business clients.
-- **Feasible (4/5):** Core features can be prototyped using HTML/CSS/JS and Google Sheets within the semester without IoT or advanced cybersecurity.
+
+Based on NUF scoring, the Student Internship & Entry-Level Job Platform ranked first with a total score of **13/15**.
+
+- **New (4/5):** Most recruitment platforms focus on experienced professionals, while this platform is specifically designed for university students and fresh graduates.
+- **Useful (5/5):** Addresses a common challenge faced by students when searching for internships and first jobs while helping employers recruit early-career talent more efficiently.
+- **Feasible (4/5):** Core features such as user registration, company profiles, job postings, applications, messaging, and application tracking can be prototyped within one semester using web technologies.
 
 ## Why This Is Feasible Without IoT or Advanced Cybersecurity
-The platform requires no hardware devices, sensors, or advanced security implementation. The MVP can be built using HTML, CSS, and JavaScript for the frontend, with Google Forms and Google Sheets as a simple backend for data collection. Authentication can be simulated using basic form validation. No encryption libraries or IoT integration is required.
+
+The platform is entirely web-based and does not require hardware devices, IoT technologies, or advanced cybersecurity implementation. The MVP can be developed using HTML, CSS, and JavaScript for the frontend, with Google Forms and Google Sheets serving as a simple backend for data collection and management. User authentication can be simulated using basic form validation, making the project achievable within the semester.
 
 ## Possible MVP Type
-HTML/CSS/JS prototype with Google Sheets backend and Google Forms for data submission.
+
+HTML/CSS/JavaScript prototype with Google Sheets backend and Google Forms for user registration, job posting, and application submission.
 
 ## Initial Validation Plan for Lab 03
-- **Who will the team ask?** University students from RSU who have freelance experience or are interested in freelancing, and small business owners or club administrators who have hired student talent.
-- **What evidence will the team collect?** Survey responses about current freelancing challenges, frequency of searching for work, and willingness to use a student-only platform.
-- **What question must be answered first?** Do university students actively want a dedicated freelance platform separate from Fiverr or Upwork, and what features matter most to them?
+
+- **Who will the team ask?** University students, fresh graduates, internship seekers, and representatives from companies or startups that recruit interns or entry-level employees.
+- **What evidence will the team collect?** Survey and interview responses about the difficulties of finding internships and entry-level jobs, preferred job-search methods, trust factors when applying, and the features users expect from a student-focused recruitment platform.
+- **What question must be answered first?** Do university students and fresh graduates need a dedicated platform for internships and entry-level jobs, and which features are most important to improve their job-search experience?
