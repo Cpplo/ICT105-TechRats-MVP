@@ -1,27 +1,141 @@
 # System Requirements
 
-## Minimum Final Prototype Functionalities
+## Project Title
+Student Internship & Entry-Level Job Platform
 
-These requirements define the minimum prototype functionalities for the **Student Internship & Entry-Level Job Platform**. The requirements are derived from customer discovery findings, the user persona, user stories, and the MVP feature list. They describe the essential features required for the first functional prototype.
+## Prototype Scope
 
-| Req ID | Minimum Prototype Functionality | What Students Must Show in Final Prototype |
-| ------- | ------------------------------- | ------------------------------------------ |
-| **FR-01** | **Student Registration & Login** | Students shall be able to register and log in using their university email address to securely access the platform as verified users. |
-| **FR-02** | **Student Profile Management** | Students shall be able to create and manage their profile, including education, skills, resume, portfolio, and contact information. |
-| **FR-03** | **Resume & Portfolio Upload** | Students shall be able to upload and manage resumes, portfolios, certificates, and skill tags for employers to evaluate. |
-| **FR-04** | **Employer Registration & Company Verification** | Employers shall be able to register their companies and submit verification documents. Verified companies shall display a verification badge. |
-| **FR-05** | **Internship & Entry-Level Job Posting** | Employers shall be able to create, edit, and publish internship and entry-level job listings with complete job information. |
-| **FR-06** | **Browse & Filter Job Listings** | Students shall be able to browse available opportunities and filter them by category, location, industry, work mode, and beginner-friendly status. |
-| **FR-07** | **Company Profile Viewing** | Students shall be able to view company profiles, including company information, verification status, industry, contact details, and employer description before applying. |
-| **FR-08** | **Job Application Submission** | Students shall be able to apply for internship or entry-level positions directly through the platform using their uploaded profile and resume. |
-| **FR-09** | **Application Status Tracking** | Students shall be able to track application progress, including statuses such as Applied, Under Review, Interview, Accepted, Rejected, or Closed. |
-| **FR-10** | **Employer Applicant Management** | Employers shall be able to view applicants, review student profiles, filter candidates by skills, and update application statuses. |
-| **FR-11** | **Saved Jobs & Deadline Tracking** | Students shall be able to save interesting job postings and monitor application deadlines from a personal dashboard. |
-| **FR-12** | **Eligibility Information Display** | Every job posting shall clearly display eligibility requirements such as language requirements, visa/work permit requirements, education level, and work mode. |
-| **FR-13** | **Scam Reporting** | Students shall be able to report suspicious or misleading job postings for administrator review. |
-| **FR-14** | **Input Validation & User Feedback** | The system shall validate required fields and display confirmation or error messages when users submit forms or perform actions. |
-| **FR-15** | **Responsive & Consistent User Interface** | The platform shall provide a consistent, responsive interface that works properly on desktop and mobile devices. |
-| **FR-16** | **Requirement Traceability** | Every implemented feature shall be traceable to the corresponding user story, MVP feature, and customer discovery evidence collected during Lab 03. |
+This document defines the updated system requirements for an **interactive prototype** of the Student Internship & Entry-Level Job Platform. The prototype will demonstrate the main workflows for two main user roles: **Student** and **Employer**.
+
+The prototype will not use a real production database or real authentication system. Instead, it will use simulated login, sample data, form validation, interactive screens, and prototype-level verification logic.
+
+---
+
+# User Roles
+
+| Role | Description |
+|---|---|
+| Student | A university student or fresh graduate searching for internships or entry-level jobs |
+| Employer | A company, startup, or SME posting beginner-friendly internship or entry-level opportunities |
+
+> The prototype includes an **Admin Verification Page** to demonstrate verification and report handling, but Admin is not a main user role in the customer-facing platform.
+
+---
+
+# Main Prototype Screens
+
+| Screen | Purpose |
+|---|---|
+| Login Page | Allows simulated login and role selection for Student or Employer |
+| Student Dashboard | Shows profile status, verification status, saved jobs, applications, and recommended actions |
+| Employer Dashboard | Shows company verification status, job posts, applicants, and messages |
+| Job Listing Page | Allows students to browse, search, and filter internship or entry-level jobs |
+| Job Detail Page | Shows job description, company profile, eligibility, beginner-friendly status, and apply button |
+| Application Tracker | Allows students to monitor application status and deadlines |
+| Admin Verification Page | Demonstrates student/company verification review and reported job handling |
+
+---
+
+# Functional Requirements
+
+| Req ID | Functional Requirement | What the Prototype Must Show |
+| ------- | ---------------------- | ----------------------------- |
+| **FR-01** | **Simulated Registration & Login** | The prototype shall allow students and employers to enter the system through a simulated login page. Real authentication is not required. |
+| **FR-02** | **Role Selection** | The prototype shall direct users to either the Student Dashboard or Employer Dashboard based on selected role. |
+| **FR-03** | **Student Profile Management** | Students shall be able to create or edit a profile containing name, university, education level, skills, career interests, contact details, and verification status. |
+| **FR-04** | **Student Verification Detection** | The prototype shall show a student verification process using simulated checks such as university email, student ID, resume, transcript, or student document upload. |
+| **FR-05** | **Resume & Supporting Document Upload** | Students shall be able to upload or attach a resume and optional supporting documents such as portfolio, certificate, transcript, or cover letter. |
+| **FR-06** | **Employer Registration** | Employers shall be able to create a company profile with company name, industry, website/contact information, and description. |
+| **FR-07** | **Company Verification Detection** | The prototype shall show a company verification process using simulated checks such as business email, company website, business document, or admin review. |
+| **FR-08** | **Verified Badge Display** | The prototype shall display verified badges for verified students and verified companies. |
+| **FR-09** | **Employer Posting Restriction** | Employers shall not be able to publish internship or entry-level job posts until their company verification is approved. |
+| **FR-10** | **Internship & Entry-Level Job Posting** | Verified employers shall be able to create, edit, and publish job posts with title, description, location, work mode, required skills, eligibility, deadline, and beginner-friendly status. |
+| **FR-11** | **Browse & Search Jobs** | Students shall be able to browse and search internship and entry-level job opportunities. |
+| **FR-12** | **Beginner-Friendly & Eligibility Filters** | Students shall be able to filter jobs by category, location, industry, work mode, beginner-friendly status, skill requirement, education level, language requirement, and visa/work eligibility. |
+| **FR-13** | **Job Detail Viewing** | Students shall be able to view full job details before applying. |
+| **FR-14** | **Company Profile Viewing** | Students shall be able to view company profile, company description, verification badge, industry, contact details, and posted opportunities. |
+| **FR-15** | **Job Application Submission** | Students shall be able to apply for jobs using their resume and selected supporting documents. |
+| **FR-16** | **Application Tracker** | Students shall be able to track application progress using statuses such as Applied, Under Review, Interview, Accepted, Rejected, or Closed. |
+| **FR-17** | **Saved Jobs** | Students shall be able to save interesting job posts and view them later from the Student Dashboard. |
+| **FR-18** | **Employer Applicant Management** | Employers shall be able to view applicants for each job post, review student profiles, view resumes/documents, and filter applicants by skills or status. |
+| **FR-19** | **Application Status Update** | Employers shall be able to update application statuses, and the updated status shall appear in the student application tracker. |
+| **FR-20** | **Direct Messaging** | Students and employers shall be able to send simple messages about job opportunities, applications, and next steps. |
+| **FR-21** | **Job Reporting** | Students shall be able to report suspicious, fake, misleading, or inappropriate job posts. |
+| **FR-22** | **Report Handling Flow** | The Admin Verification Page shall show how reported jobs are reviewed and either kept, hidden, or removed. |
+| **FR-23** | **Confirmation & Error Messages** | The prototype shall show confirmation and error messages after key actions such as login, verification submission, job posting, application submission, messaging, and reporting. |
+| **FR-24** | **Input Validation** | Required fields shall be validated in forms, including login, profile creation, verification, job posting, and job application forms. |
+| **FR-25** | **Responsive Interface** | The prototype shall provide a clear interface for desktop and mobile screen sizes. |
+| **FR-26** | **Privacy-Aware Interface** | The prototype shall avoid unnecessary personal information and shall show privacy-conscious handling of uploaded documents and contact details. |
+| **FR-27** | **Requirement Traceability** | Each implemented prototype function shall be traceable to the MVP feature list, user story, and customer discovery evidence. |
+
+---
+
+# Main User Flow Requirements
+
+## Student Job Application Flow
+
+1. Student opens the platform.
+2. Student selects Student role and logs in using simulated login.
+3. Student creates or updates profile.
+4. Student submits student verification information.
+5. Student uploads resume and optional supporting documents.
+6. Student browses or searches jobs.
+7. Student applies filters to find beginner-friendly opportunities.
+8. Student opens job detail page.
+9. Student views company profile and verification badge.
+10. Student applies using resume and selected supporting documents.
+11. Student receives application confirmation.
+12. Student tracks application status in the Application Tracker.
+13. Student may message employer after applying.
+
+## Employer Job Posting Flow
+
+1. Employer opens the platform.
+2. Employer selects Employer role and logs in using simulated login.
+3. Employer creates company profile.
+4. Employer submits company verification information.
+5. System shows verification pending status.
+6. Admin Verification Page approves or rejects verification in prototype.
+7. If approved, employer can post internship or entry-level jobs.
+8. If rejected or pending, employer cannot publish jobs.
+9. Employer views applicants.
+10. Employer reviews student profiles, resumes, and supporting documents.
+11. Employer updates application status.
+12. Employer may message student.
+
+## Company and Student Verification Flow
+
+1. User submits verification information.
+2. Prototype checks required verification fields.
+3. System shows Pending, Verified, or Rejected status.
+4. Verified users receive a visible badge.
+5. Employers can post jobs only after company verification is approved.
+
+## Reported Job Handling Flow
+
+1. Student reports a suspicious job post.
+2. System records report reason in the prototype.
+3. Admin Verification Page displays reported job.
+4. Reviewer checks job and company information.
+5. Job is either kept active, hidden, or removed.
+6. Student receives confirmation that the report was submitted.
+
+---
+
+# Business Rules
+
+| Rule ID | Rule |
+|---|---|
+| **BR-01** | Students must provide a resume before submitting a job application. |
+| **BR-02** | Students may attach additional documents such as portfolio, certificate, transcript, or cover letter. |
+| **BR-03** | Employers cannot publish job posts before company verification is approved. |
+| **BR-04** | Admin does not need to approve every job post. |
+| **BR-05** | Admin only reviews company verification requests and reported job posts. |
+| **BR-06** | Students can message employers. |
+| **BR-07** | Employers can message applicants. |
+| **BR-08** | Job posts must show eligibility details before students apply. |
+| **BR-09** | Verification detection in the prototype may be simulated and does not need real AI or external database integration. |
+| **BR-10** | AI verification is optional and should be treated as a future enhancement unless a simple simulated detection feature is needed for the prototype. |
 
 ---
 
@@ -29,26 +143,64 @@ These requirements define the minimum prototype functionalities for the **Studen
 
 | NFR ID | Requirement | Description |
 | ------- | ----------- | ----------- |
-| **NFR-01** | Usability | The platform should provide an intuitive interface that first-time users can navigate easily. |
-| **NFR-02** | Performance | Common actions such as browsing jobs and viewing profiles should respond quickly. |
-| **NFR-03** | Reliability | Submitted profiles, applications, and job postings should remain available without data loss during normal operation. |
-| **NFR-04** | Security | User authentication shall require registered accounts, and company verification shall help reduce fraudulent job postings. |
-| **NFR-05** | Compatibility | The platform should function correctly on modern desktop and mobile web browsers. |
-| **NFR-06** | Maintainability | The codebase should be modular to support future enhancements such as AI job recommendations and messaging. |
+| **NFR-01** | Usability | The prototype should be easy for first-time users to understand and navigate. |
+| **NFR-02** | Clarity | Job information, verification status, application status, and warnings should be clear and easy to read. |
+| **NFR-03** | Performance | Prototype screens should load quickly and support smooth navigation. |
+| **NFR-04** | Reliability | Prototype data such as sample profiles, jobs, and applications should remain consistent during the demonstration. |
+| **NFR-05** | Security Awareness | The prototype should visually demonstrate account access, verification, and privacy protection even if real authentication is not implemented. |
+| **NFR-06** | Compatibility | The prototype should work properly on modern desktop and mobile web browsers or as a clickable Figma prototype. |
+| **NFR-07** | Maintainability | The prototype structure should be organized so future features such as AI verification, recommendations, real login, and database integration can be added later. |
+| **NFR-08** | Privacy | Uploaded resumes, portfolios, certificates, and verification documents should be shown as protected user information in the interface. |
 
 ---
 
 # Minimum Technical Requirement
 
-The final prototype must not be only a static presentation. It must be an interactive prototype where users can register, manage profiles, browse internships and entry-level jobs, submit applications, manage applicants, and track application progress through the main workflow.
+The final prototype should not be only a static presentation. It should be an interactive prototype that demonstrates the main workflows.
+
+Because the current project scope is **prototype only**, the following are acceptable:
+
+| Component | Acceptable Prototype Form |
+|---|---|
+| Login | Simulated login with role selection |
+| Data | Sample/local/static data instead of real database |
+| Student Profile | Editable prototype form or clickable UI |
+| Employer Profile | Editable prototype form or clickable UI |
+| Verification | Simulated verification status: Pending, Verified, Rejected |
+| Job Posting | Interactive form that shows posting allowed only after verification |
+| Job Search | Search/filter UI using sample job cards |
+| Application | Form submission using resume and supporting documents |
+| Messaging | Simple message screen or simulated chat thread |
+| Report Handling | Admin Verification Page showing reported job review |
 
 Acceptable platforms may include:
 
 | Platform Type | Acceptable Prototype Form |
 | ------------- | ------------------------- |
-| Web App | HTML/CSS/JavaScript, React.js, Next.js, Spring Boot, Node.js, Laravel, or similar |
-| Mobile Prototype | Figma clickable prototype, Flutter, React Native, or similar |
-| Database | PostgreSQL, MySQL, Firebase, MongoDB, or similar |
-| Authentication | University email login or simulated authentication with validation |
-| Data-driven Prototype | Database-backed prototype with student profiles, company profiles, job postings, applications, applicant management, and application tracking |
-| UI/UX Prototype | Figma prototype demonstrating complete user journeys from registration to internship/job application and employer applicant management |
+| Web Prototype | HTML/CSS/JavaScript, React.js, Next.js, or similar frontend prototype |
+| UI/UX Prototype | Figma clickable prototype showing complete user journeys |
+| Data Handling | Local sample data, JSON data, browser local storage, or static mock data |
+| Authentication | Simulated authentication with role-based navigation |
+| Verification | Simulated detection logic or manual verification status in prototype |
+
+---
+
+# Future Enhancements
+
+These features are outside the MVP but can be added after validation:
+
+- Real authentication system
+- Real database
+- Real document upload and storage
+- Official student verification through university systems
+- Official company verification API
+- AI-assisted student/company verification
+- AI job recommendation
+- AI resume feedback
+- Interview scheduling
+- Email notifications
+- Calendar integration
+- Mobile application
+- University SSO
+- Employer analytics dashboard
+
