@@ -2,67 +2,73 @@
 
 ## Project Title
 
-Student Freelancer Marketplace Platform
+Student Internship & Entry-Level Job Platform
 
 ## Target Users Studied
 
-- University students interested in freelance work, portfolio building, and earning additional income.
-- Small business owners and startup founders who may hire students for freelance projects.
+- University students seeking internship and entry-level job opportunities.
+- Fresh graduates searching for their first full-time jobs.
+- Employers (SMEs and startups) recruiting interns and entry-level employees.
 
 ## Number of Responses / Interviews
 
-8 Responses
+10 Responses
 
-- 6 Student Respondents
-- 2 Client Respondents (SME / Startup)
+- 7 Student Respondents
+- 1 Fresh Graduate Respondent
+- 2 Employer Respondents (SME / Startup)
 
 ## Main Repeated Problem
 
-Students face difficulties finding freelance opportunities due to strong competition from experienced freelancers, lack of professional portfolios, limited trust from clients, and barriers on existing platforms such as Fiverr and Upwork.
+Students struggle to identify internship and entry-level jobs that are genuinely suitable for beginners because existing job platforms mix internships, junior positions, and experienced roles. Many respondents also expressed concerns about fake job postings, unclear company information, and difficulty tracking job applications.
 
-Clients also face challenges identifying trustworthy student talent because there is no structured way to evaluate skills, academic achievements, and previous project experience.
+Employers reported that although they receive applicants, comparing resumes and identifying qualified candidates is time-consuming because applicant information is inconsistent.
 
 ## Main Current Workarounds
 
 ### Students currently use:
 
-- Fiverr
-- Upwork
-- Facebook Groups
-- Instagram
-- LINE Groups
+- LinkedIn
+- JobsDB
+- Company career websites
+- Facebook groups
+- University career center
+- LINE groups
+- Discord communities
+- Google Search
 - Personal referrals
-- Word-of-mouth networks
+- University career fairs
 
-### Clients currently use:
+### Employers currently use:
 
-- Personal recommendations
-- Social media posts
-- Informal student referrals
+- Company websites
+- LinkedIn recruitment
+- Email applications
+- Excel spreadsheets for applicant tracking
+- University career fairs
 
 ## Strongest Evidence Found
 
-- R001, R003, and R005 reported difficulty competing on existing freelance platforms.
-- R001, R003, and R005 expressed interest in a dedicated student-focused freelance platform.
-- R006 and R007 confirmed that they would consider hiring students if trust and skill verification were improved.
-- R006, R007, and R008 emphasized the importance of portfolios and verified profiles.
-- R002, R004, and R005 identified payment reliability and platform trust as significant concerns.
-- All eight assumptions in the Assumption vs Evidence Table were validated through customer interviews.
+- **R001, R002, R004, and R007** reported that existing job platforms make it difficult to identify beginner-friendly internship or entry-level opportunities because many positions require previous experience.
+- **R003, R005, and R008** highlighted concerns about scam risks, unclear eligibility requirements, and the need for verified company profiles before applying.
+- **R006 and R010** stated that application management is inefficient because students manually track deadlines while employers manage applicants using email and spreadsheets.
+- **R001, R002, R006, R008, and R010** emphasized the importance of structured student profiles, resumes, portfolios, and application tracking.
+- The strongest repeated patterns identified during qualitative coding were beginner-role confusion, trust and verification, skill and portfolio matching, and application tracking.
 
 ## Weak Evidence or Unclear Findings
 
-- Only two client respondents were interviewed, so additional validation from SMEs and startups is needed.
-- Pricing expectations and commission models were not discussed in detail.
-- Payment processing preferences remain unclear.
-- Long-term willingness of companies to regularly hire students through the platform has not yet been validated.
+- Only two employer respondents participated in the interviews, so additional validation with HR personnel and larger companies would strengthen the findings.
+- International student eligibility and language requirements were raised primarily by **R005**, indicating the need for additional validation.
+- AI-powered job recommendations were not consistently requested and should not be prioritized for the MVP.
 
 ## What We Must Revise
 
-- Conduct additional interviews with SMEs, startup founders, and business owners.
-- Validate employer demand and hiring behavior.
-- Explore payment protection mechanisms and contract features.
-- Refine the platform's trust-building features, including student verification and portfolio systems.
-- Investigate the most effective way to onboard SMEs and startups onto the platform.
+- Prioritize internship-only and entry-level job filtering.
+- Add verified company profiles and employer verification badges.
+- Include resume and portfolio management for student applicants.
+- Implement application tracking and saved jobs.
+- Improve job postings by including language requirements, eligibility, work mode, and required documents.
+- Design employer tools that simplify applicant screening through standardized student profiles.
 
 ## Decision for Next Lab
 
@@ -70,4 +76,4 @@ Clients also face challenges identifying trustworthy student talent because ther
 
 ## Updated Problem Statement
 
-University students often struggle to obtain freelance opportunities because they lack professional experience, face intense competition on existing platforms, and have limited ways to demonstrate their skills to potential clients. At the same time, SMEs and startups find it difficult to identify trustworthy student talent due to insufficient verification and portfolio visibility. A dedicated student freelancer marketplace with university verification, portfolio management, project matching, and secure collaboration features could help bridge this gap and improve opportunities for both students and employers.
+University students and fresh graduates struggle to find trustworthy internship and entry-level job opportunities because existing recruitment platforms primarily target experienced professionals and often provide unclear information about beginner suitability. Students also need verified employers, clearer eligibility requirements, and better application tracking, while employers need structured student profiles and portfolio information to efficiently identify suitable early-career candidates. A dedicated student-focused recruitment platform can address these challenges by providing verified company profiles, internship and entry-level job filtering, resume and portfolio management, application tracking, and streamlined recruitment workflows.
