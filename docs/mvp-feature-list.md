@@ -14,7 +14,7 @@ The prototype is designed as an **interactive prototype only**. It will demonstr
 | Role | Description | Main Responsibility |
 |---|---|---|
 | Student | University student or fresh graduate looking for internships or entry-level jobs | Create profile, verify student status, upload resume/documents, search jobs, apply, message employers, track applications, and report suspicious jobs |
-| Employer | Company, startup, or SME looking for beginner talent | Register company, submit company verification, post jobs after vertification, view applicants, message students, and update application status |
+| Employer | Company, startup, or SME looking for beginner talent | Register company, submit company verification, post jobs after verification, view applicants, message students, and update application status |
 
 > Note: The prototype includes an **Admin Verification Page** only to demonstrate how verification and report review would work. Admin is not treated as a main user group for customer discovery because the platform mainly serves students and employers.
 
@@ -203,4 +203,3 @@ The following features are planned for future versions after MVP validation:
 | Messaging improves recruitment communication | Include simple direct messaging flow |
 | Prototype does not need real backend | Use simulated login, sample data, and clickable/interactable flows |
 | AI verification may be useful but is not required | Include as optional could-have or simulated detection only |
-
