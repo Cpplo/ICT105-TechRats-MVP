@@ -18,7 +18,6 @@ This is the primary persona for the MVP because the majority of customer discove
 
 Emily – University Student Freelancer
 
-```
 
 
 ## 2. User Type
