@@ -10,36 +10,44 @@ Student Internship & Entry-Level Job Platform
 
 **University Student / Fresh Graduate Seeking an Internship or Entry-Level Job (Beginner Job Seeker)**
 
-This is the primary persona for the MVP because the majority of customer discovery respondents (7 out of 10) were university students or fresh graduates who experienced similar challenges when searching for internships and entry-level jobs. The interview findings showed recurring problems such as difficulty telling whether a role is truly suitable for beginners, low trust in unverified job postings, unclear eligibility requirements, and difficulty tracking applications. Therefore, the first version of the platform is designed primarily to address the needs of student and fresh-graduate job seekers, with employer-facing features supporting this core need.
+This is the primary persona for the MVP because most customer discovery respondents were university students or fresh graduates. The updated customer discovery data includes 10 interview responses: 7 students/fresh graduates and 3 employers/startups/SMEs. The student respondents repeatedly experienced problems such as difficulty identifying true beginner-friendly roles, low trust in unverified job postings, unclear eligibility requirements, scattered job-search channels, and difficulty tracking applications. Therefore, the first version of the platform is designed primarily to support student and fresh-graduate job seekers, while employer-facing features support this core need.
 
 ---
 
 ## 1. Persona Name
 
-Ploy – University Student / Fresh Graduate Job Seeker
+**Ploy – University Student / Fresh Graduate Job Seeker**
+
+---
 
 ## 2. User Type
 
-University student or fresh graduate who wants to find an internship or entry-level job that matches her actual skill level, build real work experience, and apply with confidence through a trustworthy platform.
+University student or fresh graduate who wants to find a trustworthy internship or entry-level job that matches her beginner skill level, helps her gain real work experience, and allows her to apply with confidence.
 
 ---
 
 ## 3. Background and Context
 
-- Ploy is a university student (or recent graduate) with beginner-level skills in areas such as IT, business, or data, and little or no professional work experience.
-- She experiences difficulty when searching for internships or entry-level jobs because most listings on general platforms are written for experienced candidates or do not clearly state whether beginners are welcome.
-- The problem usually occurs at the start of a semester break, after finishing a class project, or right after graduation, when she is actively applying to multiple opportunities.
-- She currently uses digital tools such as LinkedIn, JobsDB, Facebook groups, Telegram/LINE job channels, university career center postings, and personal spreadsheets or notes to search for and track opportunities.
+- Ploy is around 19–23 years old.
+- She is a university student or recent graduate looking for her first internship or entry-level job.
+- She may study ICT, business IT, data, AI/ML, software development, marketing, or another beginner career field.
+- She has some academic projects, basic technical or business skills, and a resume, but limited real work experience.
+- She usually searches for opportunities during semester breaks, before graduation, after finishing a class project, or when trying to build a portfolio.
+- She currently uses LinkedIn, JobsDB, company career pages, Facebook groups, Telegram/LINE job channels, university career centers, career fairs, classmates, seniors, and personal spreadsheets.
 
 ---
 
 ## 4. Goals
 
-- Find internships or entry-level jobs that are genuinely suitable for a beginner.
-- Apply through a platform where companies and job postings can be trusted and verified.
-- Understand eligibility requirements (e.g. visa status, language) before spending time applying.
-- Keep track of applications, deadlines, and statuses in one place instead of scattered notes.
-- Build real work experience and a portfolio before or shortly after graduation.
+| Goal | Explanation |
+|---|---|
+| Find beginner-friendly opportunities | She wants internships and entry-level jobs that are truly suitable for students or fresh graduates. |
+| Avoid fake or suspicious job posts | She wants to trust the company before applying or sharing personal information. |
+| Understand eligibility before applying | She wants clear details about skills, language, visa/work eligibility, location, work mode, and deadline. |
+| Apply with resume and documents | She wants to submit a resume, portfolio, certificate, transcript, or other supporting documents. |
+| Communicate with employers before applying | She wants to ask questions about the role before deciding to apply. |
+| Track application status | She wants to see whether her application is Applied, Under Review, Interview, Accepted, Rejected, or Closed. |
+| Build real experience | She wants work experience that can support future job applications after graduation. |
 
 ---
 
@@ -47,11 +55,13 @@ University student or fresh graduate who wants to find an internship or entry-le
 
 | Pain Point | Evidence ID / Respondent | Explanation |
 |---|---|---|
-| Cannot tell if a role is truly beginner-friendly | R001, R002, R004, R007 | Many postings labeled "internship" or "entry-level" actually expect 1–2 years of experience or advanced skills, causing wasted applications or hesitation to apply. |
-| Scam risk and lack of trust in postings | R003, R005 | Job details found through Facebook or Telegram groups are often vague or suspicious, with no way to verify the company or contact person. |
-| Difficult to track applications and deadlines | R006 | Relying on career-fair notes and personal spreadsheets caused missed deadlines and forgotten follow-ups. |
-| Unclear eligibility requirements | R005 | International students avoid applying when visa, work-permit, or language requirements are not clearly stated. |
-| Confusing job descriptions for first-time applicants | R007 | Beginner students feel confused by technical terms and stop searching rather than risk applying incorrectly. |
+| Cannot identify true beginner-friendly jobs | R001, R002, R004, R007 | Many roles appear to be internships or entry-level jobs but still require advanced skills or 1–2 years of experience. |
+| Job descriptions are unclear | R002, R007 | Students are unsure whether their current skill level is enough, especially for technical roles such as AI/ML or software internships. |
+| Scam risk and low trust | R003, R005 | Some job posts from Facebook, Telegram, or informal channels look vague, suspicious, or lack trusted company information. |
+| Eligibility requirements are unclear | R005 | International students may be unsure about visa/work permit rules, language requirements, or whether foreigners can apply. |
+| Application tracking is difficult | R006 | Students use brochures, QR codes, spreadsheets, or notes, then forget deadlines or contact details. |
+| Low response rate from applications | R001, R002 | Students apply to several companies but receive few or no replies. |
+| Job-search tools are scattered | R001, R004, R006 | Students search across LinkedIn, JobsDB, Google, Facebook, company websites, and university events without one structured system. |
 
 ---
 
@@ -59,10 +69,12 @@ University student or fresh graduate who wants to find an internship or entry-le
 
 | Current Alternative | Weakness / Limitation | Evidence |
 |---|---|---|
-| General job boards (LinkedIn, JobsDB) | Mostly designed for experienced professionals; hard to filter for true beginner roles | R001, R002, R004 |
-| Facebook / Telegram / LINE job groups | Postings are often vague, unverified, and carry scam risk | R003, R005 |
-| Senior/friend referrals and university career fairs | Inconsistent, not scalable, and easy to lose track of afterward | R001, R006 |
-| Personal notes/spreadsheets for tracking applications | Manual, error-prone, deadlines get missed | R006 |
+| LinkedIn and JobsDB | Many postings target experienced candidates; hard to filter true beginner roles. | R001, R002, R004 |
+| Company career pages | Information is scattered and eligibility is not always clear. | R002, R004, R005 |
+| Facebook / Telegram / LINE job groups | Posts may be vague, unverified, risky, or hard to organize. | R001, R003, R005 |
+| University career center / career fair | Useful, but difficult to track after the event. | R005, R006 |
+| Senior/classmate referrals | Helpful, but inconsistent and dependent on personal networks. | R001, R005, R007 |
+| Personal spreadsheet or notes | Manual tracking can cause missed deadlines and forgotten follow-ups. | R006 |
 
 ---
 
@@ -70,78 +82,99 @@ University student or fresh graduate who wants to find an internship or entry-le
 
 ### What should the system support?
 
-- A beginner/true entry-level filter to separate suitable roles from experienced-hire postings.
-- Verified company badges and transparent employer profiles.
-- Student profile with resume/portfolio upload and skill tags.
-- An application tracker with saved jobs, deadline reminders, and status updates.
-- Eligibility fields (visa/work permit, language, work mode) shown clearly on each posting.
+- Simulated student registration and login for the prototype.
+- Student verification using university email.
+- Student dashboard.
+- Student profile with education, skills, career interests, and contact details.
+- Resume and supporting document upload.
+- Beginner-friendly and eligibility filters.
+- Job listing page, job detail page, and company profile page.
+- Verified company badge.
+- Messaging before application.
+- Job application submission using resume and selected documents.
+- Saved jobs and application tracker.
+- Suspicious job reporting.
+- Clear confirmation and error messages.
+- Responsive and privacy-aware interface.
 
 ### What should the team avoid?
 
-- Mixing experienced-hire postings into the same feed as internships and entry-level roles.
-- Allowing unverified company listings that could expose students to scams.
-- Overly complex registration or application flows that discourage first-time job seekers.
+- Showing unverified companies as fully trusted.
+- Allowing job posts with unclear eligibility requirements.
+- Making the application process too complicated for first-time applicants.
+- Requiring real backend/database features beyond the prototype scope.
+- Treating AI verification as required for the MVP.
 
 ### Which user need is most important for the MVP?
 
-The MVP should focus on helping the student quickly and confidently identify which postings are genuinely suitable for her skill level and safe to apply to — this was the strongest and most repeated pain point across the interviews (R001, R002, R004, R007).
+The MVP should focus on helping students quickly identify trusted and genuinely beginner-friendly internship or entry-level jobs, then apply with confidence using a resume and supporting documents. This is the strongest student need because many respondents struggled with unclear job requirements, low trust in job postings, and scattered application tracking.
 
-This is the primary persona for the MVP because the majority of customer discovery respondents (6 out of 8) were university students who experienced similar challenges in finding freelance opportunities. The interview findings showed recurring problems such as strong competition on existing freelance platforms, difficulty building client trust, and limited opportunities for beginners. Therefore, the first version of the platform is designed primarily to address the needs of university student freelancers.
+---
+
+## Secondary Persona
+
+**Employer / Startup or SME Recruiter**
+
+The secondary persona is included because the platform also needs verified employers to provide trusted internship and entry-level job opportunities. Employer respondents in the customer discovery data experienced problems such as inconsistent applicant quality, difficulty comparing student profiles, manual applicant tracking, and lack of efficient filtering.
 
 ---
 
 ## 1. Persona Name
 
-Emily – University Student Freelancer
+**Niran – Employer / Startup or SME Recruiter**
 
-
+---
 
 ## 2. User Type
 
-University student who wants to find freelance projects to gain work experience, build a portfolio, and earn extra income while studying.
+Employer, startup founder, SME owner, HR assistant, or recruiter who wants to recruit interns or entry-level employees efficiently.
 
 ---
 
 ## 3. Background and Context
 
-- Emily is a university student who has skills in areas such as graphic design, programming, content creation, or digital marketing but has little or no professional freelance experience.
-- She experiences difficulties when searching for freelance opportunities on platforms like Fiverr, Upwork, and Facebook Groups because these platforms are highly competitive and favor experienced freelancers.
-- The problem usually occurs whenever she tries to apply for projects, build her portfolio, or connect with potential clients.
-- She currently uses digital tools such as Fiverr, Upwork, Facebook Groups, LINE Groups, Instagram, Google Drive, and personal referrals to search for freelance opportunities.
+- Niran works for a startup, SME, or medium-sized company.
+- He may need interns for UI/UX, marketing, admin support, IT support, software development, or other beginner-level roles.
+- He wants affordable and suitable early-career talent, but does not want to waste time screening unqualified applicants.
+- He currently recruits through Facebook groups, LINE groups, university contacts, career centers, email, Excel trackers, LinkedIn, and referrals.
+- He may hire occasionally, quarterly, or every semester.
 
 ---
 
 ## 4. Goals
 
-- Find freelance opportunities that are suitable for university students.
-- Gain practical work experience before graduation.
-- Build a professional portfolio through real client projects.
-- Earn additional income while continuing her studies.
-- Connect with trustworthy clients and companies.
+| Goal | Explanation |
+|---|---|
+| Post internship or entry-level roles | He wants a simple way to publish beginner-friendly job opportunities. |
+| Build trust with students | He needs verified company status so students feel safe applying. |
+| Reach suitable candidates | He wants applicants who match the skills, availability, and role requirements. |
+| Review applicants efficiently | He wants standardized student profiles, resumes, portfolios, and skill tags. |
+| Communicate with students | He wants to message students about job details, availability, or next steps. |
+| Manage application progress | He wants to update statuses such as Under Review, Interview, Accepted, or Rejected. |
 
 ---
 
 ## 5. Pain Points from Lab 03 Evidence
 
 | Pain Point | Evidence ID / Respondent | Explanation |
-|------------|--------------------------|-------------|
-| Existing freelance platforms are too competitive for beginners. | R001, R003 | Students struggle to compete with experienced freelancers and rarely receive responses from clients. |
-| Clients do not trust students without previous work experience. | R006, R007 | Clients require portfolios and verified profiles before hiring student freelancers. |
-| Difficulty finding reliable freelance opportunities. | R002, R005 | Students rely on informal channels such as LINE Groups and referrals, which do not consistently provide suitable projects. |
-| Payment security is a concern. | R002, R004 | Students worry about delayed payments and the lack of contracts or payment protection. |
-| There is no platform designed specifically for university students. | R001, R003, R005 | Respondents expressed interest in a student-focused platform with university verification and beginner-friendly opportunities. |
+|---|---|---|
+| Candidate quality is uneven | R008 | Startup founder received many messages but had to shortlist manually. |
+| Hard to compare portfolios quickly | R008 | Applicant information was not structured, making screening slow. |
+| No easy way to screen skills or availability | R009 | SME owner spent extra time interviewing unsuitable applicants. |
+| Applicant tracking is manual and slow | R010 | HR assistant used email and Excel to track CVs and applications. |
+| Candidate information is inconsistent | R010 | CVs and profiles arrived in different formats, slowing hiring decisions. |
 
 ---
 
 ## 6. Current Alternatives / Workarounds
 
 | Current Alternative | Weakness / Limitation | Evidence |
-|---------------------|----------------------|----------|
-| Fiverr | Highly competitive and difficult for beginners to gain visibility. | R003, R005 |
-| Upwork | Platform restrictions and intense competition reduce opportunities for students. | R005 |
-| Facebook Groups | Applications are often ignored, and projects lack credibility. | R001 |
-| LINE Groups | Limited project availability and no structured freelancer profiles. | R002 |
-| Personal referrals | Opportunities depend on existing networks and are inconsistent. | R002, R004 |
+|---|---|---|
+| Facebook and LINE groups | Many unstructured messages and uneven candidate quality. | R008, R009 |
+| University contacts / career centers | Useful, but tracking and comparison can still be manual. | R008, R010 |
+| Email and Excel tracker | Slow for managing multiple candidates and statuses. | R010 |
+| Personal network | Limited reach and not always reliable. | R009 |
+| LinkedIn | Useful but not specialized for beginner internship recruitment. | R010 |
 
 ---
 
@@ -149,23 +182,57 @@ University student who wants to find freelance projects to gain work experience,
 
 ### What should the system support?
 
-- University student verification.
-- Student portfolio creation and management.
-- Easy project browsing and application.
-- Verified client profiles.
-- Ratings and reviews.
-- Secure messaging between students and clients.
-- Payment protection and project agreements (future enhancement).
+- Simulated employer registration and login for the prototype.
+- Company verification using company email, website, or manual approval.
+- Employer dashboard.
+- Company profile with verification badge.
+- Job posting only after company verification.
+- Structured job posting form with role title, description, eligibility, work mode, deadline, and requirements.
+- Applicant management dashboard.
+- Student profile, resume, and supporting document viewing.
+- Messaging with students.
+- Application status updates.
 
 ### What should the team avoid?
 
-- Complex registration processes.
-- Features that require extensive freelance experience before students can participate.
-- Overly complicated interfaces that discourage first-time users.
+- Allowing employers to post jobs before company verification.
+- Making job posting too complex for SMEs or startups.
+- Showing applicants in unstructured formats that make comparison difficult.
+- Requiring real backend/database features beyond the prototype scope.
 
-### Which user need is most important for the MVP?
+### Which employer need is most important for the MVP?
 
-The MVP should focus on helping university students easily discover legitimate freelance opportunities and build trust with potential clients through verified student profiles and portfolio showcases.
-```
+The MVP should help verified employers post clear beginner-friendly opportunities, review structured student applications, communicate with students, and update application statuses efficiently.
+
+---
+
+# Final Persona-Based MVP Decision
+
+The MVP should mainly optimize the student job-search and application experience while still supporting employer recruitment needs. The student side is primary because students and fresh graduates formed the majority of interview respondents and repeatedly faced problems with trust, beginner suitability, eligibility clarity, and application tracking. The employer side is secondary but necessary because verified employers provide the job opportunities and application status updates.
+
+The final prototype should demonstrate:
+
+1. Simulated role-based login.
+2. Student verification using university email.
+3. Company verification using company email, website, or manual approval.
+4. Job posting blocked until company verification is approved.
+5. Student profile and resume/document upload.
+6. Search/filter job listings.
+7. View job and company details.
+8. Message employer before applying.
+9. Apply using resume and documents.
+10. Track application status.
+11. Employer reviews applicants and updates status.
+12. Student reports suspicious jobs if needed.
+13. Admin verification page demonstrating verification and report review only.
+
+---
+
+# Short Summary for Report
+
+The primary persona is Ploy, a university student or fresh graduate who wants to find a trusted internship or entry-level job that matches her beginner skill level. She struggles with unclear job requirements, suspicious postings, scattered job-search channels, and manual application tracking. The platform should help her identify verified companies, filter beginner-friendly roles, ask employers questions before applying, apply with a resume and supporting documents, and track application progress.
+
+The secondary persona is Niran, an employer or SME recruiter who wants to recruit suitable beginner talent without wasting time on unstructured applications. He needs company verification, structured job posting, applicant filtering, resume/profile viewing, messaging, and application status management. Together, these personas support the MVP direction of a trusted, beginner-focused internship and entry-level job platform.
+
 
 
