@@ -47,13 +47,14 @@ The idea also received a high feasibility score because the MVP can be developed
 
 - Opportunity scan file: `docs/opportunity-scan.md`
 
-- NUF scoring file: `data/opportunity-scoring.xlsx`
+- NUF scoring file: `data/opportunity-scoring-updated.xlsx`
 
 - Selected opportunity file: `docs/selected-opportunity.md`
 
-- GitHub issue screenshot:
+- GitHub issue screenshot: <img width="749" height="304" alt="image" src="https://github.com/user-attachments/assets/d4dcc014-48f6-40d3-ba5e-d9382a2b4945" />
 
-- Commit link: https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/
+
+- Commit link: [https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/](https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/)
 
 ---
 
@@ -82,7 +83,7 @@ The team will conduct customer discovery by preparing interview and survey quest
 ### What Evidence We Collected
 
 - **Number of respondents/interviews:** 10 respondents (7 university students/fresh graduates and 3 employer representatives)
-- **Evidence file:** `data/updated-responses.xlsx`
+- **Evidence file:** `data/Customer_Discovery_Responses_Updated.xlsx`
 - **Key repeated pattern:** Students struggle to identify trustworthy beginner-friendly opportunities, while employers need an efficient way to discover suitable entry-level candidates with verified profiles and relevant skills.
 
 ### What We Changed Based on Evidence
@@ -101,12 +102,12 @@ The team also identified several core MVP features, including company verificati
 
 ## Evidence of Work
 
-- **GitHub repository:** https://github.com/Cpplo/ICT105-TechRats-MVP
+- **GitHub repository: https://github.com/Cpplo/ICT105-TechRats-MVP.git
 - **Customer discovery questions:** `docs/customer-questions.md`
-- **Raw survey responses:** `data/updated-responses.xlsx`
+- **Raw survey responses:** `data/Customer_Discovery_Responses_Updated.xlsx`
 - **Customer Discovery Summary:** `docs/customer-discovery-summary.md`
 - **Assumption vs Evidence Table:** `docs/assumption-evidence-table.md`
-- **Commit history:** https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/
+- **Commit history: [https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/](https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/)
 
 ---
 
@@ -135,8 +136,8 @@ The deliverables from Lab 04 will provide a complete product specification that 
 - **Course:** ICT105 Fundamental Technology Entrepreneurship
 - **Lab:** Lab 04 - User Persona, Requirements, and User Stories
 - **Group Name:** Tech Rats
-- **Repository Link:** https://github.com/Cpplo/ICT105-TechRats-MVP
-- **Date:** *(Add submission date)*
+- **Repository Link: https://github.com/Cpplo/ICT105-TechRats-MVP.git
+- **Date: -
 
 ---
 
