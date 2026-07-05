@@ -861,6 +861,33 @@ Completed Lab 04 documentation includes:
 
 ---
 
+---
+
+## Diagram Links
+
+### User Flow Diagram
+
+
+### Use Case Diagram
+
+
+---
+
+## GitHub Contribution Evidence
+
+All team members actively contributed to the repository throughout the project using GitHub commits, issues, and collaborative documentation updates.
+
+### Repository Activity
+
+- GitHub Repository: https://github.com/Cpplo/ICT105-TechRats-MVP.git
+- Commit History: https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/
+- Issues: https://github.com/Cpplo/ICT105-TechRats-MVP/issues
+- Pull Requests: -
+
+The repository records each member's contributions, including documentation updates, requirement analysis, MVP planning, UI/UX design, and prototype development. GitHub was used as the primary collaboration platform for version control and project management throughout the semester.
+
+---
+
 # Weekly Progress Log
 
 | Lab | Main Activity | Deliverables | Status |
