@@ -867,8 +867,12 @@ Completed Lab 04 documentation includes:
 
 ### User Flow Diagram
 
+https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/diagrams/user-flow.md
+
 
 ### Use Case Diagram
+
+https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/diagrams/use-case.md
 
 
 ---
