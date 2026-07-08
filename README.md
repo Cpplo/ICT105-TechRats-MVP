@@ -928,3 +928,159 @@ During **Lab 05**, the team will begin designing and implementing the interactiv
 
 ---
 
+---
+
+# Lab 05 — Product Concept and UI/UX Wireframe
+
+## Objectives
+
+The objective of Lab 05 was to convert the Lab 04 system requirements and MVP plan into a clear product concept, requirement-driven screen plan, user flow diagram, use case diagram, and UI/UX wireframes.
+
+This lab focuses on showing how the Student Internship & Entry-Level Job Platform will look, how users will move through the system, and how each planned screen connects to the system requirements and MVP features.
+
+---
+
+## Product Concept Summary
+
+The Student Internship & Entry-Level Job Platform is a web-based interactive prototype designed for university students and fresh graduates who are looking for internship and entry-level job opportunities.
+
+The platform also supports employers, startups, and SMEs that want to recruit beginner-level talent through verified company profiles, structured applicant review, and centralized application management.
+
+The main value of the platform is to improve trust, transparency, and accessibility for first-time job seekers by providing beginner-friendly job listings, verified company information, resume/document upload, job application tracking, and suspicious job reporting.
+
+---
+
+## Main User Roles
+
+| Role | Description |
+|------|-------------|
+| Student | Searches for internship and entry-level jobs, uploads resume/documents, applies for jobs, saves jobs, messages employers, and tracks application status |
+| Employer | Creates company profile, submits company verification, posts jobs after approval, reviews applicants, messages students, and updates application status |
+| Admin | Supports the prototype by reviewing company/student verification and reported job posts |
+
+---
+
+## Requirement-Driven Screens
+
+| Screen | Purpose | Related Requirement IDs | Wireframe File |
+|--------|---------|--------------------------|----------------|
+| Login / Role Selection Page | Allows simulated login and role selection for Student or Employer | FR-01, FR-02 | `/wireframes/login-role-selection.png` |
+| Student Dashboard | Shows student profile status, verification status, saved jobs, applications, and recommended actions | FR-03, FR-04, FR-05, FR-08, FR-16, FR-17 | `/wireframes/student-dashboard.png` |
+| Employer Dashboard | Shows company verification status, job posts, applicants, and messages | FR-06, FR-07, FR-09, FR-10, FR-18, FR-19 | `/wireframes/employer-dashboard.png` |
+| Job Listing Page | Allows students to browse, search, and filter internship or entry-level jobs | FR-11, FR-12 | `/wireframes/job-listing.png` |
+| Job Detail Page | Shows job description, eligibility, company profile, verified badge, and apply action | FR-13, FR-14, FR-15, FR-21 | `/wireframes/job-detail.png` |
+| Application Tracker | Allows students to track application progress and status updates | FR-16, FR-19 | `/wireframes/application-tracker.png` |
+| Admin Verification Page | Demonstrates verification review and reported job handling | FR-07, FR-22 | `/wireframes/admin-verification.png` |
+
+---
+
+## User Flow Summary
+
+The user flow diagram explains the main interaction paths for Student, Employer, and Admin users.
+
+### Student Flow
+
+Student opens the platform, selects the Student role, logs in, completes profile information, submits verification details, uploads resume/documents, browses jobs, applies filters, views job details, checks company profile, applies for a job, and tracks application status.
+
+### Employer Flow
+
+Employer opens the platform, selects the Employer role, logs in, creates a company profile, submits company verification, waits for approval, posts jobs after verification, views applicants, reviews applicant profiles, messages students, and updates application status.
+
+### Admin Flow
+
+Admin reviews student/company verification requests and checks reported job posts. The Admin can approve or reject verification and keep, hide, or remove suspicious jobs.
+
+---
+
+## Diagrams
+
+| Diagram | File |
+|---------|------|
+| User Flow Diagram | `/diagrams/user-flow.png` |
+| User Flow Source | `/diagrams/user-flow.puml` |
+| Use Case Diagram | `/diagrams/use-case-diagram.png` |
+| Use Case Source | `/diagrams/use-case-diagram.puml` |
+
+---
+
+## Wireframes
+
+The following wireframes were planned or created for Lab 05:
+
+| Wireframe | File |
+|----------|------|
+| Login / Role Selection Page | `/wireframes/login-role-selection.png` |
+| Student Dashboard | `/wireframes/student-dashboard.png` |
+| Employer Dashboard | `/wireframes/employer-dashboard.png` |
+| Job Listing Page | `/wireframes/job-listing.png` |
+| Job Detail Page | `/wireframes/job-detail.png` |
+| Application Tracker | `/wireframes/application-tracker.png` |
+| Admin Verification Page | `/wireframes/admin-verification.png` |
+
+Each wireframe is designed with realistic sample content and is connected to the system requirements.
+
+---
+
+## Lab 05 Deliverables
+
+| Deliverable | File / Folder |
+|-------------|---------------|
+| Product Concept | `/docs/product-concept.md` |
+| Feature-Requirement Mapping | `/docs/feature-requirement-mapping.md` |
+| Wireframe Specification | `/docs/wireframe-specification.md` |
+| Wireframe Usability Checklist | `/docs/wireframe-usability-checklist.md` |
+| User Flow Diagram | `/diagrams/user-flow.png` |
+| Use Case Diagram | `/diagrams/use-case-diagram.png` |
+| Wireframe Images | `/wireframes/` |
+| Screenshots | `/screenshots/` |
+| Weekly Logbook | `/docs/weekly-logbooks/lab05-weekly-logbook.md` |
+
+---
+
+## Team Contribution for Lab 05
+
+| Member | Main Contribution |
+|--------|-------------------|
+| Hein Pyae Shan | Reviewed product direction, customer problem, MVP scope, and requirement alignment |
+| Phyo Wai Aung | Managed GitHub repository, reviewed system flow, use case diagram, and technical prototype structure |
+| Kyaw Phone Thant | Designed UI/UX wireframes, prepared documentation, and supported README/logbook updates |
+
+---
+
+## Lab 05 GitHub Issues
+
+The team created GitHub issues to divide Lab 05 tasks clearly.
+
+| Issue | Task Area | Responsible Member |
+|-------|-----------|--------------------|
+| Issue #1 | Product concept and README documentation | Hein Pyae Shan |
+| Issue #2 | Feature-requirement mapping and screen inventory | Phyo Wai Aung |
+| Issue #3 | Wireframe design and export | Kyaw Phone Thant |
+| Issue #4 | User flow, use case diagram, usability checklist, and weekly logbook | Phyo Wai Aung / Team Review |
+
+---
+
+## Weekly Progress Log Update
+
+| Lab | Main Activity | Deliverables | Status |
+|------|---------------|--------------|--------|
+| Lab 05 | Product Concept | Product concept document | Completed |
+| Lab 05 | Requirement Mapping | Feature-requirement mapping | In Progress |
+| Lab 05 | User Flow | User flow diagram and source file | Completed |
+| Lab 05 | Use Case Diagram | Use case diagram and source file | Completed |
+| Lab 05 | UI/UX Wireframes | Required wireframe screens | In Progress |
+| Lab 05 | Documentation | README and weekly logbook update | Completed |
+
+---
+
+## Current Status After Lab 05
+
+By the end of Lab 05, the project has moved from requirement planning into UI/UX structure planning. The team has defined the main prototype screens, created user flow and use case diagrams, and prepared the documentation needed to guide the wireframe and final prototype development.
+
+The next priority is to finalize all wireframes, export them as image files, complete the feature-requirement mapping, and make sure every screen is traceable to the system requirements.
+
+---
+
+## Next Step
+
+During Lab 06, the team will continue improving the wireframes and begin building the interactive prototype structure. The prototype will focus on role-based navigation, student job browsing, job detail viewing, application submission, employer verification, job posting, applicant review, and admin report handling.
