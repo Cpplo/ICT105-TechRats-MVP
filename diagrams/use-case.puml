@@ -1,0 +1,134 @@
+@startuml
+title Use Case Diagram - Student Internship & Entry-Level Job Platform
+
+left to right direction
+
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+
+actor Student
+actor Employer
+actor Admin
+
+rectangle "Student Internship & Entry-Level Job Platform" {
+
+package "Student Use Cases"{
+
+usecase "Register / Login" as UC1
+usecase "Manage Student Profile" as UC2
+usecase "Submit Student\nVerification" as UC3
+usecase "Upload Resume\n& Portfolio" as UC4
+usecase "Browse & Search Jobs" as UC5
+usecase "Filter Beginner-\nFriendly Jobs" as UC6
+usecase "View Job Details" as UC7
+usecase "View Company Profile" as UC8
+usecase "Save Job" as UC9
+usecase "Apply for Job" as UC10
+usecase "Track Application" as UC11
+usecase "View Dashboard" as UC12
+usecase "Report Job" as UC13
+usecase "Send Message" as UC14
+
+}
+
+package "Employer Use Cases"{
+
+usecase "Register / Login" as UC15
+usecase "Create Company Profile" as UC16
+usecase "Submit Company\nVerification" as UC17
+usecase "Create Job Post" as UC18
+usecase "Manage Job Posts" as UC19
+usecase "View Applicants" as UC20
+usecase "Review Student Profile" as UC21
+usecase "Update Application Status" as UC22
+usecase "View Dashboard" as UC23
+usecase "Send Message" as UC24
+
+}
+
+package "Admin Use Cases"{
+
+usecase "View Dashboard" as UC25
+usecase "Review Student\nVerification" as UC26
+usecase "Review Company\nVerification" as UC27
+usecase "Approve / Reject\nVerification" as UC28
+usecase "Review Reported Jobs" as UC29
+usecase "Manage Users" as UC30
+
+}
+
+package "System Behaviors"{
+
+usecase "Validate Required Fields" as SB1
+usecase "Show Confirmation /\nError Message" as SB2
+usecase "Display Verified Badge" as SB3
+
+}
+
+}
+
+'========================
+' Student
+'========================
+
+Student --> UC1
+Student --> UC2
+Student --> UC3
+Student --> UC4
+Student --> UC5
+Student --> UC6
+Student --> UC7
+Student --> UC8
+Student --> UC9
+Student --> UC10
+Student --> UC11
+Student --> UC12
+Student --> UC13
+Student --> UC14
+
+'========================
+' Employer
+'========================
+
+Employer --> UC15
+Employer --> UC16
+Employer --> UC17
+Employer --> UC18
+Employer --> UC19
+Employer --> UC20
+Employer --> UC21
+Employer --> UC22
+Employer --> UC23
+Employer --> UC24
+
+'========================
+' Admin
+'========================
+
+Admin --> UC25
+Admin --> UC26
+Admin --> UC27
+Admin --> UC29
+Admin --> UC30
+
+'========================
+' Include
+'========================
+
+UC2 ..> SB1 : <<include>>
+UC3 ..> SB1 : <<include>>
+UC4 ..> SB1 : <<include>>
+
+UC10 ..> SB2 : <<include>>
+
+UC16 ..> SB1 : <<include>>
+UC17 ..> SB1 : <<include>>
+UC18 ..> SB1 : <<include>>
+UC22 ..> SB2 : <<include>>
+
+UC26 ..> UC28 : <<include>>
+UC27 ..> UC28 : <<include>>
+
+UC28 ..> SB3 : <<include>>
+
+@enduml
