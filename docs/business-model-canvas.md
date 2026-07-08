@@ -1,4 +1,4 @@
-# Wireframe Specification
+# Business Model Canvas
 
 ## Project Title
 
@@ -6,156 +6,205 @@ Student Internship & Entry-Level Job Platform
 
 ---
 
-## Required Wireframe Screens
+## 1. Customer Segments
 
-Each wireframe represents a major workflow of the Student Internship & Entry-Level Job Platform and directly supports the Functional Requirements (FR-01 to FR-30).
+### Primary Customers
 
-| Wireframe File | Purpose | Minimum Elements to Show | Related Requirements |
-|----------------|---------|--------------------------|----------------------|
-| /wireframes/homepage.png | Landing page | Platform logo, navigation bar, Login, Register, Browse Jobs button, Featured Companies, Featured Jobs, About Platform, Footer | FR-01, FR-02 |
-| /wireframes/register-login.png | User authentication | Student Login, Employer Login, Admin Login, Register buttons, Forgot Password, validation messages | FR-01, FR-02 |
-| /wireframes/profile-verification.png | Registration, profile creation, and verification submission | Student/Employer role selection, profile form, resume upload, portfolio upload, company details, document upload, verification status, submit button | FR-03, FR-04, FR-05, FR-06, FR-07, FR-08, FR-26, FR-27 |
-| /wireframes/job-list.png | Browse internship and entry-level jobs | Search bar, filters, beginner-friendly filter, category filter, verified company badge, saved job button, job cards | FR-10, FR-11, FR-12, FR-13, FR-18 |
-| /wireframes/job-detail.png | View complete job information | Job description, company profile, verification badge, required skills, eligibility requirements, Apply button, Save Job, Report Job | FR-14, FR-15, FR-16, FR-17, FR-21 |
-| /wireframes/student-dashboard.png | Student dashboard | Verification status, profile completion, saved jobs, applications, messages, notifications, quick statistics | FR-19, FR-20, FR-22, FR-24 |
-| /wireframes/employer-dashboard.png | Employer dashboard | Verification status, company profile, active job posts, applicants, recruitment statistics, notifications | FR-23, FR-25, FR-28 |
-| /wireframes/admin-dashboard.png | Administrative dashboard | KPI cards, pending student verifications, pending employer verifications, reported jobs, user statistics, charts, quick actions | FR-08, FR-09, FR-21, FR-27, FR-28, FR-29, FR-30 |
-| /wireframes/verification-management.png | Admin verification management | Student verification requests, company verification requests, uploaded documents, approve/reject buttons, verification history | FR-08, FR-09, FR-27, FR-29 |
-| /wireframes/user-management.png | Admin user management | Student list, employer list, account status, search, filters, suspend/reactivate account, activity log | FR-29, FR-30 |
+- University students seeking internships and entry-level jobs.
+- Fresh graduates looking for their first professional work experience.
+
+### Secondary Customers
+
+- Companies, SMEs, startups, and organizations looking to recruit students and fresh graduates.
+- University career service offices that support student employment.
 
 ---
 
-## Wireframe Quality Rules
+## 2. Value Proposition
 
-- Use consistent navigation and labels across all screens.
-- Every screen must directly support one or more Functional Requirements.
-- Use realistic sample data instead of placeholder text.
-- Clearly distinguish Student, Employer, and Admin workflows.
-- Display verification status using **Pending**, **Verified**, or **Rejected** badges.
-- Include validation, confirmation, and error messages where appropriate.
-- Keep layouts modern, responsive, and beginner-friendly.
-- Use dashboard cards, tables, charts, and badges where appropriate.
-- Wireframes may be created using Figma, Canva, HTML/CSS, PowerPoint, or another suitable design tool.
-- Every wireframe should be traceable to the User Stories, MVP Feature List, and System Requirements.
+The Student Internship & Entry-Level Job Platform provides a trusted and centralized platform where university students and fresh graduates can discover verified internship and entry-level opportunities while employers can efficiently recruit qualified student talent.
 
----
+The platform solves several validated problems identified during customer discovery:
 
-## Navigation Flow
+- Students struggle to identify genuine beginner-friendly jobs.
+- Existing job platforms primarily target experienced professionals.
+- Students have difficulty trusting employers on informal job channels.
+- Employers find it difficult to evaluate inexperienced candidates.
+- Application tracking is scattered across multiple platforms.
 
-### Student
+Key values provided include:
 
-Homepage
-
-↓
-
-Register / Login
-
-↓
-
-Create Profile
-
-↓
-
-Upload Resume & Portfolio
-
-↓
-
-Verification Pending
-
-↓
-
-Browse Jobs
-
-↓
-
-View Job Details
-
-↓
-
-Apply for Job
-
-↓
-
-Track Applications
-
-↓
-
-Student Dashboard
+- Verified student and company accounts through administrator approval.
+- Beginner-friendly job filtering.
+- Resume and portfolio management.
+- Centralized job application tracking.
+- Employer dashboards for applicant management.
+- Safe communication between students and employers.
 
 ---
 
-### Employer
+## 3. Channels
 
-Homepage
+Users can discover and access the platform through:
 
-↓
-
-Register / Login
-
-↓
-
-Company Registration
-
-↓
-
-Upload Verification Documents
-
-↓
-
-Verification Pending
-
-↓
-
-Employer Dashboard
-
-↓
-
-Post Job
-
-↓
-
-Manage Applicants
+- University career center website.
+- University announcements.
+- QR codes during career fairs.
+- Social media (Facebook, Instagram, LinkedIn).
+- Student organizations.
+- GitHub Pages prototype during MVP validation.
+- Desktop and mobile web browsers.
 
 ---
 
-### Admin
+## 4. Customer Relationships
 
-Login
+The platform maintains relationships through:
 
-↓
-
-Admin Dashboard
-
-↓
-
-Review Student Verification
-
-↓
-
-Review Employer Verification
-
-↓
-
-Manage Users
-
-↓
-
-Review Reported Jobs
-
-↓
-
-View Platform Analytics
+- Self-service registration.
+- Administrator verification for students and employers.
+- Personalized dashboards.
+- Application status tracking.
+- Saved jobs.
+- Employer applicant management.
+- In-platform messaging.
+- Reporting suspicious job postings.
+- Verified badges that increase user trust.
 
 ---
 
-## Notes
+## 5. Revenue Streams / Sustainability Logic
 
-- **Admin is not displayed in the public navigation bar.**
-- Admin accesses the system through the Login page using administrator credentials.
-- Students and Employers receive **Pending Verification** immediately after registration.
-- Admin reviews submitted documents before granting **Verified** status.
-- Only verified employers can publish internship or entry-level job postings.
-- Student verification badges appear on student profiles.
-- Company verification badges appear on company profiles and job listings.
-- The Admin Dashboard provides a Power BI–style overview with KPI cards, charts, verification queues, reported jobs, and platform activity.
-- Every wireframe directly supports the project's Functional Requirements (FR-01 to FR-30), User Stories, and MVP Feature List.
+### MVP Stage
+
+The prototype is developed for educational validation and does not generate direct revenue.
+
+### Future Sustainability
+
+Potential revenue models include:
+
+- Premium employer accounts.
+- Featured job postings.
+- University partnerships.
+- Recruitment service subscriptions.
+- Career fair sponsorships.
+- Recruitment analytics for employers.
+
+Institutional value includes:
+
+- Improving graduate employability.
+- Strengthening university-industry collaboration.
+- Reducing recruitment time for employers.
+
+---
+
+## 6. Key Resources
+
+The project requires:
+
+### Human Resources
+
+- Product Lead
+- Technical Lead
+- UX/UI & Documentation Lead
+
+### Technical Resources
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Figma
+- GitHub
+- Visual Studio Code
+- Draw.io
+- Local Storage / JSON (Prototype)
+- Future: Spring Boot + MySQL
+
+### Business Resources
+
+- Customer interview evidence.
+- User personas.
+- Functional requirements.
+- MVP feature list.
+- Wireframes.
+
+---
+
+## 7. Key Activities
+
+The system performs the following activities:
+
+- User registration and authentication.
+- Student and company verification.
+- Resume and portfolio management.
+- Job posting management.
+- Job searching and filtering.
+- Job application submission.
+- Application tracking.
+- Employer applicant management.
+- Messaging between users.
+- Administrator verification and moderation.
+- Dashboard reporting.
+
+The development team performs:
+
+- Requirement analysis.
+- UI/UX design.
+- Prototype implementation.
+- Testing and validation.
+- Documentation maintenance.
+
+---
+
+## 8. Key Partners
+
+Potential partners include:
+
+- University Career Center.
+- University faculties.
+- Student Affairs Office.
+- SMEs and startup companies.
+- Corporate recruitment teams.
+- Alumni network.
+- Student clubs and organizations.
+- Internship coordinators.
+
+---
+
+## 9. Cost Structure
+
+Expected costs include:
+
+### Development
+
+- Development time.
+- UI/UX design.
+- Testing.
+- Documentation.
+
+### Software
+
+- GitHub (Free).
+- Figma (Free).
+- Visual Studio Code.
+- Draw.io.
+
+### Future Deployment
+
+- Domain name.
+- Web hosting.
+- Database hosting.
+- Cloud services.
+- Maintenance.
+- Technical support.
+
+---
+
+# Final Note
+
+The Business Model Canvas directly supports the MVP features and system requirements developed during previous labs.
+
+The value proposition focuses on solving validated customer problems through trusted recruitment, verified users, beginner-friendly job matching, and centralized application management. These objectives are reflected in the MVP features, including registration, verification, job posting, application tracking, employer dashboards, messaging, and administrative moderation.
+
+This business model provides a realistic foundation for the final prototype while remaining achievable within the semester timeline and aligned with the project's technical architecture.
