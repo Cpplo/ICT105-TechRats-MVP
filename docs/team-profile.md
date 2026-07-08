@@ -1,5 +1,4 @@
-<img width="829" height="145" alt="image" src="https://github.com/user-attachments/assets/f1d432c7-b022-4118-a3ad-3cb4a339f919" />
-
+<img width="1273" height="313" alt="image" src="https://github.com/user-attachments/assets/393478d6-97df-480f-af44-06cb4ba8f177" />
 
 # Team Profile
 
