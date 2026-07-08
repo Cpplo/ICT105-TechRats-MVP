@@ -11,17 +11,19 @@
 
 | Student ID | Name | Role | Main Responsibility |
 |------------|------|------|---------------------|
-| 6804683 | Hein Pyae Shan | Product Lead | Identify user problems, conduct idea validation, define project requirements, and ensure the solution meets user needs |
-| 6804825 | Phyo Wai Aung | Technical Lead | Manage system architecture, coordinate development tasks, maintain GitHub repository, and oversee prototype implementation |
-| 6806894 | Kyaw Phone Thant | UX/UI Lead & Documentation Lead | Design user interfaces and user experience, create wireframes and prototypes, maintain project documentation, and prepare presentations |
+| 6804683 | Hein Pyae Shan | Product Lead | Conduct user research, identify user problems, gather and prioritize requirements, validate project ideas, and ensure the product meets user needs throughout development. |
+| 6804825 | Phyo Wai Aung | Technical Lead | Design the system architecture, manage the GitHub repository and version control, coordinate development tasks, review code quality, and oversee system integration. |
+| 6806894 | Kyaw Phone Thant | UX/UI Lead | Design the user interface and user experience, create wireframes and interactive prototypes, conduct usability testing, and ensure design consistency across the application. |
+| 6808643 | Phyu Sin Ko Ko | Documentation & QA Lead | Prepare and maintain project documentation, write technical reports and meeting records, develop test cases, perform system testing, track bugs, and support presentation preparation. |
 
 ## Team Skills Inventory
 
 | Member | Technical Skills | Design Skills | Business / Communication Skills |
-|----------|----------------|--------------|-------------------------------|
-| Kyaw Phone Thant | HTML, CSS, GitHub, Documentation | Canva, Wireframing, UI Design | Presentation, Report Writing, Team Communication |
-| Phyo Wai Aung | JavaScript, Database Fundamentals, GitHub | Figma, Prototyping | Team Coordination, Problem Solving |
+|--------|------------------|---------------|---------------------------------|
+| Kyaw Phone Thant | HTML, CSS, GitHub | Canva, Figma, Wireframing, UI Design | Presentation, Team Communication |
+| Phyo Wai Aung | JavaScript, Database Fundamentals, GitHub | System Design, Prototyping | Team Coordination, Problem Solving |
 | Hein Pyae Shan | Research, Data Collection, Documentation | UI Layout Planning | User Interviews, Requirement Gathering, Idea Validation |
+| Phyu Sin Ko Ko | Software Testing, GitHub, Documentation | Basic Figma, Test Case Design | Report Writing, Quality Assurance, Presentation Support |
 
 ## Team Strengths
 
