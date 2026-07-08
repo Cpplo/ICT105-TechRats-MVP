@@ -1,0 +1,133 @@
+@startuml
+title Student Internship & Entry-Level Job Platform - User Flow Diagram
+
+start
+
+:Open Platform;
+:Enter Email and Password;
+:Select User Role;
+
+if (Login valid?) then (Yes)
+
+  if (Role selected?) then (Student)
+
+    partition "Student Flow" {
+      :Open Student Dashboard;
+      :View Profile Status, Verification Status,\nSaved Jobs, Applications, and Recommended Actions;
+
+      if (Student profile completed?) then (No)
+        :Create or Update Student Profile;
+      endif
+
+      if (Student verification submitted?) then (No)
+        :Submit University Email / Student ID /\nResume / Transcript for Verification;
+        :Show Verification Pending Message;
+      else (Yes)
+        :Show Student Verification Status;
+      endif
+
+      :Upload Resume and Supporting Documents;
+      :Browse Job Listing Page;
+      :Search and Filter Jobs by Category,\nLocation, Work Mode, Skills,\nBeginner-Friendly Status, and Eligibility;
+      :Select Job;
+      :Open Job Detail Page;
+      :View Job Description, Eligibility,\nCompany Profile, and Verified Badge;
+
+      if (Need to contact employer?) then (Yes)
+        :Send Message to Employer;
+      endif
+
+      if (Want to save job?) then (Yes)
+        :Save Job;
+        :Show Saved Job Confirmation;
+      endif
+
+      if (Job looks suspicious?) then (Yes)
+        :Report Suspicious Job;
+        :Show Report Submitted Confirmation;
+      endif
+
+      if (Want to apply?) then (Yes)
+        if (Resume uploaded?) then (Yes)
+          :Submit Job Application;
+          :Show Application Confirmation;
+          :Open Application Tracker;
+          :Track Status: Applied, Under Review,\nInterview, Accepted, Rejected, or Closed;
+        else (No)
+          :Show Resume Required Error Message;
+          :Upload Resume and Supporting Documents;
+          :Submit Job Application;
+          :Show Application Confirmation;
+          :Open Application Tracker;
+        endif
+      else (No)
+        :Return to Job Listing Page;
+      endif
+    }
+
+  else (Employer)
+
+    partition "Employer Flow" {
+      :Open Employer Dashboard;
+      :View Company Verification Status,\nJob Posts, Applicants, and Messages;
+
+      if (Company profile completed?) then (No)
+        :Create or Update Company Profile;
+      endif
+
+      if (Company verification approved?) then (Yes)
+        :Create Internship or Entry-Level Job Post;
+        :Publish Job Post;
+        :Manage Job Posts;
+        :View Applicants;
+        :Review Student Profile, Resume,\nand Supporting Documents;
+
+        if (Need to contact student?) then (Yes)
+          :Send Message to Student;
+        endif
+
+        :Update Application Status;
+        :Show Status Update Confirmation;
+
+      else (No)
+        :Submit Company Email, Website,\nand Business Document;
+        :Show Verification Pending or Rejected Message;
+        :Wait for Admin Review;
+      endif
+    }
+
+  endif
+
+  partition "Admin Verification Page" {
+    :Open Admin Verification Page;
+
+    if (Pending company verification exists?) then (Yes)
+      :Review Company Verification Request;
+      if (Company information valid?) then (Yes)
+        :Approve Company Verification;
+        :Show Verified Company Badge;
+      else (No)
+        :Reject Company Verification;
+        :Show Rejection Reason;
+      endif
+    endif
+
+    if (Reported job exists?) then (Yes)
+      :Review Reported Job Details;
+      if (Job is suspicious or inappropriate?) then (Yes)
+        :Hide or Remove Job Post;
+      else (No)
+        :Keep Job Active;
+      endif
+      :Show Report Handling Confirmation;
+    endif
+  }
+
+else (No)
+  :Display Login Error Message;
+  :Return to Login Page;
+endif
+
+stop
+
+@enduml
