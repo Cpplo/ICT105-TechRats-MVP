@@ -224,4 +224,139 @@ The MVP feature list was updated to remain fully synchronized with the revised s
 | Review all Lab 04 documentation for consistency | Entire Team | Before Lab 05 | Create Issue |
 | Begin interactive MVP prototype development | Entire Team | Lab 05 | Create Issue |
 
+---
+
+# Lab 05 - Weekly Logbook
+
+## Group Information
+
+- **Course:** ICT105 Fundamental Technology Entrepreneurship
+- **Lab:** Lab 05 - Product Concept and UI/UX Wireframe
+- **Group Name:** Tech Rats
+- **Project Title:** Student Internship & Entry-Level Job Platform
+- **Repository Link:** https://github.com/Cpplo/ICT105-TechRats-MVP.git
+- **Date:** Add date here
+
+---
+
+## 1. Lab 05 Focus
+
+The focus of Lab 05 was to convert the Lab 04 system requirements and MVP feature plan into a clear product concept, requirement-driven screen plan, user flow diagram, use case diagram, and UI/UX wireframe structure.
+
+The team focused on making sure that each planned screen is connected to functional requirements, user stories, MVP features, and the final prototype workflow.
+
+---
+
+## 2. Work Completed Today
+
+| Member Name | Contribution | GitHub Evidence / Commit Link |
+|---|---|---|
+| Hein Pyae Shan | Reviewed product concept, target users, problem statement, value proposition, and MVP scope to ensure alignment with customer discovery evidence. | Add commit or issue link |
+| Phyo Wai Aung | Reviewed system requirements, improved user flow and use case diagram structure, and checked technical feasibility of the prototype workflow. | Add commit or issue link |
+| Kyaw Phone Thant | Planned UI/UX wireframe screens, organized screen layout direction, and supported documentation updates for Lab 05. | Add commit or issue link |
+
+---
+
+## 3. Main Outputs Prepared
+
+| Output | File / Location | Status |
+|---|---|---|
+| Product Concept | `docs/product-concept.md` | Completed |
+| System Requirements Review | `docs/system-requirements.md` | Completed |
+| Feature-Requirement Mapping | `docs/feature-requirement-mapping.md` | In Progress |
+| User Flow Diagram | `diagrams/user-flow.png` / `diagrams/user-flow.puml` | Completed |
+| Use Case Diagram | `diagrams/use-case-diagram.png` / `diagrams/use-case-diagram.puml` | Completed |
+| Wireframe Plan | `wireframes/` | In Progress |
+| README Lab 05 Update | `README.md` | Completed |
+| Weekly Logbook Update | `docs/weekly-logbooks/weekly-logbook.md` | Completed |
+
+---
+
+## 4. Main Prototype Screens Confirmed
+
+| Screen | Purpose | Related Requirements |
+|---|---|---|
+| Login / Role Selection Page | Allows simulated login and role-based navigation for Student and Employer | FR-01, FR-02 |
+| Student Dashboard | Shows profile status, verification status, saved jobs, applications, and recommended actions | FR-03, FR-04, FR-05, FR-08, FR-16, FR-17 |
+| Employer Dashboard | Shows company verification status, job posts, applicants, and messages | FR-06, FR-07, FR-09, FR-10, FR-18, FR-19 |
+| Job Listing Page | Allows students to browse, search, and filter internship or entry-level jobs | FR-11, FR-12 |
+| Job Detail Page | Shows job description, eligibility, company profile, verified badge, and apply action | FR-13, FR-14, FR-15, FR-21 |
+| Application Tracker | Allows students to monitor application status and progress | FR-16, FR-19 |
+| Admin Verification Page | Demonstrates student/company verification review and reported job handling | FR-07, FR-22 |
+
+---
+
+## 5. Decisions Made
+
+| Decision | Reason | Related Requirement |
+|---|---|---|
+| Use Student and Employer as the two main user roles | These are the main customer-facing users of the platform | FR-01, FR-02 |
+| Include Admin as a supporting prototype role | Admin is needed to demonstrate verification and reported job handling | FR-07, FR-22 |
+| Use simulated login instead of real authentication | The project scope is an interactive prototype, not a production system | FR-01 |
+| Use sample/local data instead of a real database | This keeps the prototype achievable within the semester | FR-27 |
+| Require company verification before job posting | This improves trust and prevents unverified companies from posting jobs | FR-07, FR-09 |
+| Require resume before job application | Students need a resume before applying for jobs | FR-05, FR-15 |
+| Include suspicious job reporting | This supports platform safety and user trust | FR-21, FR-22 |
+| Create separate dashboards for Student and Employer | Each role has different tasks and information needs | FR-03, FR-06, FR-16, FR-18 |
+
+---
+
+## 6. Problems Encountered
+
+| Problem | Solution |
+|---|---|
+| The first user flow diagram was too complex and difficult to read | The team simplified the flow and separated Student, Employer, and Admin actions |
+| Some screen names did not directly match Lab 05 required screen types | The team mapped Lab 05 screen types to project-specific screens such as Login Page, Dashboard, Job Listing, Job Detail, Application Tracker, and Admin Verification |
+| The MVP scope was large | The team focused the wireframe plan on core prototype workflows and treated advanced features as future enhancements |
+| Admin role was unclear at first | The team defined Admin as a supporting prototype page for verification and report handling |
+| Some requirement IDs needed clearer connection to screens | The team started updating the feature-requirement mapping to improve traceability |
+
+---
+
+## 7. Wireframe Plan
+
+| Wireframe | File Name | Status |
+|---|---|---|
+| Login / Role Selection Page | `wireframes/login-role-selection.png` | In Progress |
+| Student Dashboard | `wireframes/student-dashboard.png` | In Progress |
+| Employer Dashboard | `wireframes/employer-dashboard.png` | In Progress |
+| Job Listing Page | `wireframes/job-listing.png` | In Progress |
+| Job Detail Page | `wireframes/job-detail.png` | In Progress |
+| Application Tracker | `wireframes/application-tracker.png` | In Progress |
+| Admin Verification Page | `wireframes/admin-verification.png` | In Progress |
+
+---
+
+## 8. GitHub Issues Created
+
+| Issue | Task Area | Responsible Member | Status |
+|---|---|---|---|
+| Issue #1 | Product concept and README documentation | Hein Pyae Shan | Completed |
+| Issue #2 | Feature-requirement mapping and screen inventory | Phyo Wai Aung | In Progress |
+| Issue #3 | Wireframe design and export | Kyaw Phone Thant | In Progress |
+| Issue #4 | User flow, use case diagram, usability checklist, and weekly logbook | Phyo Wai Aung / Team Review | Completed |
+
+---
+
+## 9. Next Steps Before Lab 06
+
+| Task | Owner | Deadline | Status |
+|---|---|---|---|
+| Finalize all wireframe screens | Kyaw Phone Thant | Before Lab 06 | Pending |
+| Export wireframes as PNG files | Kyaw Phone Thant | Before Lab 06 | Pending |
+| Upload wireframes to `wireframes/` folder | Phyo Wai Aung | Before Lab 06 | Pending |
+| Complete feature-requirement mapping | Phyo Wai Aung | Before Lab 06 | In Progress |
+| Complete wireframe usability checklist | Hein Pyae Shan | Before Lab 06 | Pending |
+| Add screenshots as GitHub evidence | Entire Team | Before Lab 06 | Pending |
+| Review README and logbook for consistency | Entire Team | Before Lab 06 | In Progress |
+| Prepare explanation for Lab 05 presentation | Entire Team | Before Lab 06 | Pending |
+
+---
+
+## 10. Reflection
+
+Lab 05 helped the team move from requirement planning into UI/UX structure planning. The team now has a clearer understanding of the main prototype screens, user navigation flow, and how each screen connects to system requirements.
+
+The user flow and use case diagram helped clarify the relationship between Student, Employer, Admin, and system rules. The next focus is to complete all wireframes, improve usability, and make sure every screen is traceable to the system requirements and MVP scope.
+
 
