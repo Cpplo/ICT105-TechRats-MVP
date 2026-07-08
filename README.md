@@ -998,8 +998,8 @@ Admin reviews student/company verification requests and checks reported job post
 |---------|------|
 | User Flow Diagram | `/diagrams/user-flow.png` |
 | User Flow Source | `/diagrams/user-flow.puml` |
-| Use Case Diagram | `/diagrams/use-case-diagram.png` |
-| Use Case Source | `/diagrams/use-case-diagram.puml` |
+| Use Case Diagram | `/diagrams/use-case.png` |
+| Use Case Source | `/diagrams/use-case.puml` |
 
 ---
 
