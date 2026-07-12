@@ -1,0 +1,5 @@
+job_id,company_id,job_title,category,location,salary,beginner_friendly,status
+JOB001,EMP001,Frontend Intern,Internship,Bangkok,15000,Yes,Open
+JOB002,EMP003,Junior Web Developer,Entry-Level,Bangkok,25000,Yes,Open
+JOB003,EMP001,UI Designer Intern,Internship,Remote,12000,Yes,Closed
+JOB004,EMP002,Marketing Assistant,Entry-Level,Pathum Thani,18000,Yes,Pending

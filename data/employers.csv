@@ -1,0 +1,5 @@
+employer_id,company_name,email,website,industry,verification_status,verified_badge
+EMP001,TechNova,hr@technova.com,www.technova.com,Software,Verified,Yes
+EMP002,Creative Studio,contact@creative.com,www.creative.com,Design,Pending,No
+EMP003,Future Solutions,careers@future.com,www.future.com,IT,Verified,Yes
+EMP004,NextGen Startup,jobs@nextgen.com,www.nextgen.com,Startup,Rejected,No

@@ -1,0 +1,6 @@
+student_id,full_name,email,university,faculty,year,resume_uploaded,verification_status,verified_badge
+ST001,John Smith,john.smith@rsu.ac.th,Rangsit University,Computer Science,3,Yes,Verified,Yes
+ST002,Emma Johnson,emma.johnson@rsu.ac.th,Rangsit University,Information Technology,2,Yes,Pending,No
+ST003,Daniel Lee,daniel.lee@rsu.ac.th,Rangsit University,Business,4,Yes,Verified,Yes
+ST004,Sophia Brown,sophia.brown@rsu.ac.th,Rangsit University,Digital Media,1,No,Pending,No
+ST005,Michael Chen,michael.chen@rsu.ac.th,Rangsit University,Engineering,3,Yes,Rejected,No

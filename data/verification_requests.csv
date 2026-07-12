@@ -1,0 +1,5 @@
+request_id,user_id,user_type,submitted_date,status,reviewed_by
+VR001,ST002,Student,2026-07-09,Pending,
+VR002,EMP002,Employer,2026-07-08,Pending,
+VR003,ST005,Student,2026-07-07,Rejected,Admin001
+VR004,EMP001,Employer,2026-07-06,Approved,Admin001

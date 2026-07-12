@@ -1,0 +1,3 @@
+report_id,reported_by,job_id,reason,status
+REP001,ST002,JOB004,Suspicious salary information,Pending
+REP002,ST001,JOB003,Spam posting,Resolved
