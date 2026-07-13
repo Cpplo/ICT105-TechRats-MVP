@@ -1,108 +1,89 @@
-flowchart TB
+flowchart LR
 
-    %% External Users
-    Student[Student User]
-    Employer[Employer User]
-    Admin[Admin User]
-
-    %% Frontend Layer
-    subgraph Frontend["Frontend Prototype Layer: HTML + CSS + JavaScript"]
-        Login[Login / Role Selection Page]
-        StudentDash[Student Dashboard]
-        EmployerDash[Employer Dashboard]
-        JobList[Job Listing Page]
-        JobDetail[Job Detail Page]
-        Tracker[Application Tracker]
-        MessagePage[Messaging Page]
-        ReportPage[Report Job Page]
-        AdminPage[Admin Verification Page]
+    subgraph Users["Users"]
+        Student["Student"]
+        Employer["Employer"]
+        Admin["Admin"]
     end
 
-    %% JavaScript Logic Layer
-    subgraph Logic["JavaScript Interaction Logic"]
-        RoleLogic[Role-Based Navigation Logic]
-        Validation[Form Validation Logic]
-        SearchFilter[Search and Filter Logic]
-        ApplicationLogic[Job Application Logic]
-        VerificationLogic[Simulated Verification Logic]
-        MessageLogic[Simulated Messaging Logic]
-        ReportLogic[Report Handling Logic]
-        StatusLogic[Application Status Update Logic]
+    subgraph UI["Frontend Prototype<br/>HTML + CSS + JavaScript"]
+        Login["Login / Role Selection"]
+        StudentUI["Student Dashboard"]
+        EmployerUI["Employer Dashboard"]
+        JobUI["Job Listing & Job Detail"]
+        AppUI["Application Tracker"]
+        MsgUI["Messaging Page"]
+        ReportUI["Report Job Page"]
+        AdminUI["Admin Verification Page"]
     end
 
-    %% Data Layer
-    subgraph Data["Local / Sample Data Layer"]
-        JSONData[Sample JSON Data Files]
-        LocalStorage[Browser localStorage]
+    subgraph Logic["JavaScript Logic Layer"]
+        Role["Role-Based Navigation"]
+        Validation["Form Validation"]
+        Search["Search & Filter Jobs"]
+        Application["Job Application Process"]
+        Verification["Simulated Verification"]
+        Status["Application Status Update"]
+        Messaging["Simulated Messaging"]
+        Report["Report Handling"]
     end
 
-    %% Sample Data Files
-    subgraph JSONFiles["Sample Data Files"]
-        StudentsJSON[students.json]
-        EmployersJSON[employers.json]
-        JobsJSON[jobs.json]
-        ApplicationsJSON[applications.json]
-        MessagesJSON[messages.json]
-        ReportsJSON[reports.json]
+    subgraph Storage["Local Prototype Data"]
+        JSON["Sample JSON Files"]
+        Local["Browser localStorage"]
     end
 
-    %% Student Access
+    subgraph Data["Data Files"]
+        Students["students.json"]
+        Companies["employers.json"]
+        Jobs["jobs.json"]
+        Applications["applications.json"]
+        Messages["messages.json"]
+        Reports["reports.json"]
+    end
+
     Student --> Login
-    Login --> RoleLogic
-    RoleLogic --> StudentDash
-
-    StudentDash --> JobList
-    JobList --> SearchFilter
-    SearchFilter --> JobDetail
-    JobDetail --> ApplicationLogic
-    ApplicationLogic --> Tracker
-
-    JobDetail --> MessagePage
-    MessagePage --> MessageLogic
-
-    JobDetail --> ReportPage
-    ReportPage --> ReportLogic
-
-    %% Employer Access
     Employer --> Login
-    RoleLogic --> EmployerDash
+    Admin --> AdminUI
 
-    EmployerDash --> VerificationLogic
-    EmployerDash --> StatusLogic
-    EmployerDash --> MessagePage
+    Login --> Role
+    Role --> StudentUI
+    Role --> EmployerUI
 
-    %% Admin Access
-    Admin --> AdminPage
-    AdminPage --> VerificationLogic
-    AdminPage --> ReportLogic
-    AdminPage --> StatusLogic
+    StudentUI --> JobUI
+    StudentUI --> AppUI
+    StudentUI --> MsgUI
+    JobUI --> ReportUI
 
-    %% Logic to Data
-    Validation --> LocalStorage
-    SearchFilter --> JSONData
-    ApplicationLogic --> LocalStorage
-    VerificationLogic --> LocalStorage
-    MessageLogic --> LocalStorage
-    ReportLogic --> LocalStorage
-    StatusLogic --> LocalStorage
+    EmployerUI --> MsgUI
+    EmployerUI --> AppUI
 
-    %% JSON Data Connection
-    JSONData --> StudentsJSON
-    JSONData --> EmployersJSON
-    JSONData --> JobsJSON
-    JSONData --> ApplicationsJSON
-    JSONData --> MessagesJSON
-    JSONData --> ReportsJSON
+    AdminUI --> Verification
+    AdminUI --> Report
+    AdminUI --> Status
 
-    %% LocalStorage Updates
-    LocalStorage --> StudentDash
-    LocalStorage --> EmployerDash
-    LocalStorage --> Tracker
-    LocalStorage --> AdminPage
+    JobUI --> Search
+    JobUI --> Application
+    AppUI --> Status
+    MsgUI --> Messaging
+    ReportUI --> Report
 
-    %% Notes
-    note1["Real authentication, real database, and real document upload are not included in the prototype."]
-    note2["Login, verification, resume upload, job application, messaging, and admin approval are simulated."]
+    Login --> Validation
+    StudentUI --> Validation
+    EmployerUI --> Validation
 
-    Login --- note1
-    LocalStorage --- note2
+    Role --> Local
+    Validation --> Local
+    Application --> Local
+    Verification --> Local
+    Status --> Local
+    Messaging --> Local
+    Report --> Local
+
+    Search --> JSON
+    JSON --> Students
+    JSON --> Companies
+    JSON --> Jobs
+    JSON --> Applications
+    JSON --> Messages
+    JSON --> Reports
