@@ -359,4 +359,195 @@ Lab 05 helped the team move from requirement planning into UI/UX structure plann
 
 The user flow and use case diagram helped clarify the relationship between Student, Employer, Admin, and system rules. The next focus is to complete all wireframes, improve usability, and make sure every screen is traceable to the system requirements and MVP scope.
 
+# Lab 06 - Weekly Logbook
 
+## Group Information
+
+- **Course:** ICT105 Fundamental Technology Entrepreneurship
+- **Lab:** Lab 06 - Business Model and Technical Architecture
+- **Group Name:** Tech Rats
+- **Project Title:** Student Internship & Entry-Level Job Platform
+- **Repository Link:** https://github.com/Cpplo/ICT105-TechRats-MVP.git
+- **Date:** Add date here
+
+---
+
+## 1. Lab 06 Focus
+
+The focus of Lab 06 was to connect the business model, user value, technical architecture, system architecture, data-flow logic, and prototype data structure.
+
+The team focused on showing how the Student Internship & Entry-Level Job Platform creates value for students, employers, and the platform, while also defining a realistic technical structure for the semester prototype.
+
+---
+
+## 2. Work Completed Today
+
+| Member Name | Contribution | GitHub Evidence / Commit Link |
+|---|---|---|
+| Hein Pyae Shan | Prepared and reviewed the Business Model Canvas, including customer segments, value proposition, channels, customer relationships, revenue streams, key resources, key activities, key partners, and cost structure. | Add commit or issue link |
+| Phyo Wai Aung | Prepared the technical architecture, system architecture direction, data structure, and sample/local data plan for the prototype. | Add commit or issue link |
+| Kyaw Phone Thant | Supported feature-value mapping, architecture diagrams, data-flow planning, and documentation updates. | Add commit or issue link |
+
+---
+
+## 3. Main Outputs Prepared
+
+| Output | File / Location | Status |
+|---|---|---|
+| Business Model Canvas | `docs/business-model-canvas.md` | Completed |
+| Feature-Value Mapping | `docs/feature-value-mapping.md` | Completed |
+| Technical Architecture | `docs/technical-architecture.md` | Completed |
+| System Architecture Diagram | `diagrams/system-architecture.mmd` | Completed |
+| Data-Flow Diagram | `diagrams/data-flow.mmd` | In Progress |
+| Data Structure | `docs/data-structure.md` | Completed |
+| Sample Data Files | `data/` | In Progress |
+| README Lab 06 Update | `README.md` | Completed |
+| Weekly Logbook Update | `docs/weekly-logbook.md` | Completed |
+
+---
+
+## 4. Business Model Canvas Summary
+
+| BMC Block | Summary |
+|---|---|
+| Customer Segments | University students, fresh graduates, beginner job seekers, employers, startups, SMEs, and HR recruiters |
+| Value Proposition | Beginner-friendly job discovery, verified employers, clear eligibility details, application tracking, and safer job searching |
+| Channels | Web platform, university communities, student groups, social media, and employer networks |
+| Customer Relationships | Self-service platform, verification-based trust, application support, and employer-student communication |
+| Revenue Streams | Future employer subscriptions, featured job posts, university partnerships, and premium recruitment tools |
+| Key Resources | Prototype system, job data, student profiles, employer profiles, verification process, and project documentation |
+| Key Activities | Job listing management, verification, applicant management, application tracking, messaging, and report handling |
+| Key Partners | Universities, career centers, student organizations, SMEs, startups, and employers |
+| Cost Structure | Hosting, development tools, future cloud/database services, maintenance, support, and marketing |
+
+---
+
+## 5. Feature-Value Mapping Summary
+
+| Feature | User Value | Business Value |
+|---|---|---|
+| Student profile management | Helps students present skills and education clearly | Improves applicant quality |
+| Resume/document upload | Helps students apply with supporting evidence | Helps employers screen applicants |
+| Company verification | Helps students trust employers | Improves platform credibility |
+| Job posting | Helps employers publish beginner-friendly opportunities | Creates core employer-side value |
+| Job search and filters | Helps students find suitable jobs faster | Increases user engagement |
+| Job detail page | Helps students understand requirements before applying | Reduces unsuitable applications |
+| Application submission | Allows students to apply directly | Creates the main platform transaction |
+| Application tracker | Helps students monitor progress | Improves user retention |
+| Messaging | Supports student-employer communication | Improves recruitment workflow |
+| Job reporting | Helps students report suspicious jobs | Improves platform safety |
+| Admin verification page | Demonstrates review and moderation | Supports trust and governance |
+
+---
+
+## 6. Technical Architecture Decision
+
+The team decided to use a frontend prototype architecture.
+
+| Area | Decision |
+|---|---|
+| Frontend Technology | HTML, CSS, JavaScript |
+| Data Source | Sample JSON files |
+| Temporary Data Storage | Browser localStorage |
+| Authentication | Simulated login and role selection |
+| Student Verification | Simulated verification status |
+| Company Verification | Simulated verification status and admin review |
+| Resume Upload | Simulated upload using file name/reference only |
+| Job Application | Simulated form submission and status update |
+| Messaging | Simulated message thread |
+| Admin Review | Simulated approval, rejection, and reported job handling |
+
+This decision was made because the current semester scope focuses on an interactive prototype rather than a production system.
+
+---
+
+## 7. System Architecture Summary
+
+The system architecture is divided into five main layers:
+
+| Layer | Description |
+|---|---|
+| Users | Student, Employer, and Admin |
+| Frontend Prototype | Login, dashboards, job listing, job detail, application tracker, messaging, report page, and admin page |
+| JavaScript Logic Layer | Role navigation, validation, search/filter, application process, verification, messaging, report handling, and status update |
+| Local Prototype Data | Browser localStorage and sample JSON files |
+| Data Files | Students, employers, jobs, applications, messages, reports, and verification records |
+
+The architecture supports the main workflows without using a real backend or production database.
+
+---
+
+## 8. Data Structure Plan
+
+| Entity | Main Fields |
+|---|---|
+| Student | student_id, name, university, education_level, skills, email, verification_status, resume_file |
+| Employer / Company | employer_id, company_name, industry, website, contact_email, verification_status |
+| Job Post | job_id, employer_id, title, description, location, work_mode, required_skills, eligibility, deadline, beginner_friendly_status |
+| Application | application_id, job_id, student_id, resume_file, supporting_documents, application_status, submitted_date |
+| Message | message_id, sender_id, receiver_id, related_job_id, message_text, sent_date |
+| Report | report_id, job_id, student_id, report_reason, report_status, submitted_date |
+| Verification Request | request_id, user_type, user_id, submitted_documents, verification_status, reviewed_by |
+
+---
+
+## 9. Decisions Made
+
+| Decision | Reason |
+|---|---|
+| Use HTML, CSS, and JavaScript | Suitable for the team’s current skill level and semester timeline |
+| Use sample JSON data | Allows realistic data display without a real database |
+| Use browser localStorage | Allows simple prototype interaction and temporary state changes |
+| Simulate login and verification | Real authentication and official verification are outside the current scope |
+| Keep Admin as a supporting role | Admin is needed to demonstrate company verification and reported job handling |
+| Use layered system architecture | Makes the prototype easier to explain and develop |
+| Separate user value and business value | Helps show why each MVP feature matters |
+
+---
+
+## 10. Problems Encountered
+
+| Problem | Solution |
+|---|---|
+| The first system architecture diagram looked too wide and messy | The team redesigned it into a cleaner layered architecture |
+| The project scope was still large | The team focused Lab 06 on core prototype workflows and simulated advanced parts |
+| Some features needed clearer business value | The team added feature-value mapping to connect each feature with user and business benefits |
+| Real backend/database was not realistic for the current stage | The team decided to use sample JSON files and localStorage |
+| Admin role could be confused with a main customer role | The team clarified Admin as a supporting prototype role for verification and report handling |
+
+---
+
+## 11. GitHub Issues Created
+
+| Issue | Task Area | Responsible Member | Status |
+|---|---|---|---|
+| Issue #1 | Business Model Canvas | Hein Pyae Shan | Completed |
+| Issue #2 | Feature-Value Mapping | Phyo Wai Aung | Completed |
+| Issue #3 | Technical Architecture | Phyo Wai Aung | Completed |
+| Issue #4 | System Architecture Diagram | Kyaw Phone Thant | Completed |
+| Issue #5 | Data-Flow Diagram | Kyaw Phone Thant | In Progress |
+| Issue #6 | Data Structure and Sample Dataset | Phyo Wai Aung | Completed |
+| Issue #7 | README and Weekly Logbook | Hein Pyae Shan / Team Review | Completed |
+
+---
+
+## 12. Next Steps Before Lab 07
+
+| Task | Owner | Deadline | Status |
+|---|---|---|---|
+| Finalize data-flow diagram | Kyaw Phone Thant | Before Lab 07 | Pending |
+| Create or update sample JSON files | Phyo Wai Aung | Before Lab 07 | Pending |
+| Review system architecture diagram | Entire Team | Before Lab 07 | In Progress |
+| Check feature-value mapping consistency | Hein Pyae Shan | Before Lab 07 | In Progress |
+| Start building prototype HTML pages | Phyo Wai Aung / Kyaw Phone Thant | Lab 07 | Pending |
+| Connect sample data to job listing page | Phyo Wai Aung | Lab 07 | Pending |
+| Prepare screenshots as evidence | Entire Team | Before Lab 07 | Pending |
+| Review README and logbook formatting | Entire Team | Before Lab 07 | In Progress |
+
+---
+
+## 13. Reflection
+
+Lab 06 helped the team connect the business side and technical side of the project. The Business Model Canvas clarified how the platform creates value for both students and employers, while the feature-value mapping showed why each MVP feature is important.
+
+The technical architecture and system architecture diagram helped the team understand how the prototype can be built realistically using HTML, CSS, JavaScript, sample JSON files, and browser localStorage. The next focus is to continue prototype development and make sure the main workflows are interactive and easy to demonstrate.
