@@ -1,1 +1,108 @@
+flowchart TB
 
+    %% External Users
+    Student[Student User]
+    Employer[Employer User]
+    Admin[Admin User]
+
+    %% Frontend Layer
+    subgraph Frontend["Frontend Prototype Layer: HTML + CSS + JavaScript"]
+        Login[Login / Role Selection Page]
+        StudentDash[Student Dashboard]
+        EmployerDash[Employer Dashboard]
+        JobList[Job Listing Page]
+        JobDetail[Job Detail Page]
+        Tracker[Application Tracker]
+        MessagePage[Messaging Page]
+        ReportPage[Report Job Page]
+        AdminPage[Admin Verification Page]
+    end
+
+    %% JavaScript Logic Layer
+    subgraph Logic["JavaScript Interaction Logic"]
+        RoleLogic[Role-Based Navigation Logic]
+        Validation[Form Validation Logic]
+        SearchFilter[Search and Filter Logic]
+        ApplicationLogic[Job Application Logic]
+        VerificationLogic[Simulated Verification Logic]
+        MessageLogic[Simulated Messaging Logic]
+        ReportLogic[Report Handling Logic]
+        StatusLogic[Application Status Update Logic]
+    end
+
+    %% Data Layer
+    subgraph Data["Local / Sample Data Layer"]
+        JSONData[Sample JSON Data Files]
+        LocalStorage[Browser localStorage]
+    end
+
+    %% Sample Data Files
+    subgraph JSONFiles["Sample Data Files"]
+        StudentsJSON[students.json]
+        EmployersJSON[employers.json]
+        JobsJSON[jobs.json]
+        ApplicationsJSON[applications.json]
+        MessagesJSON[messages.json]
+        ReportsJSON[reports.json]
+    end
+
+    %% Student Access
+    Student --> Login
+    Login --> RoleLogic
+    RoleLogic --> StudentDash
+
+    StudentDash --> JobList
+    JobList --> SearchFilter
+    SearchFilter --> JobDetail
+    JobDetail --> ApplicationLogic
+    ApplicationLogic --> Tracker
+
+    JobDetail --> MessagePage
+    MessagePage --> MessageLogic
+
+    JobDetail --> ReportPage
+    ReportPage --> ReportLogic
+
+    %% Employer Access
+    Employer --> Login
+    RoleLogic --> EmployerDash
+
+    EmployerDash --> VerificationLogic
+    EmployerDash --> StatusLogic
+    EmployerDash --> MessagePage
+
+    %% Admin Access
+    Admin --> AdminPage
+    AdminPage --> VerificationLogic
+    AdminPage --> ReportLogic
+    AdminPage --> StatusLogic
+
+    %% Logic to Data
+    Validation --> LocalStorage
+    SearchFilter --> JSONData
+    ApplicationLogic --> LocalStorage
+    VerificationLogic --> LocalStorage
+    MessageLogic --> LocalStorage
+    ReportLogic --> LocalStorage
+    StatusLogic --> LocalStorage
+
+    %% JSON Data Connection
+    JSONData --> StudentsJSON
+    JSONData --> EmployersJSON
+    JSONData --> JobsJSON
+    JSONData --> ApplicationsJSON
+    JSONData --> MessagesJSON
+    JSONData --> ReportsJSON
+
+    %% LocalStorage Updates
+    LocalStorage --> StudentDash
+    LocalStorage --> EmployerDash
+    LocalStorage --> Tracker
+    LocalStorage --> AdminPage
+
+    %% Notes
+    note1["Real authentication, real database, and real document upload are not included in the prototype."]
+    note2["Login, verification, resume upload, job application, messaging, and admin approval are simulated."]
+
+    Login --- note1
+    LocalStorage --- note2
