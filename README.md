@@ -1084,3 +1084,97 @@ The next priority is to finalize all wireframes, export them as image files, com
 ## Next Step
 
 During Lab 06, the team will continue improving the wireframes and begin building the interactive prototype structure. The prototype will focus on role-based navigation, student job browsing, job detail viewing, application submission, employer verification, job posting, applicant review, and admin report handling.
+
+---
+
+# Lab 06 — Business Model and Technical Architecture
+
+## Objectives
+
+The objective of Lab 06 was to connect the business model, user value, technical architecture, and prototype data structure of the Student Internship & Entry-Level Job Platform.
+
+In this lab, the team focused on explaining how the platform creates value for students and employers, how MVP features support business and user needs, and how the prototype will be technically structured using HTML, CSS, JavaScript, sample JSON data, and browser localStorage.
+
+---
+
+## Lab 06 Summary
+
+The Student Internship & Entry-Level Job Platform is a web-based prototype designed to help university students and fresh graduates find trustworthy internship and entry-level job opportunities.
+
+The platform also helps employers, startups, and SMEs recruit beginner-level talent through verified company profiles, structured job postings, applicant review, and application status management.
+
+For Lab 06, the team prepared the business model, feature-value mapping, technical architecture, system architecture diagram, data-flow diagram, data structure, and sample data plan.
+
+---
+
+## Business Model Canvas Summary
+
+| BMC Block | Description |
+|---|---|
+| Customer Segments | University students, fresh graduates, beginner job seekers, employers, startups, SMEs, and HR recruiters |
+| Value Proposition | Beginner-friendly internship and entry-level job discovery, verified employers, clear eligibility information, resume/document upload, and application tracking |
+| Channels | Web platform, university communities, social media, student groups, university career centers, and employer networks |
+| Customer Relationships | Self-service platform, trust-building through verification, profile-based application support, and employer-student communication |
+| Revenue Streams | Future freemium employer posting, featured job listings, university partnerships, and employer recruitment plans |
+| Key Resources | Prototype system, job data, student profiles, employer profiles, verification process, and project documentation |
+| Key Activities | Job listing management, student profile management, company verification, application tracking, messaging, and report handling |
+| Key Partners | Universities, student organizations, SMEs, startups, employers, and career support communities |
+| Cost Structure | Web hosting, development tools, maintenance, user support, future database/cloud services, and marketing |
+
+---
+
+## Feature-Value Mapping Summary
+
+| MVP Feature | User Value | Business Value |
+|---|---|---|
+| Simulated Login and Role Selection | Helps users access the correct workflow easily | Supports role-based platform structure |
+| Student Profile Management | Helps students present skills, education, and career interests | Improves applicant quality for employers |
+| Resume and Document Upload | Allows students to apply with supporting evidence | Helps employers screen candidates more efficiently |
+| Company Verification | Builds trust before students apply | Improves platform credibility |
+| Job Posting | Allows verified employers to publish internship and entry-level opportunities | Creates the main employer-side value |
+| Browse and Filter Jobs | Helps students find suitable beginner-friendly jobs faster | Increases user engagement and platform usefulness |
+| Job Detail Page | Helps students understand eligibility and requirements before applying | Reduces unsuitable applications |
+| Application Submission | Allows students to apply directly through the platform | Creates the core transaction between students and employers |
+| Application Tracker | Helps students monitor application progress | Improves retention and repeated platform usage |
+| Employer Applicant Management | Helps employers review and manage applicants | Supports employer adoption |
+| Messaging | Allows students and employers to communicate about opportunities | Improves recruitment communication |
+| Job Reporting | Helps students report suspicious or misleading jobs | Improves safety and trust |
+| Admin Verification Page | Demonstrates verification and report handling | Supports platform governance and credibility |
+
+---
+
+## Technical Architecture
+
+The prototype uses a simple frontend architecture.
+
+| Layer | Technology / Component |
+|---|---|
+| Frontend | HTML, CSS, JavaScript |
+| Data Source | Sample JSON files |
+| Temporary Storage | Browser localStorage |
+| Authentication | Simulated login and role selection |
+| Verification | Simulated student and company verification |
+| Application Process | Simulated job application submission |
+| Messaging | Simulated message thread |
+| Admin Review | Simulated approval, rejection, and report handling |
+
+The prototype does not use real authentication, real database storage, or real document upload. These are treated as future enhancements.
+
+---
+
+## System Architecture
+
+The system architecture is divided into five main layers:
+
+1. Users  
+2. Frontend Prototype  
+3. JavaScript Logic Layer  
+4. Local Prototype Data  
+5. Sample Data Files  
+
+### System Architecture Diagram
+
+File:
+
+```text
+/diagrams/system-architecture.mmd
