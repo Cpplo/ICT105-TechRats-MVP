@@ -551,3 +551,214 @@ The architecture supports the main workflows without using a real backend or pro
 Lab 06 helped the team connect the business side and technical side of the project. The Business Model Canvas clarified how the platform creates value for both students and employers, while the feature-value mapping showed why each MVP feature is important.
 
 The technical architecture and system architecture diagram helped the team understand how the prototype can be built realistically using HTML, CSS, JavaScript, sample JSON files, and browser localStorage. The next focus is to continue prototype development and make sure the main workflows are interactive and easy to demonstrate.
+
+---
+
+# Lab 07 - Weekly Logbook
+
+## Group Information
+
+- **Course:** ICT105 Fundamental Technology Entrepreneurship
+- **Lab:** Lab 07 - MVP Experiment and Validation Plan
+- **Group Name:** Tech Rats
+- **Project Title:** Student Internship & Entry-Level Job Platform
+- **Repository Link:** https://github.com/Cpplo/ICT105-TechRats-MVP.git
+- **Date:** Add date here
+
+---
+
+## 1. Lab 07 Focus
+
+The focus of Lab 07 was to prepare an MVP experiment plan for validating the Student Internship & Entry-Level Job Platform.
+
+The team focused on identifying critical assumptions, designing user testing tasks, preparing an experiment script, defining measurable success metrics, creating a feedback form, and planning how experiment results will be collected.
+
+---
+
+## 2. Work Completed Today
+
+| Member Name | Contribution | GitHub Evidence / Commit Link |
+|---|---|---|
+| Hein Pyae Shan | Prepared critical assumptions and MVP experiment plan based on student and employer problems. | Add commit or issue link |
+| Phyo Wai Aung | Prepared experiment script and user testing tasks for Student and Employer workflows. | Add commit or issue link |
+| Kyaw Phone Thant | Prepared success metrics, feedback form questions, and supported experiment flow planning. | Add commit or issue link |
+| Member 4 | Prepared experiment results template, README Lab 07 update, and weekly logbook update. | Add commit or issue link |
+
+---
+
+## 3. Main Outputs Prepared
+
+| Output | File / Location | Status |
+|---|---|---|
+| Critical Assumptions | `docs/critical-assumptions.md` | Completed |
+| MVP Experiment Plan | `docs/mvp-experiment-plan.md` | Completed |
+| Experiment Script | `docs/experiment-script.md` | Completed |
+| Success Metrics | `docs/success-metrics.md` | Completed |
+| Feedback Form | `docs/feedback-form.md` | Completed |
+| Feedback Form Template | `data/feedback-form-template.csv` | Completed |
+| Experiment Results Template | `data/experiment-results-template.csv` | Completed |
+| Experiment Flow Diagram | `diagrams/experiment-flow.mmd` | Completed |
+| MVP Demo Link | `prototype/mvp-demo-link.md` | In Progress |
+| README Lab 07 Update | `README.md` | Completed |
+| Weekly Logbook Update | `docs/weekly-logbook.md` | Completed |
+
+---
+
+## 4. Critical Assumptions Identified
+
+| Assumption ID | Critical Assumption | Related User |
+|---|---|---|
+| CA-01 | Students need a platform focused on internships and entry-level jobs | Student |
+| CA-02 | Students trust job posts more when companies are verified | Student |
+| CA-03 | Beginner-friendly filters help students find suitable jobs faster | Student |
+| CA-04 | Application tracking helps students manage multiple job applications | Student |
+| CA-05 | Employers want structured applicant profiles and resume/document access | Employer |
+| CA-06 | Company verification improves platform credibility | Employer / Student |
+| CA-07 | Users can complete the main prototype workflow without confusion | Student / Employer |
+| CA-08 | Suspicious job reporting improves perceived safety | Student / Admin |
+
+---
+
+## 5. Experiment Plan Summary
+
+| Item | Description |
+|---|---|
+| Experiment Type | Prototype usability and value validation test |
+| Target Users | University students, fresh graduates, and employer representatives |
+| Testing Method | Task-based prototype test followed by feedback form |
+| Prototype Used | Interactive prototype with simulated login, sample data, and simulated workflows |
+| Test Duration | Around 10–15 minutes per tester |
+| Data Collected | Task completion, user ratings, comments, confusion points, and improvement suggestions |
+| Main Goal | Test whether users understand, trust, and find value in the platform |
+
+---
+
+## 6. User Testing Tasks
+
+### Student Tasks
+
+| Task No. | Task |
+|---|---|
+| S-01 | Login as Student |
+| S-02 | Open Student Dashboard |
+| S-03 | Browse job listings |
+| S-04 | Use beginner-friendly filters |
+| S-05 | Open Job Detail Page |
+| S-06 | Check company verification badge |
+| S-07 | Apply for a job |
+| S-08 | Track application status |
+| S-09 | Report suspicious job if needed |
+
+### Employer Tasks
+
+| Task No. | Task |
+|---|---|
+| E-01 | Login as Employer |
+| E-02 | Open Employer Dashboard |
+| E-03 | Check company verification status |
+| E-04 | Create or review a job post |
+| E-05 | View applicants |
+| E-06 | Review applicant profile and resume/document information |
+| E-07 | Update application status |
+| E-08 | Message student if needed |
+
+---
+
+## 7. Success Metrics
+
+| Metric | Target |
+|---|---|
+| Main task completion rate | At least 70% of testers complete assigned workflow |
+| Job filtering usefulness | At least 70% of student testers agree filters are useful |
+| Verification clarity | At least 70% understand verified company badges |
+| Application tracking usefulness | At least 70% agree tracking is helpful |
+| Employer applicant review usefulness | At least 70% of employer testers find applicant review useful |
+| Overall usability rating | Average score of 4 out of 5 or higher |
+| Willingness to use | At least 60% say they would consider using the platform |
+
+---
+
+## 8. Feedback Questions Prepared
+
+### Rating Questions
+
+- The platform purpose is easy to understand.
+- The dashboard is clear and useful.
+- Job search and filtering are useful.
+- Company verification badges improve trust.
+- Job details are clear before applying.
+- The application process is easy to follow.
+- Application tracking is helpful.
+- Employer applicant review is useful.
+- The platform feels safer than searching through random social media posts.
+- I would consider using this platform.
+
+### Open-Ended Questions
+
+- What part of the prototype was easiest to understand?
+- What part was confusing?
+- What feature was most useful?
+- What feature should be improved first?
+- What would make you trust this platform more?
+- Would you use this platform in real life? Why or why not?
+
+---
+
+## 9. Decisions Made
+
+| Decision | Reason |
+|---|---|
+| Use task-based prototype testing | It helps measure whether users can complete the main workflows |
+| Test both student and employer workflows | The platform has two main customer-facing roles |
+| Focus on verification and trust | Trust is one of the strongest problems found during customer discovery |
+| Use rating and open-ended feedback | Ratings give measurable results, while comments explain user opinions |
+| Use simulated prototype workflows | The current MVP is a prototype and does not need real backend functions |
+| Measure willingness to use | This helps evaluate product value, not only usability |
+| Include suspicious job reporting in testing | Safety is important for student job seekers |
+
+---
+
+## 10. Problems Encountered
+
+| Problem | Solution |
+|---|---|
+| The Lab 07 package was based on a practice lost-and-found case | The team replaced the practice content with the Student Internship & Entry-Level Job Platform |
+| Some assumptions were too general | The team rewrote them to focus on verification, beginner-friendly jobs, application tracking, and employer screening |
+| It was difficult to define measurable success | The team used percentage-based targets such as 70% task completion and 4/5 usability rating |
+| Student and employer workflows were different | The team separated testing tasks by user role |
+| The prototype is not fully production-ready | The team designed the experiment around simulated workflows and sample data |
+
+---
+
+## 11. GitHub Issues Created
+
+| Issue | Task Area | Responsible Member | Status |
+|---|---|---|---|
+| Issue #1 | Critical assumptions and MVP experiment plan | Hein Pyae Shan | Completed |
+| Issue #2 | Experiment script and user testing tasks | Phyo Wai Aung | Completed |
+| Issue #3 | Success metrics and feedback form | Kyaw Phone Thant | Completed |
+| Issue #4 | Experiment flow, results template, README, and logbook | Member 4 / Team Review | Completed |
+
+---
+
+## 12. Next Steps Before Lab 08
+
+| Task | Owner | Deadline | Status |
+|---|---|---|---|
+| Finalize MVP demo link or prototype file | Phyo Wai Aung | Before Lab 08 | Pending |
+| Select student test users | Hein Pyae Shan | Before Lab 08 | Pending |
+| Select employer test users if possible | Hein Pyae Shan | Before Lab 08 | Pending |
+| Run prototype testing session | Entire Team | Lab 08 | Pending |
+| Record task completion results | Member 4 | Lab 08 | Pending |
+| Collect feedback form responses | Kyaw Phone Thant | Lab 08 | Pending |
+| Analyze experiment results | Entire Team | Lab 08 | Pending |
+| Identify prototype improvements | Entire Team | Lab 08 | Pending |
+| Update README and weekly logbook with results | Phyo Wai Aung / Team Review | Lab 08 | Pending |
+
+---
+
+## 13. Reflection
+
+Lab 07 helped the team move from prototype planning to validation planning. Instead of only building features, the team prepared a structured experiment to test whether the platform is useful, understandable, and trustworthy for real users.
+
+The critical assumptions, user testing tasks, success metrics, and feedback form will guide the next lab. The team will use the experiment results to decide which parts of the prototype should be improved before continuing development.
