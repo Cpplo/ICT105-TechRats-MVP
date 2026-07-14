@@ -1172,9 +1172,206 @@ The system architecture is divided into five main layers:
 4. Local Prototype Data  
 5. Sample Data Files  
 
-### System Architecture Diagram
+
+
+
+# Lab 07 — MVP Experiment and Validation Plan
+
+## Objectives
+
+The objective of Lab 07 was to prepare an MVP experiment plan for validating the Student Internship & Entry-Level Job Platform with potential users.
+
+In this lab, the team identified critical assumptions, designed user testing tasks, prepared an experiment script, defined success metrics, created a feedback form, and planned how experiment results will be collected and analyzed.
+
+The goal is to test whether students and employers understand the prototype, find it useful, trust the verification features, and believe the platform solves a real problem.
+
+---
+
+## Lab 07 Summary
+
+The Student Internship & Entry-Level Job Platform helps university students and fresh graduates find trustworthy internship and entry-level job opportunities.
+
+For Lab 07, the team prepared an MVP experiment to test the most important parts of the platform:
+
+- Student job search and filtering
+- Verified company information
+- Job detail clarity
+- Resume/document-based application
+- Application tracking
+- Employer applicant review
+- Company verification
+- Suspicious job reporting
+- Overall platform usefulness and trust
+
+The experiment will use the interactive prototype and sample data to simulate the main workflows for Student and Employer users.
+
+---
+
+## Critical Assumptions
+
+| Assumption ID | Critical Assumption | Why It Matters |
+|---|---|---|
+| CA-01 | Students need a platform focused on internships and entry-level jobs | This is the main problem the product is trying to solve |
+| CA-02 | Students trust job posts more when companies are verified | Verification is a core value proposition |
+| CA-03 | Beginner-friendly filters help students find suitable jobs faster | Filtering is one of the key student features |
+| CA-04 | Students find application tracking useful | Application tracking supports repeated platform use |
+| CA-05 | Employers want structured applicant profiles and resume/document access | This supports employer-side adoption |
+| CA-06 | Employers understand the value of company verification | Verification improves trust and platform credibility |
+| CA-07 | Users can complete the main workflow without confusion | Usability is necessary for MVP success |
+| CA-08 | Suspicious job reporting improves perceived safety | Safety and trust are important for student users |
+
+---
+
+## MVP Experiment Plan
+
+| Item | Description |
+|---|---|
+| Experiment Type | Prototype usability and value validation test |
+| Target Test Users | University students, fresh graduates, and employer representatives |
+| Testing Method | Users complete assigned prototype tasks and answer a feedback form |
+| Prototype Type | Interactive web prototype using HTML, CSS, JavaScript, sample data, and simulated workflows |
+| Main Goal | Validate whether the platform is useful, understandable, trustworthy, and suitable for beginner job seekers |
+| Test Duration | Around 10–15 minutes per tester |
+| Data Collected | Task completion, ratings, comments, confusion points, and improvement suggestions |
+
+---
+
+## Experiment Tasks
+
+### Student Testing Tasks
+
+| Task No. | Task |
+|---|---|
+| S-01 | Login or enter the platform as a Student |
+| S-02 | View the Student Dashboard |
+| S-03 | Browse internship and entry-level job listings |
+| S-04 | Use search or filters to find beginner-friendly jobs |
+| S-05 | Open a Job Detail Page |
+| S-06 | Check company profile and verification badge |
+| S-07 | Apply for a job using resume/supporting document information |
+| S-08 | View application confirmation |
+| S-09 | Track application status in the Application Tracker |
+| S-10 | Report a suspicious job post if needed |
+
+### Employer Testing Tasks
+
+| Task No. | Task |
+|---|---|
+| E-01 | Login or enter the platform as an Employer |
+| E-02 | View the Employer Dashboard |
+| E-03 | Check company verification status |
+| E-04 | Create or review a job post |
+| E-05 | View applicants for a job |
+| E-06 | Review applicant profile and resume/document information |
+| E-07 | Update application status |
+| E-08 | Message a student if needed |
+
+---
+
+## Success Metrics
+
+| Metric | Target |
+|---|---|
+| Main task completion rate | At least 70% of testers can complete their assigned workflow |
+| Job filtering usefulness | At least 70% of student testers agree that beginner-friendly filters are useful |
+| Verification clarity | At least 70% of testers understand the purpose of verified company badges |
+| Application tracking usefulness | At least 70% of student testers agree that application tracking is helpful |
+| Employer applicant review usefulness | At least 70% of employer testers agree that applicant profiles help screening |
+| Overall usability rating | Average rating of 4 out of 5 or higher |
+| Willingness to use | At least 60% of testers say they would consider using the platform |
+
+---
+
+## Feedback Form Summary
+
+The feedback form collects both rating-scale and open-ended responses.
+
+### Rating Questions
+
+- The platform purpose is easy to understand.
+- The dashboard is clear and useful.
+- Job search and filtering are useful.
+- Company verification badges improve trust.
+- Job details are clear before applying.
+- The application process is easy to follow.
+- Application tracking is helpful.
+- Employer applicant review is useful.
+- The platform feels safer than searching through random social media posts.
+- I would consider using this platform.
+
+### Open-Ended Questions
+
+- What part of the prototype was easiest to understand?
+- What part was confusing?
+- What feature was most useful?
+- What feature should be improved first?
+- What would make you trust this platform more?
+- Would you use this platform in real life? Why or why not?
+
+---
+
+## Experiment Flow
 
 File:
 
-```text
-/diagrams/system-architecture.mmd
+`/diagrams/experiment-flow.mmd`
+
+The experiment flow shows the process from selecting test users, introducing the prototype, assigning tasks, observing task completion, collecting feedback, analyzing results, and deciding what should be improved in the next prototype version.
+
+---
+
+## Lab 07 Deliverables
+
+| Deliverable | File / Folder |
+|---|---|
+| Critical Assumptions | `/docs/critical-assumptions.md` |
+| MVP Experiment Plan | `/docs/mvp-experiment-plan.md` |
+| Experiment Script | `/docs/experiment-script.md` |
+| Success Metrics | `/docs/success-metrics.md` |
+| Feedback Form | `/docs/feedback-form.md` |
+| Experiment Flow Diagram | `/diagrams/experiment-flow.mmd` |
+| Experiment Results Template | `/data/experiment-results-template.csv` |
+| Feedback Form Template | `/data/feedback-form-template.csv` |
+| MVP Demo Link | `/prototype/mvp-demo-link.md` |
+| Weekly Logbook | `/docs/weekly-logbook.md` |
+
+---
+
+## Team Contribution for Lab 07
+
+| Member | Main Contribution |
+|---|---|
+| Hein Pyae Shan | Prepared critical assumptions and MVP experiment plan |
+| Phyo Wai Aung | Prepared experiment script and user testing tasks |
+| Kyaw Phone Thant | Prepared success metrics, feedback form, and experiment flow support |
+| Member 4 | Prepared experiment results template, README update, and weekly logbook |
+
+---
+
+## Weekly Progress Log Update
+
+| Lab | Main Activity | Deliverables | Status |
+|---|---|---|---|
+| Lab 07 | Critical Assumptions | Critical assumptions document | Completed |
+| Lab 07 | MVP Experiment Plan | Experiment plan document | Completed |
+| Lab 07 | Experiment Script | User testing script | Completed |
+| Lab 07 | Success Metrics | Success metrics document | Completed |
+| Lab 07 | Feedback Form | Feedback form document/template | Completed |
+| Lab 07 | Experiment Flow | Experiment flow diagram | Completed |
+| Lab 07 | Results Planning | Experiment results template | Completed |
+| Lab 07 | Documentation | README and weekly logbook update | Completed |
+
+---
+
+## Current Status After Lab 07
+
+By the end of Lab 07, the team prepared a complete MVP validation plan. The project now has clear assumptions, testing tasks, success metrics, and feedback questions that can be used to evaluate whether the prototype solves a real user problem.
+
+The next priority is to run the experiment with real test users, collect feedback, analyze the results, and use the findings to improve the prototype.
+
+---
+
+## Next Step
+
+During Lab 08, the team will conduct MVP testing with selected users, record task completion results, collect feedback, analyze the experiment results, and identify prototype improvements based on user evidence.
+
