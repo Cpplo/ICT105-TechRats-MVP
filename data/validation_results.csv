@@ -1,0 +1,51 @@
+TestID,TestDate,TestUserID,UserRole,DeviceType,PrototypeVersion,TaskName,TaskCompleted,CompletionTimeSeconds,EaseOfUseScore,UsefulnessScore,ConfusionPoint,MostUsefulFeature,WouldUseAgain,InterestLevel,RequirementID,MVPDecisionSignal,Notes
+T001,7/5/2026,U001,Student,Mobile,v1,View Job Detail Page,Yes,95,4,5,None,Browse Jobs,No,5,FR-14,Validated,The flow felt professional and trustworthy.
+T002,7/5/2026,U002,Student,Desktop,v1,Complete Student Profile (Settings),Yes,88,5,3,None,Application Tracker,No,5,FR-03,Validated,Verification badge increased my confidence.
+T003,7/5/2026,U003,Student,Laptop,v1,Browse Jobs,Yes,201,5,5,None,Company Profile View,Yes,4,FR-11,Validated,Job search was straightforward.
+T004,7/5/2026,U004,Employer,Laptop,v1,Update Applicant Status,Yes,151,5,4,None,Applicants,Yes,4,FR-20,Partial,Dashboard is easy to understand.
+T005,7/5/2026,U005,Employer,Desktop,v1,View Job Applicants,Yes,174,5,4,None,Employer Dashboard,Yes,4,FR-09,Partial,Verification process is clear.
+T006,7/6/2026,U006,Student,Laptop,v1,Message an Employer,Yes,207,4,5,None,Messages,Yes,5,FR-21,Validated,Profile editing was simple.
+T007,7/6/2026,U007,Student,Laptop,v1,View Company Profile,No,281,3,3,Company Verification,Application Tracker,No,3,FR-15,Partial,Company verification badge wasn't obvious at first glance.
+T008,7/6/2026,U008,Student,Desktop,v1,View Company Profile,Yes,49,5,5,None,Application Tracker,Yes,5,FR-15,Validated,Verification process is clear.
+T009,7/6/2026,U009,Student,Laptop,v1,Apply for Job,Yes,230,4,4,None,Company Profile View,No,5,FR-16,Partial,Company profile page had all the info I needed.
+T010,7/6/2026,U010,Student,Desktop,v1,View Company Profile,Yes,111,5,5,None,Messages,Yes,4,FR-15,Validated,Dashboard is easy to understand.
+T011,7/6/2026,U011,Employer,Desktop,v1,Update Applicant Status,Yes,191,5,5,Verification Process,Employer Dashboard,Yes,4,FR-20,Validated,"Verification process is clear, but the wait time wasn't obvious."
+T012,7/6/2026,U012,Employer,Laptop,v1,Employer Registration,Yes,91,4,5,None,Verification Badge,Yes,4,FR-07,Partial,The flow felt professional and trustworthy.
+T013,7/6/2026,U013,Employer,Laptop,v1,Manage Job Posts,Yes,58,5,3,Profile Completion,Applicants,Yes,5,FR-10,Partial,"Profile editing was mostly simple, a couple fields were unclear."
+T014,7/6/2026,U014,Employer,Laptop,v1,View Applicant Resume & Portfolio,Yes,45,4,5,None,Applicants,Yes,5,FR-19,Validated,Registration was simple.
+T015,7/7/2026,U015,Student,Desktop,v1,Student Registration,Yes,71,3,4,None,Browse Jobs,Yes,4,FR-01,Partial,Dashboard is easy to understand.
+T016,7/7/2026,U016,Student,Laptop,v1,Student Login,Yes,229,4,5,None,Messages,No,5,FR-02,Validated,Liked how clean the interface felt.
+T017,7/7/2026,U017,Student,Laptop,v1,Student Registration,Yes,244,4,5,Application Status,Verification Badge,Yes,5,FR-01,Validated,Wasn't always sure what each application status meant.
+T018,7/7/2026,U018,Employer,Mobile,v1,View Employer Dashboard,Yes,67,5,4,None,Job Posts,Yes,5,FR-12,Validated,The flow felt professional and trustworthy.
+T019,7/7/2026,U019,Admin,Mobile,v1,View Student Detail Page,Yes,91,3,5,None,Users,Yes,5,FR-05,Partial,Navigation was intuitive.
+T020,7/8/2026,U020,Student,Laptop,v1,Complete Student Profile (Settings),Yes,201,4,4,None,Portfolio & Resume,Yes,5,FR-03,Validated,Found what I needed quickly.
+T021,7/8/2026,U021,Student,Laptop,v1,Student Login,Yes,87,5,5,Company Verification,Verification Badge,Yes,5,FR-02,Validated,Verification badge increased my confidence once I noticed it.
+T022,7/8/2026,U022,Student,Laptop,v1,Track Application Status,Yes,142,5,4,None,Portfolio & Resume,Yes,4,FR-17,Validated,Registration was simple.
+T023,7/8/2026,U023,Student,Desktop,v1,Complete Student Profile (Settings),No,287,2,2,Job Search Filter,Student Dashboard,Yes,3,FR-03,Revise,Need more search filters for job listings.
+T024,7/8/2026,U024,Student,Laptop,v1,Student Login,Yes,168,5,4,None,Application Tracker,Yes,3,FR-02,Partial,Dashboard is easy to understand.
+T025,7/8/2026,U025,Student,Laptop,v1,Browse Jobs,Yes,63,5,5,None,Saved Jobs,Yes,4,FR-11,Validated,Saved jobs feature was handy for later.
+T026,7/8/2026,U026,Student,Mobile,v1,Track Application Status,Yes,258,4,5,None,Messages,No,5,FR-17,Validated,Navigation was intuitive.
+T027,7/9/2026,U027,Student,Laptop,v1,Apply for Job,Yes,249,5,5,None,Saved Jobs,Yes,5,FR-16,Validated,Registration was simple.
+T028,7/9/2026,U028,Student,Laptop,v1,Track Application Status,Yes,68,5,4,None,Portfolio & Resume,Yes,4,FR-17,Validated,Job search was straightforward.
+T029,7/9/2026,U029,Student,Desktop,v1,Browse Jobs,Yes,207,4,5,Company Verification,Portfolio & Resume,Yes,5,FR-11,Validated,Took a moment to understand what the verification badge meant.
+T030,7/9/2026,U030,Student,Desktop,v1,Upload Portfolio & Resume,Yes,176,5,4,None,Saved Jobs,Yes,5,FR-06,Validated,Dashboard is easy to understand.
+T031,7/9/2026,U031,Employer,Desktop,v1,Complete Employer Profile,No,289,2,2,Registration Form,Job Posts,Yes,2,FR-07,Revise,Registration form could use clearer labels.
+T032,7/9/2026,U032,Employer,Desktop,v1,Submit Company Verification,Yes,176,5,5,Profile Completion,Employer Profile,Yes,4,FR-08,Validated,Wasn't sure how much profile info was required to look complete.
+T033,7/9/2026,U033,Employer,Laptop,v1,Update Applicant Status,Yes,123,5,5,Application Status,Employer Profile,Yes,4,FR-20,Validated,Status tracking works but needs better wording.
+T034,7/9/2026,U034,Admin,Mobile,v1,Review Verification Requests,Yes,112,5,4,None,Jobs,Yes,5,FR-05,Validated,Everything worked smoothly on the first try.
+T035,7/10/2026,U035,Student,Desktop,v1,Upload Portfolio & Resume,Yes,210,5,5,None,Student Dashboard,Yes,5,FR-06,Validated,Registration was simple.
+T036,7/10/2026,U036,Student,Desktop,v1,Apply for Job,Yes,212,5,4,None,Messages,Yes,5,FR-16,Validated,Found what I needed quickly.
+T037,7/10/2026,U037,Student,Mobile,v1,Submit Student Verification,Yes,177,5,5,Profile Completion,Verification Badge,Yes,5,FR-05,Validated,"Profile editing was mostly simple, a couple fields were unclear."
+T038,7/10/2026,U038,Student,Desktop,v1,Browse Jobs,No,334,3,3,Dashboard Navigation,Saved Jobs,Yes,3,FR-11,Partial,Dashboard could show more information up front.
+T039,7/10/2026,U039,Student,Laptop,v1,Message an Employer,Yes,209,4,5,Company Verification,Portfolio & Resume,Yes,5,FR-21,Validated,Took a moment to understand what the verification badge meant.
+T040,7/10/2026,U040,Student,Mobile,v1,View Company Profile,Yes,236,5,5,Verification Process,Browse Jobs,No,5,FR-15,Validated,Wasn't sure what documents were needed for verification.
+T041,7/10/2026,U041,Student,Laptop,v1,View Job Detail Page,Yes,214,5,5,Job Search Filter,Application Tracker,No,5,FR-14,Validated,Wanted to filter by more criteria when searching jobs.
+T042,7/10/2026,U042,Admin,Mobile,v1,Review Verification Requests,Yes,194,5,5,Company Verification,Activity Log,Yes,4,FR-05,Validated,Took a moment to understand what the verification badge meant.
+T043,7/10/2026,U043,Admin,Laptop,v1,View Admin Dashboard Analytics,Yes,224,5,4,None,Verification Requests,Yes,5,FR-12,Validated,Analytics dashboard gave a clear overview.
+T044,7/11/2026,U044,Student,Mobile,v1,Apply for Job,Yes,141,4,4,None,Saved Jobs,Yes,4,FR-16,Partial,Dashboard is easy to understand.
+T045,7/11/2026,U045,Student,Laptop,v1,View Job Detail Page,Yes,167,5,4,None,Verification Badge,Yes,4,FR-14,Validated,The flow felt professional and trustworthy.
+T046,7/11/2026,U046,Student,Desktop,v1,Complete Student Profile (Settings),Yes,177,3,5,None,Browse Jobs,Yes,5,FR-03,Validated,Company profile page had all the info I needed.
+T047,7/11/2026,U047,Student,Desktop,v1,View Job Detail Page,No,388,3,2,Registration Form,Browse Jobs,Yes,3,FR-14,Revise,Registration form could use clearer labels.
+T048,7/11/2026,U048,Student,Mobile,v1,View Company Profile,Yes,59,4,4,None,Browse Jobs,Yes,5,FR-15,Partial,Company profile page had all the info I needed.
+T049,7/11/2026,U049,Student,Mobile,v1,Save a Job,Yes,209,5,4,Verification Process,Saved Jobs,Yes,5,FR-18,Validated,Wasn't sure what documents were needed for verification.
+T050,7/11/2026,U050,Admin,Laptop,v1,View Admin Dashboard Analytics,Yes,171,4,5,None,Admin Dashboard,Yes,5,FR-12,Validated,Approving verification requests was straightforward.
