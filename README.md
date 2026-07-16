@@ -1389,7 +1389,7 @@ The objective of this validation was to evaluate the usability, functionality, a
 ### Prototype Version Tested
 
 - **Version:** v1.0 Interactive MVP Prototype
-- **Link:** `/prototype/` *(or replace with your deployed website URL if available)*
+- **Link:** `/prototype/`
 - **Screenshots:** `/screenshots/validation-test-screens.png`
 
 ---
