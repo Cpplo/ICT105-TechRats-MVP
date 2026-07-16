@@ -1375,3 +1375,76 @@ The next priority is to run the experiment with real test users, collect feedbac
 
 During Lab 08, the team will conduct MVP testing with selected users, record task completion results, collect feedback, analyze the experiment results, and identify prototype improvements based on user evidence.
 
+
+# Lab 08 — Customer Validation and MVP Decision
+
+## Objectives
+
+The objective of Lab 08 was to analyze MVP validation results for the Student Internship & Entry-Level Job Platform and decide whether the current MVP direction should continue, change, or be improved.
+
+The team used prototype testing results to evaluate task completion, feedback score, interest level, confusion points, useful features, and affected requirements.
+
+## Lab 08 Summary
+
+The validation tested whether students and employers could understand and complete the main prototype workflows.
+
+Student-side testing focused on:
+- Browsing and filtering beginner-friendly jobs
+- Viewing job details and company verification badges
+- Applying for jobs using resume information
+- Tracking application status
+- Saving jobs
+- Reporting suspicious job posts
+
+Employer-side testing focused on:
+- Viewing applicants
+- Reviewing applicant profiles and documents
+- Updating application status
+- Understanding company verification and job posting restrictions
+
+## Validation Results
+
+| Metric | Result |
+|---|---:|
+| Total test users | 10 |
+| Student / fresh graduate testers | 6 |
+| Employer testers | 4 |
+| Completed tasks | 8 / 10 |
+| Task success rate | 80% |
+| Average feedback score | 4.2 / 5 |
+| Average interest level | 4.4 / 5 |
+| Average task time | 142.5 seconds |
+
+## Key Findings
+
+1. Students found the beginner-friendly job filter useful for finding suitable opportunities.
+2. Verified company badges increased trust before applying.
+3. Employers found the applicant list and applicant profile review useful.
+4. Application tracking is valuable, but the tracker must be easier to find.
+5. Confirmation messages and verification status explanations need improvement.
+6. Suspicious job reporting supports platform safety, but report reason labels should be clearer.
+
+## MVP Decision
+
+The team decided to **continue with the current MVP direction with minor revisions**.
+
+The core concept is validated because most users completed their tasks and gave positive feedback. The prototype should continue, but the team needs to improve application confirmation, tracker navigation, verification status explanation, report reason labels, and employer document preview.
+
+## Lab 08 Deliverables
+
+| Deliverable | File / Folder |
+|---|---|
+| Customer Validation Summary | `/docs/customer-validation-summary.md` |
+| Analytics Insights | `/docs/analytics-insights.md` |
+| MVP Decision | `/docs/mvp-decision.md` |
+| Test User Notes | `/docs/test-user-notes.md` |
+| Validation Results Dataset | `/data/validation-results.csv` |
+| Feedback Form Results | `/data/feedback-form-results.csv` |
+| Feedback Form Template | `/data/feedback-form-template.csv` |
+| Validation Result Flow Diagram | `/diagrams/validation-result-flow.mmd` |
+| Weekly Logbook | `/docs/weekly-logbook.md` |
+
+## Next Step
+
+During Lab 09, the team will improve the prototype based on Lab 08 validation results. The main focus will be clearer feedback messages, improved Application Tracker access, better verification explanation, improved report form labels, and clearer employer document review.
+
