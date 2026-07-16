@@ -762,3 +762,63 @@ The team focused on identifying critical assumptions, designing user testing tas
 Lab 07 helped the team move from prototype planning to validation planning. Instead of only building features, the team prepared a structured experiment to test whether the platform is useful, understandable, and trustworthy for real users.
 
 The critical assumptions, user testing tasks, success metrics, and feedback form will guide the next lab. The team will use the experiment results to decide which parts of the prototype should be improved before continuing development.
+
+# Weekly Logbook - Lab 08
+
+## Group Information
+
+- **Group Name:** Tech Rats
+- **Project Title:** Student Internship & Entry-Level Job Platform
+- **Repository Link:** https://github.com/<your-organization-or-username>/<repository-name>
+- **Lab Date:** 16 July 2026
+
+---
+
+## Work Completed Today
+
+- [x] Reviewed Lab 07 MVP experiment plan
+- [x] Prepared validation dataset structure
+- [x] Created validation results dataset (CSV & Excel)
+- [x] Imported validation data into Microsoft Power BI
+- [x] Created analytics dashboard and visualizations
+- [x] Wrote customer validation summary
+- [x] Wrote analytics insights
+- [x] Wrote MVP decision
+- [x] Updated README
+- [x] Created GitHub issues for prototype improvements
+
+---
+
+## Member Contributions
+
+| Member Name | Contribution | GitHub Evidence |
+| ------------ | ------------ | --------------- |
+| Hein Pyae Shan | Reviewed MVP validation plan, analyzed customer validation results, contributed to customer validation summary and MVP decision. | Commit history / Pull Request |
+| Phyo Wai Aung | Prepared validation dataset, imported data into Power BI, created analytics dashboard, and verified calculated metrics. | Commit history / Pull Request |
+| Kyaw Phone Thant | Prepared project documentation, wrote analytics insights, updated README, created GitHub issues, and finalized Lab 08 submission documents. | Commit history / Pull Request |
+
+---
+
+## Problems Found
+
+During customer validation, several minor usability issues were identified:
+
+- Some participants were uncertain about the verification process and wanted clearer status updates.
+- Several users requested additional job search filters to improve job discovery.
+- Dashboard navigation could be simplified for first-time users.
+- Organizing and validating customer feedback data before importing it into Power BI required additional preparation to ensure consistency.
+
+No major functional problems were identified during MVP validation.
+
+---
+
+## Next Actions
+
+Before the next lab, the team will:
+
+- Improve the verification workflow by providing clearer status indicators and notifications.
+- Enhance job search with additional filtering and sorting options.
+- Refine the Student Dashboard layout and navigation.
+- Improve interface labels and user guidance based on validation feedback.
+- Resolve GitHub issues created from customer validation findings.
+- Continue refining the interactive prototype for the final presentation and implementation.
