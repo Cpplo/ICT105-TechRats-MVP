@@ -1376,75 +1376,54 @@ The next priority is to run the experiment with real test users, collect feedbac
 During Lab 08, the team will conduct MVP testing with selected users, record task completion results, collect feedback, analyze the experiment results, and identify prototype improvements based on user evidence.
 
 
-# Lab 08 — Customer Validation and MVP Decision
+# README Update - Lab 08
 
-## Objectives
+## Lab 08: Customer Validation and Analytics Sheet
 
-The objective of Lab 08 was to analyze MVP validation results for the Student Internship & Entry-Level Job Platform and decide whether the current MVP direction should continue, change, or be improved.
+### Validation Objective
 
-The team used prototype testing results to evaluate task completion, feedback score, interest level, confusion points, useful features, and affected requirements.
+The objective of this validation was to evaluate the usability, functionality, and overall user experience of the Student Internship & Entry-Level Job Platform MVP. The team conducted task-based usability testing with representative users to determine whether the prototype effectively supports student internship and entry-level job searching, employer recruitment, and administrative verification workflows. The validation also aimed to identify usability issues and gather evidence for improving the final prototype.
 
-## Lab 08 Summary
+---
 
-The validation tested whether students and employers could understand and complete the main prototype workflows.
+### Prototype Version Tested
 
-Student-side testing focused on:
-- Browsing and filtering beginner-friendly jobs
-- Viewing job details and company verification badges
-- Applying for jobs using resume information
-- Tracking application status
-- Saving jobs
-- Reporting suspicious job posts
+- **Version:** v1.0 Interactive MVP Prototype
+- **Link:** `/prototype/` *(or replace with your deployed website URL if available)*
+- **Screenshots:** `/screenshots/validation-test-screens.png`
 
-Employer-side testing focused on:
-- Viewing applicants
-- Reviewing applicant profiles and documents
-- Updating application status
-- Understanding company verification and job posting restrictions
+---
 
-## Validation Results
+### Analytics Summary
 
 | Metric | Result |
-|---|---:|
-| Total test users | 10 |
-| Student / fresh graduate testers | 6 |
-| Employer testers | 4 |
-| Completed tasks | 8 / 10 |
-| Task success rate | 80% |
-| Average feedback score | 4.2 / 5 |
-| Average interest level | 4.4 / 5 |
-| Average task time | 142.5 seconds |
+| ---------------------- | ------ |
+| Total test users | 50 |
+| Task success rate | 90% |
+| Average feedback score | 4.3 / 5.0 |
+| Average interest level | 4.4 / 5.0 |
+| Main confusion point | Verification Process |
 
-## Key Findings
+---
 
-1. Students found the beginner-friendly job filter useful for finding suitable opportunities.
-2. Verified company badges increased trust before applying.
-3. Employers found the applicant list and applicant profile review useful.
-4. Application tracking is valuable, but the tracker must be easier to find.
-5. Confirmation messages and verification status explanations need improvement.
-6. Suspicious job reporting supports platform safety, but report reason labels should be clearer.
+### MVP Decision
 
-## MVP Decision
+Based on the customer validation results and analytics dashboard, the team decided to **continue with minor revisions**. The prototype successfully met its primary objectives, with a high task completion rate and positive usability feedback. Improvements will focus on enhancing the verification workflow, refining dashboard navigation, and expanding job search and filtering features before the final implementation.
 
-The team decided to **continue with the current MVP direction with minor revisions**.
+---
 
-The core concept is validated because most users completed their tasks and gave positive feedback. The prototype should continue, but the team needs to improve application confirmation, tracker navigation, verification status explanation, report reason labels, and employer document preview.
+### Files Added
 
-## Lab 08 Deliverables
+- `/data/validation-results.xlsx`
+- `/data/validation-results.csv`
+- `/docs/customer-validation-summary.md`
+- `/docs/analytics-insights.md`
+- `/docs/mvp-decision.md`
+- `/screenshots/validation-test-screens.png`
+- `/docs/weekly-logbook.md`
 
-| Deliverable | File / Folder |
-|---|---|
-| Customer Validation Summary | `/docs/customer-validation-summary.md` |
-| Analytics Insights | `/docs/analytics-insights.md` |
-| MVP Decision | `/docs/mvp-decision.md` |
-| Test User Notes | `/docs/test-user-notes.md` |
-| Validation Results Dataset | `/data/validation-results.csv` |
-| Feedback Form Results | `/data/feedback-form-results.csv` |
-| Feedback Form Template | `/data/feedback-form-template.csv` |
-| Validation Result Flow Diagram | `/diagrams/validation-result-flow.mmd` |
-| Weekly Logbook | `/docs/weekly-logbook.md` |
+---
 
-## Next Step
+### Summary
 
-During Lab 09, the team will improve the prototype based on Lab 08 validation results. The main focus will be clearer feedback messages, improved Application Tracker access, better verification explanation, improved report form labels, and clearer employer document review.
-
+Lab 08 focused on validating the MVP through customer testing and data analysis. The team collected validation data from 50 representative users, analyzed the results using Microsoft Power BI, and used the findings to evaluate the effectiveness of the current MVP. The validation confirmed that the platform successfully addresses its intended problem while identifying several usability improvements for future development.
