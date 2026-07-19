@@ -1,0 +1,29 @@
+Data_Field,Example_Value,Purpose,Personal_Data,Sensitive_Data,Visibility,Keep_Remove_Replace,Responsible_Action
+Student Full Name,Maya Chen,Identify the student user and personalize their profile (FR-03),Yes,No,Student + Employer,Keep,Retain while account is active; display on profile and applications
+University Email Address,maya.chen@stateuniv.edu,"Login credential and basis for student verification (FR-01, FR-05)",Yes,No,Student,Keep,Retain until account deletion; used only for login and verification
+Student Account Password,(hashed value),Authenticate student login sessions (FR-01),No,Yes,Admin Only,Replace,Store as a hashed value; never store or display in plaintext
+Company Name,Brightleaf Studio,Identify the employer on the platform (FR-07),No,No,Student + Employer,Keep,Retain until account deletion; display publicly on company profile
+Business Email Address,hello@brightleafstudio.com,"Login credential and basis for company verification (FR-01, FR-08)",Yes,No,Employer,Keep,Retain until account deletion; used to confirm business email domain
+Employer Account Password,(hashed value),Authenticate employer login sessions (FR-01),No,Yes,Admin Only,Replace,Store as a hashed value; never store or display in plaintext
+Company Website / Contact Info,brightleafstudio.com,"Support company profile viewing and verification (FR-08, FR-15)",No,No,Student + Employer,Keep,Retain while account is active; show on company profile
+University / Institution Name,State University,"Display academic background and support verification (FR-03, FR-05)",Yes,No,Student + Employer,Keep,Retain until account deletion; also used in verification checks
+Education Level,"3rd Year, Undergraduate","Match students to eligible jobs (FR-03, FR-13)",Yes,No,Student + Employer,Keep,Retain while account is active; used in eligibility filtering
+Skills & Career Interests,"React, UI Design","Match students to relevant job postings (FR-03, FR-13)",No,No,Student + Employer,Keep,Retain while account is active; display on profile and use in filters
+Student Contact Details,+1 555-0134,Allow employer communication regarding applications (FR-03),Yes,No,Student + Employer,Replace,Mask phone number until an application is accepted by the employer
+Industry,Design Agency,Categorize company for browsing and filtering (FR-15),No,No,Student + Employer,Keep,Retain while account is active; show on company profile
+Company Description,Free-text company bio,Inform students about the company before applying (FR-15),No,No,Student + Employer,Keep,Retain while account is active; display on company profile page
+Student Verification Document,University ID / transcript file,Confirm the student is a genuine university student (FR-05),Yes,Yes,Admin Only,Replace,Store in secure file storage with an access link; never embed directly in UI
+Company Verification Document,Business registration file,Confirm the company is a legitimate business (FR-08),No,Yes,Admin Only,Replace,Store in secure file storage with an access link; restrict to Admin review
+Student Verification Status,Pending / Verified / Rejected,"Control access to applying and platform features (FR-05, FR-29, FR-30)",No,No,Student + Employer,Keep,Retain until account deletion; display as a verified badge when approved
+Employer Verification Status,Pending / Verified / Rejected,"Control ability to publish job posts (FR-08, FR-29, FR-30)",No,No,Student + Employer,Keep,Retain until account deletion; display as a verified badge when approved
+Resume,resume_mchen.pdf,"Support job applications and student verification (FR-06, FR-16)",Yes,Yes,Student + Employer,Keep,"Retain until account deletion; required before applying, per BR-01"
+Supporting Documents,"portfolio.pdf, cover_letter.docx",Provide additional evidence of student qualifications (FR-06),Yes,Yes,Student + Employer,Keep,"Retain until the related application is closed; optional, per BR-02"
+Job Title & Description,Frontend Engineering Intern,"Identify and describe the job opportunity to students (FR-10, FR-14)",No,No,Student + Employer,Keep,Retain while job is active; display on job listings and detail page
+Job Location & Work Mode,Remote,"Support job filtering and eligibility checks (FR-10, FR-13)",No,No,Student + Employer,Keep,Retain while job is active; used in search and filter functions
+Required Skills & Eligibility,"React, Node.js; Currently Enrolled","Help students identify jobs they qualify for (FR-10, FR-13)",No,No,Student + Employer,Keep,Retain while job is active; show on job detail page
+Application Deadline & Beginner-Friendly Status,"Jul 28, 2026; Yes","Inform students of timeframe and beginner-friendly roles (FR-10, FR-13)",No,No,Student + Employer,Keep,Retain while job is active; display on job listings
+Application Status,Applied / Under Review / Accepted,"Track application progress for student and employer (FR-17, FR-20)",No,No,Student + Employer,Keep,"Retain until application is closed; updated by employer, visible in tracker"
+Application Submission Record,Timestamp + job reference,"Support application tracking and record-keeping (FR-04, FR-17)",No,No,Student + Employer,Keep,Retain until application is closed; system-generated
+Message Content,Chat text between student and employer,Enable direct communication about job opportunities (FR-21),Yes,No,Student + Employer,Keep,Retain until account deletion; visible only to the two participants
+Job Report Reason,Fake or misleading job,"Support job moderation and platform safety (FR-22, FR-23)",No,No,Admin Only,Keep,Retain until the report is resolved; reviewed by admin
+Dashboard Summary Statistics,Total applications: 3,"Provide an overview of account activity (FR-12, BR-11)",No,No,Student + Employer,Keep,"Retain while account is active; derived from existing records, not collected separately"
