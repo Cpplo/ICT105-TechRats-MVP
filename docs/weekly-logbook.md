@@ -822,3 +822,77 @@ Before the next lab, the team will:
 - Improve interface labels and user guidance based on validation feedback.
 - Resolve GitHub issues created from customer validation findings.
 - Continue refining the interactive prototype for the final presentation and implementation.
+
+# Weekly Logbook - Lab 09
+
+## Group Name
+
+**Tech Rats**
+
+---
+
+## Date
+
+**24 July 2026**
+
+*(Replace with your actual Lab 09 date if different.)*
+
+---
+
+## Members Present
+
+- Hein Pyae Shan
+- Phyo Wai Aung
+- Kyaw Phone Thant
+- Phyu Sin Ko Ko
+
+---
+
+## Work Completed Today
+
+- **Data inventory:** Reviewed all Functional Requirements and created a complete data inventory identifying personal, verification, and system data processed by the platform.
+- **Privacy review:** Evaluated how personal data is collected, stored, accessed, and protected. Documented privacy measures and data minimization practices.
+- **Ethical review:** Assessed responsible use of personal information, transparency, fairness, and user awareness. Completed the Legal & Ethical Checklist.
+- **IP review:** Reviewed all third-party assets, development resources, and AI-assisted tools used in the project. Confirmed compliance with applicable licenses.
+- **Security review:** Evaluated authentication, Role-Based Access Control (RBAC), verification workflow, file uploads, and protection of sensitive information.
+- **Risk register:** Identified project risks related to privacy, security, legal compliance, intellectual property, and data quality. Documented mitigation strategies and assigned ownership.
+- **Requirements update note:** Updated Functional Requirements to strengthen privacy protection, user consent, verification document handling, and administrative accountability.
+
+---
+
+## Member Contributions
+
+| Member | Contribution | GitHub Evidence |
+| ------ | ------------ | --------------- |
+| **Hein Pyae Shan** | Reviewed legal and ethical considerations, validated requirement updates, and ensured responsible IT practices align with project objectives. | Commit history / Pull Request |
+| **Phyo Wai Aung** | Reviewed system security, RBAC implementation, verification workflow, repository updates, and technical feasibility. | Commit history / Pull Request |
+| **Kyaw Phone Thant** | Prepared privacy and security documentation, completed risk assessment, updated project documentation, created diagrams, and maintained the README. | Commit history / Pull Request |
+| **Phyu Sin Ko Ko** | Reviewed documentation quality, verified consistency across Lab 09 deliverables, supported testing, quality assurance, and final document review. | Commit history / Pull Request |
+
+---
+
+## Decisions Made
+
+- Continue using Role-Based Access Control (RBAC) to protect access to administrative functions and sensitive user information.
+- Require user consent before registration and clearly communicate how personal data is collected and used.
+- Restrict access to verification documents so that only authorized administrators can review them.
+- Continue using only appropriately licensed third-party resources and ensure all AI-assisted content is reviewed before submission.
+- Proceed with the current MVP while implementing the recommended privacy and security improvements before production deployment.
+
+---
+
+## Issues / Blockers
+
+- Determining appropriate data retention and privacy practices without implementing a production database.
+- Reviewing all third-party resources to ensure compliance with their respective licenses.
+- Identifying suitable mitigation strategies for potential security risks while maintaining a simple MVP suitable for the course.
+
+---
+
+## Next Action Before Lab 10
+
+- Review all Lab 09 documentation for consistency and completeness.
+- Resolve any remaining GitHub issues related to privacy and security improvements.
+- Refine the prototype based on Responsible IT recommendations.
+- Prepare project documentation and repository for the next laboratory milestone.
+- Continue improving the platform prior to final implementation and presentation.
