@@ -896,3 +896,65 @@ Before the next lab, the team will:
 - Refine the prototype based on Responsible IT recommendations.
 - Prepare project documentation and repository for the next laboratory milestone.
 - Continue improving the platform prior to final implementation and presentation.
+
+# Weekly Logbook - Lab 10
+
+## Lab Topic
+
+MVP Implementation Sprint 1
+
+---
+
+## What We Built Today
+
+- Implemented the Sprint 1 prototype using HTML5, CSS3, and JavaScript.
+- Completed the core prototype screens, including Homepage, Student Dashboard, Employer Dashboard, Admin Dashboard, Job Listings, Job Details, and Registration/Login pages.
+- Implemented basic front-end interactions such as navigation, search and filtering, form validation, status simulation, and sample data handling using JavaScript.
+
+---
+
+## Requirement IDs Addressed
+
+- FR-01 – FR-06: User registration, login, student profile management, data storage simulation, verification workflow, and resume upload.
+- FR-07 – FR-20: Employer registration, company verification, job posting, job browsing, searching, filtering, job applications, dashboards, and application tracking.
+- FR-21 – FR-30: Messaging interface, reporting workflow, validation, responsive interface, privacy-aware design, verified badges, and employer posting restrictions.
+
+---
+
+## Contribution by Members
+
+| Member | Contribution | Evidence |
+|---|---|---|
+| Hein Pyae Shan | Reviewed Sprint 1 scope, validated implemented features, and ensured prototype matched user requirements. | GitHub commits, Issues, Documentation |
+| Phyo Wai Aung | Implemented JavaScript functionality, integrated prototype pages, managed repository, and reviewed technical implementation. | GitHub commits, Prototype Files |
+| Kyaw Phone Thant | Designed and implemented the user interface, updated HTML/CSS, prepared documentation, diagrams, and implementation reports. | GitHub commits, HTML/CSS Files, Documentation |
+| Phyu Sin Ko Ko | Performed prototype testing, reviewed documentation quality, verified implemented features, and assisted with quality assurance. | GitHub commits, Test Records, Documentation |
+
+---
+
+## Screenshots Added
+
+- `/screenshots/homepage.png`
+- `/screenshots/input-form.png`
+- `/screenshots/record-list.png`
+- `/screenshots/detail-view.png`
+- `/screenshots/admin-view.png`
+
+---
+
+## Problems Faced
+
+- Simulating backend functionality using only front-end technologies.
+- Maintaining consistency between Functional Requirements and implemented prototype features.
+- Managing large sample datasets while ensuring smooth prototype performance.
+- Simulating application status updates and verification workflows without a production database.
+
+---
+
+## Plan for Next Lab
+
+- Continue improving prototype functionality based on instructor feedback.
+- Refine the user interface and responsive design.
+- Improve JavaScript interactions and client-side validation.
+- Prepare for backend integration and additional Sprint 2 features.
+- Review documentation and ensure all implemented features remain traceable to the Functional Requirements.
