@@ -1427,3 +1427,56 @@ Based on the customer validation results and analytics dashboard, the team decid
 ### Summary
 
 Lab 08 focused on validating the MVP through customer testing and data analysis. The team collected validation data from 50 representative users, analyzed the results using Microsoft Power BI, and used the findings to evaluate the effectiveness of the current MVP. The validation confirmed that the platform successfully addresses its intended problem while identifying several usability improvements for future development.
+
+## Lab 10 - MVP Implementation Sprint 1
+
+### Sprint Goal
+
+Our goal in Lab 10 was to develop the first working version of the Student Internship & Entry-Level Job Platform based on the approved Functional Requirements, User Stories, wireframes, system architecture, and Responsible IT review. Sprint 1 focused on implementing the core front-end features and demonstrating the primary user workflows using simulated data.
+
+---
+
+### Implementation Approach
+
+- **Platform/tools:** HTML5, CSS3, JavaScript (ES6), Visual Studio Code, GitHub, Draw.io
+- **Backend status:** Simulated backend using JavaScript (no production server or database)
+- **Data storage/simulation:** JavaScript objects, JSON datasets, and CSV sample data
+- **Prototype link or folder:** `/prototype/`
+
+---
+
+### Features Implemented in Sprint 1
+
+| Feature | Requirement ID | Status | Evidence |
+|---|---|---|---|
+| Homepage | FR-01 | Completed | `prototype/index.html`, Homepage Screenshot |
+| Input Form (Registration / Job Application) | FR-03 | Completed | Registration Form, Application Form |
+| Record List (Browse Jobs) | FR-05 | Completed | Job Listing Page |
+| Search & Filter | FR-06 | Completed | JavaScript Search & Filter Functions |
+| Detail View | FR-07 | Completed | Job Detail Page |
+| Status Tracking | FR-08 | Completed | Verification & Application Status |
+| Admin View | FR-09 | Completed | Admin Dashboard |
+| Dashboard | FR-12 | Completed | Student & Employer Dashboards |
+
+---
+
+### Screenshots
+
+- **Homepage:** `/screenshots/homepage.png`
+- **Input Form:** `/screenshots/input-form.png`
+- **Record List:** `/screenshots/record-list.png`
+- **Detail View:** `/screenshots/detail-view.png`
+- **Admin/Status View:** `/screenshots/admin-view.png`
+
+---
+
+### Team Contribution
+
+All group members collaborated through the same GitHub repository and contributed according to their assigned roles throughout Sprint 1.
+
+| Member | Contribution |
+|--------|--------------|
+| **Hein Pyae Shan** | Reviewed Sprint 1 scope, validated implemented features, and ensured the prototype met user and business requirements. |
+| **Phyo Wai Aung** | Implemented JavaScript functionality, integrated prototype components, managed the GitHub repository, and reviewed technical implementation. |
+| **Kyaw Phone Thant** | Designed and implemented the user interface, developed HTML/CSS pages, maintained project documentation, and coordinated Sprint 1 deliverables. |
+| **Phyu Sin Ko Ko** | Performed prototype testing, reviewed documentation quality, verified implemented features, and supported quality assurance activities. |
