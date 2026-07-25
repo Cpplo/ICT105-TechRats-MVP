@@ -1480,3 +1480,49 @@ All group members collaborated through the same GitHub repository and contribute
 | **Phyo Wai Aung** | Implemented JavaScript functionality, integrated prototype components, managed the GitHub repository, and reviewed technical implementation. |
 | **Kyaw Phone Thant** | Designed and implemented the user interface, developed HTML/CSS pages, maintained project documentation, and coordinated Sprint 1 deliverables. |
 | **Phyu Sin Ko Ko** | Performed prototype testing, reviewed documentation quality, verified implemented features, and supported quality assurance activities. |
+
+## Lab 11: MVP Implementation Sprint 2 and Startup Metrics
+
+### Prototype Progress
+Lab 11 focused on turning Sprint 1's prototype into something measurably more functional and traceable rather than adding new screens. The team reviewed the Lab 10 prototype directly against `system-requirements.md`, produced a full 30-requirement implementation status table, defined six product metrics grounded in real prototype data and Lab 08 validation results, and ran structured test cases across the main user journey to surface concrete defects. This documentation work identified the three highest-priority Sprint 2 code fixes — data persistence, job search filters, and admin report handling — which the team is now implementing.
+
+### Implemented / Improved Features
+| Requirement ID | Feature | Status | Evidence |
+|---|---|---|---|
+| FR-04 | Data Storage & Record Management | Partially Completed | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md` (T-02, T-07) |
+| FR-13 | Beginner-Friendly & Eligibility Filters | Partially Completed | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md` (T-04) |
+| FR-18 | Saved Jobs | Partially Completed | `docs/feature-implementation-status.md` |
+| FR-21 | Direct Messaging | Partially Completed | `docs/feature-implementation-status.md` |
+| FR-23 | Report Handling Flow | Partially Completed | `docs/feature-implementation-status.md`, `docs/prototype-testing-notes.md` (Summary of Issues) |
+| FR-25 | Input Validation | Pending | `docs/feature-implementation-status.md` |
+
+*Full 30-requirement status table available in `docs/feature-implementation-status.md`.*
+
+### Startup/Product Metrics
+Six metrics defined in `docs/startup-metrics.md`, covering Usage, Status, Category, and Validation types:
+
+- **M-01** Total Job Applications Submitted (Usage) — 5 (sample data)
+- **M-02** Pending Applications (Status) — 2
+- **M-03** Resolved Applications (Status) — 3
+- **M-04** Most Common Job Category (Category) — 3-way tie: Programming, Graphic Design, Writing
+- **M-05** Task Completion Rate (Validation) — 90% (from Lab 08 validation testing, 50 sessions)
+- **M-06** Average Ease-of-Use Score (Validation) — 4.3 / 5.0 (from Lab 08 validation testing)
+
+### Prototype Screenshots
+*(To be added — capture updated screenshots of homepage, input form, record list, detail view, dashboard, and admin view per Lab 11 Task 6, and link them here, e.g.:)*
+- Homepage: `/screenshots/lab11-homepage.png`
+- Job Listing / Filters: `/screenshots/lab11-job-listing.png`
+- Application Tracker: `/screenshots/lab11-application-tracker.png`
+- Admin Dashboard: `/screenshots/lab11-admin-dashboard.png`
+
+### Member Contributions
+*(To be filled in once Sprint 2 code fixes are assigned and completed — see `docs/weekly-logbook.md`, Lab 11 entry, for the contribution table template.)*
+
+### Remaining Work
+- Implement the actual Sprint 2 code fixes for FR-04 (persistence), FR-13 (filters), and FR-23 (report actions) — documentation and planning are complete, code changes are still pending.
+- Add remaining filter types (location, work mode, education level, language, visa eligibility, beginner-friendly toggle) per FR-13.
+- Wire up real Keep/Hide/Remove actions on the Admin Reports page per FR-23.
+- Add proper input validation (currently forms substitute default values instead of blocking invalid submissions) per FR-25.
+- Re-run the 7 test cases in `docs/prototype-testing-notes.md` live in a browser (desktop + mobile) to confirm the code-review-based results.
+- Capture and add updated screenshots per Task 6.
+- Fill in Member Contributions once ownership is assigned.
