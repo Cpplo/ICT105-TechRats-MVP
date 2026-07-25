@@ -958,3 +958,61 @@ MVP Implementation Sprint 1
 - Improve JavaScript interactions and client-side validation.
 - Prepare for backend integration and additional Sprint 2 features.
 - Review documentation and ensure all implemented features remain traceable to the Functional Requirements.
+
+- # Weekly Logbook - Lab 11
+
+## Lab Topic
+MVP Implementation Sprint 2 and Startup Metrics
+
+## Group Case
+Student Internship & Entry-Level Job Platform
+
+## Work Completed Today
+- Reviewed Sprint 1 (Lab 10) prototype against `system-requirements.md` and identified specific gaps to address in Sprint 2.
+- Created/updated `docs/feature-implementation-status.md`, mapping all 30 functional requirements to their current implementation status (Lab 10 baseline), screen/module, and next-action notes.
+- Created `docs/startup-metrics.md`, defining six product metrics (Usage, Status ×2, Category, Validation ×2) with real values computed from the current prototype's sample data and from Lab 08 validation results.
+- Created `docs/prototype-testing-notes.md`, running 7 test cases across the main user journey (homepage, application submission, job listing, search/filter, job detail, status update, dashboard metrics) against the current codebase.
+- Identified the highest-priority Sprint 2 fixes based on the above: data persistence (FR-04), incomplete job filters (FR-13), and admin report handling (FR-23).
+
+## Member Contributions
+| Member Name | Contribution | File/Feature Updated | GitHub Evidence |
+|---|---|---|---|
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+*(Fill in per member — each person should own at least one file, feature, or fix per the Lab 11 task sheet. Suggest splitting: one member on data persistence/FR-04, one on job filters/FR-13, one on report handling/FR-23 + screenshots, one on README + logbook consistency.)*
+
+## Requirements Addressed
+*(Reviewed and documented today; not yet code-complete — see `feature-implementation-status.md` for per-requirement status)*
+- **FR-04** – Data Storage & Record Management: confirmed still Partially Completed; identified as top Sprint 2 priority (in-memory arrays reset on refresh).
+- **FR-09 / FR-19** – Applicant Management: confirmed Partially Completed; needs skill/status filtering.
+- **FR-13** – Beginner-Friendly & Eligibility Filters: confirmed Partially Completed; 6 of 8 required filter types still missing.
+- **FR-18** – Saved Jobs: confirmed Partially Completed; needs persistence.
+- **FR-21** – Direct Messaging: confirmed Partially Completed; needs persistence.
+- **FR-23** – Report Handling Flow: confirmed Partially Completed; Keep/Hide/Remove actions not yet functional.
+- **FR-25** – Input Validation: confirmed Pending; forms currently substitute defaults instead of validating.
+
+## Metrics Added
+- **M-01** Total Job Applications Submitted (Usage)
+- **M-02** Pending Applications (Status)
+- **M-03** Resolved Applications (Status)
+- **M-04** Most Common Job Category (Category)
+- **M-05** Task Completion Rate — 90%, from Lab 08 validation data (Validation)
+- **M-06** Average Ease-of-Use Score — 4.3/5.0, from Lab 08 validation data (Validation)
+
+## Problems Found
+- No persistent data layer: all records (`STUDENTS`, `JOBS`, `APPLICATIONS`, `REPORTS`) reset on page refresh, which undermines both the application-submission flow and the dashboard metrics' credibility.
+- Job search/filter only supports keyword and category — FR-13 requires 6 additional filter types not yet implemented.
+- Admin dashboard's "over time" bar charts (user growth, jobs posted, applications submitted) use hardcoded placeholder values for all but the most recent data point, which could misrepresent real activity if shown in a demo without disclosure.
+- Report handling (FR-23) displays reports but has no working Keep/Hide/Remove action yet.
+- These findings line up directly with the confusion points already flagged in Lab 08 (verification status clarity, dashboard navigation, job search filters), confirming they're still unresolved going into Sprint 2.
+
+## Next Action Before Lab 12
+- Implement the actual Sprint 2 code fixes for FR-04 (persistence), FR-13 (filters), and FR-23 (report actions) — today's work only documented and planned these, code changes are still pending.
+- Assign an owner per fix/feature/doc and fill in the Member Contributions table above.
+- Fill in the "Lab 11 Status" column in `feature-implementation-status.md` once fixes are implemented.
+- Re-run the 7 test cases in `prototype-testing-notes.md` live in a browser (desktop + mobile) to confirm and correct the code-review-based results.
+- Capture updated screenshots per Task 6 and save to `/screenshots/`.
+- Update `README.md` with Lab 11 progress, features, metrics, and screenshots per Task 7.
