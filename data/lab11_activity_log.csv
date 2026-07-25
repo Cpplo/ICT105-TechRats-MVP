@@ -1,0 +1,301 @@
+EventID,RecordID,EventDateTime,UserRole,ActionType,DeviceType,ProcessingTimeMinutes,RequirementID
+ACT001,REC126,2026-05-01 07:15,Student,Edit Profile,Mobile,2.6,FR-03
+ACT002,REC091,2026-05-01 07:20,Student,View Job Details,Laptop,1.9,FR-14
+ACT003,REC009,2026-05-01 14:03,Employer,Verify Account,Mobile,0.3,FR-08
+ACT004,REC003,2026-05-01 18:47,Employer,Edit Profile,Mobile,0.8,FR-03
+ACT005,REC025,2026-05-01 19:41,Employer,Open Homepage,Desktop,1.0,FR-01
+ACT006,REC055,2026-05-01 22:46,Student,Apply for Job,Laptop,2.7,FR-16
+ACT007,REC112,2026-05-03 13:10,Student,Track Application,Laptop,1.0,FR-17
+ACT008,REC097,2026-05-03 13:45,Student,Upload Resume,Laptop,0.3,FR-06
+ACT009,REC067,2026-05-03 17:52,Employer,Open Homepage,Laptop,2.4,FR-01
+ACT010,REC140,2026-05-04 08:02,Student,Track Application,Mobile,0.2,FR-17
+ACT011,REC139,2026-05-04 16:28,Employer,Update Status,Laptop,0.2,FR-20
+ACT012,REC039,2026-05-05 07:12,Employer,Update Status,Desktop,0.7,FR-20
+ACT013,REC036,2026-05-05 07:36,Student,Track Application,Laptop,1.3,FR-17
+ACT014,REC021,2026-05-05 13:12,Employer,Register Account,Laptop,0.1,FR-01
+ACT015,REC073,2026-05-05 18:10,Student,View Job Details,Laptop,0.2,FR-14
+ACT016,REC117,2026-05-06 07:43,Employer,Update Status,Laptop,1.0,FR-20
+ACT017,REC031,2026-05-06 08:14,Employer,Verify Account,Laptop,1.1,FR-08
+ACT018,REC068,2026-05-06 13:18,Student,Save Job,Mobile,1.2,FR-18
+ACT019,REC144,2026-05-06 16:43,Student,Edit Profile,Mobile,0.8,FR-03
+ACT020,REC063,2026-05-06 18:05,Student,Open Homepage,Mobile,1.2,FR-01
+ACT021,REC139,2026-05-07 14:32,Employer,Update Status,Mobile,0.3,FR-20
+ACT022,REC019,2026-05-07 15:01,Student,Save Job,Desktop,0.8,FR-18
+ACT023,REC044,2026-05-07 22:44,Student,Apply for Job,Desktop,1.2,FR-16
+ACT024,REC128,2026-05-08 10:00,Student,Send Message,Desktop,1.1,FR-21
+ACT025,REC087,2026-05-08 14:48,Student,Search Jobs,Desktop,1.4,FR-13
+ACT026,REC057,2026-05-08 16:31,Student,Track Application,Desktop,0.7,FR-17
+ACT027,REC102,2026-05-09 11:07,Student,Report Job,Laptop,1.3,FR-22
+ACT028,REC018,2026-05-09 17:14,Student,Upload Resume,Mobile,1.0,FR-06
+ACT029,REC107,2026-05-09 21:09,Employer,Update Status,Laptop,1.1,FR-20
+ACT030,REC069,2026-05-10 12:40,Student,Report Job,Mobile,0.4,FR-22
+ACT031,REC089,2026-05-10 16:15,Administrator,Verify Account,Desktop,0.9,FR-08
+ACT032,REC139,2026-05-10 17:25,Employer,Update Status,Mobile,0.2,FR-20
+ACT033,REC100,2026-05-10 21:35,Employer,Logout,Laptop,0.2,FR-02
+ACT034,REC074,2026-05-10 22:41,Employer,Edit Profile,Desktop,1.9,FR-03
+ACT035,REC114,2026-05-11 09:33,Student,Report Job,Mobile,1.2,FR-22
+ACT036,REC029,2026-05-11 14:54,Student,Save Job,Laptop,0.8,FR-18
+ACT037,REC117,2026-05-11 20:01,Employer,Update Status,Desktop,1.7,FR-20
+ACT038,REC005,2026-05-12 07:19,Employer,Update Status,Desktop,1.4,FR-20
+ACT039,REC045,2026-05-12 08:28,Student,Track Application,Mobile,1.4,FR-17
+ACT040,REC117,2026-05-12 12:14,Employer,Edit Profile,Desktop,1.3,FR-03
+ACT041,REC080,2026-05-12 21:36,Student,Apply for Job,Mobile,1.2,FR-16
+ACT042,REC065,2026-05-13 07:01,Employer,Register Account,Mobile,1.9,FR-01
+ACT043,REC092,2026-05-13 14:02,Student,View Job Details,Laptop,2.5,FR-14
+ACT044,REC036,2026-05-14 14:52,Student,Track Application,Desktop,1.2,FR-17
+ACT045,REC091,2026-05-15 09:27,Student,Browse Jobs,Desktop,2.1,FR-11
+ACT046,REC042,2026-05-15 11:04,Student,Browse Jobs,Mobile,1.1,FR-11
+ACT047,REC126,2026-05-15 13:59,Student,Open Homepage,Laptop,1.2,FR-01
+ACT048,REC063,2026-05-15 14:30,Student,Track Application,Laptop,0.8,FR-17
+ACT049,REC017,2026-05-15 16:17,Student,Verify Account,Laptop,0.8,FR-05
+ACT050,REC070,2026-05-15 18:17,Student,Send Message,Laptop,0.6,FR-21
+ACT051,REC023,2026-05-15 18:32,Administrator,Verify Account,Laptop,0.8,FR-08
+ACT052,REC048,2026-05-15 21:44,Employer,Register Account,Laptop,0.6,FR-01
+ACT053,REC076,2026-05-16 19:32,Employer,Logout,Mobile,0.8,FR-02
+ACT054,REC122,2026-05-17 08:26,Student,Send Message,Mobile,1.0,FR-21
+ACT055,REC076,2026-05-17 14:53,Employer,Edit Profile,Laptop,0.8,FR-03
+ACT056,REC038,2026-05-18 10:25,Student,Open Homepage,Mobile,2.2,FR-01
+ACT057,REC143,2026-05-18 19:38,Student,Apply for Job,Laptop,1.1,FR-16
+ACT058,REC054,2026-05-18 20:16,Student,Track Application,Mobile,1.5,FR-17
+ACT059,REC090,2026-05-18 20:52,Student,Upload Resume,Mobile,0.3,FR-06
+ACT060,REC035,2026-05-19 12:01,Student,Track Application,Mobile,0.3,FR-17
+ACT061,REC021,2026-05-19 13:23,Employer,Send Message,Laptop,2.5,FR-21
+ACT062,REC017,2026-05-19 18:58,Student,Track Application,Mobile,1.9,FR-17
+ACT063,REC067,2026-05-19 19:06,Employer,Open Homepage,Laptop,1.1,FR-01
+ACT064,REC003,2026-05-19 22:52,Employer,Edit Profile,Mobile,0.7,FR-03
+ACT065,REC101,2026-05-20 11:49,Student,Edit Profile,Mobile,0.8,FR-03
+ACT066,REC144,2026-05-20 15:32,Student,Edit Profile,Desktop,0.4,FR-03
+ACT067,REC054,2026-05-20 17:32,Student,Upload Resume,Laptop,2.1,FR-06
+ACT068,REC123,2026-05-20 20:20,Administrator,Report Job,Desktop,0.9,FR-22
+ACT069,REC147,2026-05-20 22:27,Student,Track Application,Mobile,0.9,FR-17
+ACT070,REC024,2026-05-20 22:28,Student,Save Job,Laptop,0.8,FR-18
+ACT071,REC037,2026-05-21 07:41,Employer,Logout,Laptop,0.6,FR-02
+ACT072,REC148,2026-05-21 11:29,Employer,Logout,Desktop,1.7,FR-02
+ACT073,REC080,2026-05-21 12:40,Student,Search Jobs,Mobile,1.4,FR-13
+ACT074,REC150,2026-05-21 13:57,Employer,Verify Account,Laptop,0.4,FR-08
+ACT075,REC100,2026-05-21 18:05,Employer,Review Applicant,Laptop,1.0,FR-19
+ACT076,REC015,2026-05-21 19:01,Administrator,Update Status,Laptop,1.1,FR-20
+ACT077,REC113,2026-05-22 07:21,Student,Browse Jobs,Mobile,0.6,FR-11
+ACT078,REC072,2026-05-22 13:32,Employer,Logout,Laptop,1.5,FR-02
+ACT079,REC046,2026-05-22 13:37,Student,Register Account,Desktop,0.7,FR-01
+ACT080,REC127,2026-05-22 20:33,Student,Open Homepage,Laptop,0.5,FR-01
+ACT081,REC136,2026-05-22 22:15,Employer,Send Message,Mobile,1.4,FR-21
+ACT082,REC026,2026-05-23 13:09,Administrator,Verify Account,Desktop,0.1,FR-08
+ACT083,REC054,2026-05-23 13:46,Student,Search Jobs,Mobile,0.6,FR-13
+ACT084,REC006,2026-05-23 15:37,Student,Upload Resume,Laptop,1.0,FR-06
+ACT085,REC043,2026-05-23 19:00,Student,Track Application,Desktop,0.7,FR-17
+ACT086,REC028,2026-05-23 19:18,Student,Save Job,Mobile,0.5,FR-18
+ACT087,REC110,2026-05-24 15:29,Employer,Verify Account,Laptop,0.8,FR-08
+ACT088,REC089,2026-05-24 21:06,Administrator,Report Job,Desktop,0.6,FR-22
+ACT089,REC056,2026-05-26 13:12,Student,Open Homepage,Laptop,1.2,FR-01
+ACT090,REC009,2026-05-27 10:36,Employer,Verify Account,Desktop,0.4,FR-08
+ACT091,REC143,2026-05-27 15:55,Student,View Job Details,Mobile,1.4,FR-14
+ACT092,REC120,2026-05-27 20:30,Employer,Open Homepage,Desktop,1.4,FR-01
+ACT093,REC052,2026-05-27 20:37,Student,Logout,Laptop,0.2,FR-02
+ACT094,REC031,2026-05-28 11:25,Employer,Verify Account,Desktop,0.2,FR-08
+ACT095,REC011,2026-05-28 12:12,Student,Apply for Job,Laptop,0.1,FR-16
+ACT096,REC147,2026-05-28 16:51,Student,Edit Profile,Mobile,1.1,FR-03
+ACT097,REC032,2026-05-28 22:55,Administrator,Review Applicant,Desktop,0.2,FR-19
+ACT098,REC021,2026-05-29 15:16,Employer,Register Account,Desktop,0.9,FR-01
+ACT099,REC138,2026-05-29 17:44,Employer,Open Homepage,Mobile,1.4,FR-01
+ACT100,REC079,2026-05-29 22:08,Administrator,Report Job,Desktop,1.4,FR-22
+ACT101,REC029,2026-05-30 13:21,Student,Save Job,Desktop,1.1,FR-18
+ACT102,REC027,2026-05-31 10:57,Student,Open Homepage,Laptop,0.4,FR-01
+ACT103,REC012,2026-06-01 14:08,Student,Save Job,Mobile,1.9,FR-18
+ACT104,REC011,2026-06-01 19:57,Student,Search Jobs,Laptop,1.1,FR-13
+ACT105,REC064,2026-06-02 14:08,Administrator,Verify Account,Desktop,0.8,FR-08
+ACT106,REC098,2026-06-03 17:39,Student,Logout,Laptop,1.7,FR-02
+ACT107,REC077,2026-06-03 20:00,Student,Edit Profile,Desktop,0.4,FR-03
+ACT108,REC092,2026-06-04 09:15,Student,Open Homepage,Mobile,1.1,FR-01
+ACT109,REC014,2026-06-04 10:20,Student,Login,Desktop,0.7,FR-02
+ACT110,REC103,2026-06-04 11:18,Student,Save Job,Laptop,1.9,FR-18
+ACT111,REC113,2026-06-04 18:19,Student,Report Job,Laptop,0.1,FR-22
+ACT112,REC115,2026-06-05 21:59,Student,Register Account,Mobile,1.1,FR-01
+ACT113,REC005,2026-06-06 07:13,Employer,Update Status,Laptop,0.6,FR-20
+ACT114,REC116,2026-06-06 20:17,Student,Upload Resume,Desktop,0.9,FR-06
+ACT115,REC073,2026-06-06 20:37,Student,Search Jobs,Laptop,1.8,FR-13
+ACT116,REC137,2026-06-06 22:55,Student,Login,Mobile,2.0,FR-02
+ACT117,REC105,2026-06-07 11:16,Student,Register Account,Desktop,0.4,FR-01
+ACT118,REC034,2026-06-07 16:35,Employer,Open Homepage,Laptop,1.5,FR-01
+ACT119,REC051,2026-06-07 19:27,Student,Verify Account,Desktop,2.5,FR-05
+ACT120,REC110,2026-06-07 20:45,Employer,Verify Account,Desktop,1.9,FR-08
+ACT121,REC110,2026-06-07 21:29,Employer,Verify Account,Mobile,1.5,FR-08
+ACT122,REC042,2026-06-08 07:00,Student,Track Application,Mobile,0.6,FR-17
+ACT123,REC107,2026-06-08 14:01,Employer,Update Status,Laptop,1.5,FR-20
+ACT124,REC068,2026-06-08 17:12,Student,Edit Profile,Desktop,0.3,FR-03
+ACT125,REC083,2026-06-09 10:13,Student,Report Job,Desktop,1.3,FR-22
+ACT126,REC015,2026-06-09 14:53,Administrator,Update Status,Desktop,2.6,FR-20
+ACT127,REC074,2026-06-09 17:15,Employer,Update Status,Laptop,1.4,FR-20
+ACT128,REC105,2026-06-09 17:25,Student,Save Job,Mobile,0.2,FR-18
+ACT129,REC043,2026-06-09 19:00,Student,Open Homepage,Desktop,0.6,FR-01
+ACT130,REC082,2026-06-10 08:33,Employer,Logout,Laptop,1.1,FR-02
+ACT131,REC095,2026-06-10 13:06,Employer,Open Homepage,Laptop,1.5,FR-01
+ACT132,REC006,2026-06-10 16:55,Student,Upload Resume,Mobile,2.0,FR-06
+ACT133,REC106,2026-06-10 17:37,Student,Apply for Job,Laptop,1.8,FR-16
+ACT134,REC119,2026-06-10 18:37,Employer,Edit Profile,Laptop,2.8,FR-03
+ACT135,REC090,2026-06-11 09:28,Student,Upload Resume,Laptop,0.9,FR-06
+ACT136,REC042,2026-06-11 16:22,Student,Track Application,Desktop,1.1,FR-17
+ACT137,REC140,2026-06-11 20:16,Student,Apply for Job,Laptop,1.5,FR-16
+ACT138,REC017,2026-06-12 09:03,Student,Track Application,Mobile,1.2,FR-17
+ACT139,REC051,2026-06-12 11:51,Student,Report Job,Desktop,0.1,FR-22
+ACT140,REC012,2026-06-12 13:01,Student,Save Job,Laptop,1.6,FR-18
+ACT141,REC045,2026-06-12 17:57,Student,Search Jobs,Desktop,0.3,FR-13
+ACT142,REC070,2026-06-12 19:34,Student,Open Homepage,Mobile,1.1,FR-01
+ACT143,REC098,2026-06-12 20:44,Student,Send Message,Desktop,1.0,FR-21
+ACT144,REC037,2026-06-12 22:37,Employer,Logout,Laptop,1.4,FR-02
+ACT145,REC109,2026-06-13 07:14,Employer,Update Status,Desktop,0.6,FR-20
+ACT146,REC009,2026-06-13 08:06,Employer,Verify Account,Mobile,0.4,FR-08
+ACT147,REC015,2026-06-13 10:21,Administrator,Verify Account,Desktop,1.2,FR-08
+ACT148,REC137,2026-06-13 16:26,Student,Upload Resume,Desktop,2.7,FR-06
+ACT149,REC044,2026-06-13 20:11,Student,Browse Jobs,Mobile,0.5,FR-11
+ACT150,REC135,2026-06-14 09:39,Student,Apply for Job,Desktop,1.4,FR-16
+ACT151,REC079,2026-06-14 19:16,Administrator,Report Job,Desktop,1.4,FR-22
+ACT152,REC103,2026-06-15 08:48,Student,Upload Resume,Mobile,0.2,FR-06
+ACT153,REC087,2026-06-15 08:50,Student,Open Homepage,Desktop,1.4,FR-01
+ACT154,REC066,2026-06-15 18:01,Employer,Verify Account,Mobile,2.0,FR-08
+ACT155,REC132,2026-06-15 19:40,Student,Login,Mobile,0.9,FR-02
+ACT156,REC123,2026-06-15 22:26,Administrator,Review Applicant,Laptop,0.1,FR-19
+ACT157,REC099,2026-06-16 13:40,Administrator,Update Status,Desktop,1.3,FR-20
+ACT158,REC004,2026-06-16 17:08,Student,Upload Resume,Mobile,2.2,FR-06
+ACT159,REC038,2026-06-16 19:07,Student,Search Jobs,Desktop,1.4,FR-13
+ACT160,REC036,2026-06-16 22:04,Student,Save Job,Mobile,2.0,FR-18
+ACT161,REC111,2026-06-17 08:50,Student,View Job Details,Mobile,2.6,FR-14
+ACT162,REC065,2026-06-17 09:14,Employer,Update Status,Laptop,0.2,FR-20
+ACT163,REC030,2026-06-17 14:00,Student,Report Job,Desktop,0.4,FR-22
+ACT164,REC141,2026-06-17 22:02,Employer,Login,Desktop,1.3,FR-02
+ACT165,REC036,2026-06-18 07:59,Student,Login,Mobile,1.4,FR-02
+ACT166,REC009,2026-06-19 08:45,Employer,Login,Laptop,1.2,FR-02
+ACT167,REC150,2026-06-19 18:24,Employer,Login,Laptop,0.1,FR-02
+ACT168,REC130,2026-06-19 22:22,Employer,Logout,Laptop,0.5,FR-02
+ACT169,REC020,2026-06-20 12:34,Student,View Job Details,Mobile,0.1,FR-14
+ACT170,REC037,2026-06-20 13:50,Employer,Verify Account,Desktop,0.5,FR-08
+ACT171,REC011,2026-06-20 20:50,Student,Open Homepage,Mobile,1.1,FR-01
+ACT172,REC129,2026-06-20 21:47,Employer,Open Homepage,Mobile,2.2,FR-01
+ACT173,REC144,2026-06-20 22:30,Student,Edit Profile,Mobile,0.9,FR-03
+ACT174,REC037,2026-06-21 08:42,Employer,Verify Account,Desktop,1.5,FR-08
+ACT175,REC076,2026-06-21 17:57,Employer,Edit Profile,Laptop,0.7,FR-03
+ACT176,REC101,2026-06-21 21:45,Student,Save Job,Mobile,1.4,FR-18
+ACT177,REC080,2026-06-22 11:11,Student,Apply for Job,Desktop,1.0,FR-16
+ACT178,REC137,2026-06-22 22:06,Student,Upload Resume,Mobile,1.1,FR-06
+ACT179,REC118,2026-06-23 19:28,Student,View Job Details,Mobile,0.9,FR-14
+ACT180,REC121,2026-06-23 22:29,Student,View Job Details,Mobile,0.6,FR-14
+ACT181,REC119,2026-06-24 09:00,Employer,Edit Profile,Laptop,0.3,FR-03
+ACT182,REC131,2026-06-25 15:10,Administrator,Login,Desktop,1.4,FR-02
+ACT183,REC084,2026-06-25 18:33,Employer,Edit Profile,Laptop,1.9,FR-03
+ACT184,REC078,2026-06-25 18:37,Employer,Logout,Mobile,2.8,FR-02
+ACT185,REC128,2026-06-26 18:31,Student,Save Job,Mobile,2.9,FR-18
+ACT186,REC069,2026-06-26 18:32,Student,Verify Account,Desktop,0.9,FR-05
+ACT187,REC146,2026-06-27 11:25,Student,Open Homepage,Laptop,0.4,FR-01
+ACT188,REC142,2026-06-27 20:37,Student,Search Jobs,Desktop,2.6,FR-13
+ACT189,REC126,2026-06-27 22:06,Student,Track Application,Mobile,1.3,FR-17
+ACT190,REC108,2026-06-28 16:59,Employer,Edit Profile,Laptop,0.7,FR-03
+ACT191,REC057,2026-06-28 17:11,Student,Apply for Job,Mobile,1.1,FR-16
+ACT192,REC121,2026-06-28 17:51,Student,Track Application,Mobile,1.3,FR-17
+ACT193,REC040,2026-06-28 21:26,Student,Browse Jobs,Mobile,0.3,FR-11
+ACT194,REC057,2026-06-29 07:43,Student,View Job Details,Mobile,0.1,FR-14
+ACT195,REC022,2026-06-29 10:09,Student,Send Message,Mobile,0.6,FR-21
+ACT196,REC051,2026-06-29 13:01,Student,Report Job,Mobile,1.0,FR-22
+ACT197,REC016,2026-06-29 19:20,Student,Apply for Job,Desktop,0.7,FR-16
+ACT198,REC108,2026-06-29 20:43,Employer,Edit Profile,Desktop,0.7,FR-03
+ACT199,REC108,2026-07-01 09:18,Employer,Edit Profile,Laptop,1.2,FR-03
+ACT200,REC058,2026-07-01 17:24,Student,View Job Details,Laptop,0.3,FR-14
+ACT201,REC094,2026-07-02 17:51,Student,Upload Resume,Laptop,0.3,FR-06
+ACT202,REC145,2026-07-02 19:27,Administrator,Logout,Desktop,0.3,FR-02
+ACT203,REC053,2026-07-02 20:51,Employer,Verify Account,Laptop,1.2,FR-08
+ACT204,REC148,2026-07-02 22:26,Employer,Edit Profile,Mobile,1.0,FR-03
+ACT205,REC115,2026-07-04 09:36,Student,View Job Details,Mobile,1.7,FR-14
+ACT206,REC109,2026-07-04 10:29,Employer,Update Status,Mobile,0.6,FR-20
+ACT207,REC099,2026-07-04 12:02,Administrator,Update Status,Laptop,1.2,FR-20
+ACT208,REC127,2026-07-04 14:31,Student,Verify Account,Mobile,0.2,FR-05
+ACT209,REC007,2026-07-04 16:29,Student,Apply for Job,Desktop,0.6,FR-16
+ACT210,REC150,2026-07-04 17:03,Employer,Verify Account,Mobile,1.5,FR-08
+ACT211,REC131,2026-07-04 18:26,Administrator,Logout,Desktop,0.1,FR-02
+ACT212,REC060,2026-07-04 20:25,Student,Track Application,Mobile,1.4,FR-17
+ACT213,REC038,2026-07-04 22:17,Student,Edit Profile,Laptop,0.3,FR-03
+ACT214,REC124,2026-07-05 09:14,Employer,Login,Laptop,1.0,FR-02
+ACT215,REC046,2026-07-05 21:24,Student,Logout,Desktop,1.1,FR-02
+ACT216,REC093,2026-07-06 07:53,Employer,Send Message,Laptop,1.1,FR-21
+ACT217,REC021,2026-07-06 09:45,Employer,Send Message,Desktop,2.3,FR-21
+ACT218,REC137,2026-07-06 12:31,Student,Upload Resume,Laptop,0.8,FR-06
+ACT219,REC030,2026-07-06 15:31,Student,Report Job,Desktop,0.8,FR-22
+ACT220,REC108,2026-07-06 18:22,Employer,Register Account,Laptop,1.1,FR-01
+ACT221,REC047,2026-07-06 19:50,Employer,Logout,Laptop,0.7,FR-02
+ACT222,REC059,2026-07-06 20:07,Student,Verify Account,Mobile,0.4,FR-05
+ACT223,REC004,2026-07-07 10:21,Student,Upload Resume,Mobile,0.9,FR-06
+ACT224,REC062,2026-07-07 15:05,Employer,Verify Account,Desktop,0.5,FR-08
+ACT225,REC009,2026-07-08 20:04,Employer,Review Applicant,Mobile,1.4,FR-19
+ACT226,REC085,2026-07-09 10:44,Student,View Job Details,Laptop,0.8,FR-14
+ACT227,REC054,2026-07-09 13:04,Student,Upload Resume,Mobile,2.1,FR-06
+ACT228,REC132,2026-07-09 17:07,Student,Register Account,Mobile,0.5,FR-01
+ACT229,REC107,2026-07-09 21:04,Employer,Logout,Laptop,1.0,FR-02
+ACT230,REC094,2026-07-10 10:36,Student,Search Jobs,Laptop,0.2,FR-13
+ACT231,REC018,2026-07-10 12:00,Student,Register Account,Laptop,0.2,FR-01
+ACT232,REC040,2026-07-10 17:18,Student,Track Application,Mobile,0.9,FR-17
+ACT233,REC102,2026-07-10 19:03,Student,Search Jobs,Desktop,2.0,FR-13
+ACT234,REC128,2026-07-11 07:16,Student,Apply for Job,Desktop,0.4,FR-16
+ACT235,REC090,2026-07-11 09:07,Student,Upload Resume,Mobile,0.2,FR-06
+ACT236,REC012,2026-07-11 12:00,Student,Save Job,Mobile,0.5,FR-18
+ACT237,REC008,2026-07-11 12:04,Student,Track Application,Laptop,1.4,FR-17
+ACT238,REC098,2026-07-11 12:36,Student,Send Message,Desktop,2.9,FR-21
+ACT239,REC002,2026-07-11 22:12,Administrator,Report Job,Laptop,2.2,FR-22
+ACT240,REC041,2026-07-12 16:24,Student,Logout,Mobile,1.2,FR-02
+ACT241,REC041,2026-07-12 22:03,Student,Logout,Desktop,0.1,FR-02
+ACT242,REC071,2026-07-12 22:56,Student,Track Application,Desktop,0.5,FR-17
+ACT243,REC140,2026-07-13 10:04,Student,Track Application,Mobile,0.4,FR-17
+ACT244,REC080,2026-07-13 13:58,Student,Track Application,Laptop,0.6,FR-17
+ACT245,REC001,2026-07-13 16:16,Student,Logout,Mobile,2.0,FR-02
+ACT246,REC117,2026-07-13 19:15,Employer,Update Status,Laptop,1.0,FR-20
+ACT247,REC017,2026-07-14 09:21,Student,Track Application,Mobile,0.7,FR-17
+ACT248,REC081,2026-07-14 14:42,Employer,Edit Profile,Laptop,1.5,FR-03
+ACT249,REC034,2026-07-14 15:43,Employer,Open Homepage,Desktop,0.6,FR-01
+ACT250,REC047,2026-07-14 18:23,Employer,Open Homepage,Desktop,1.4,FR-01
+ACT251,REC088,2026-07-14 22:26,Student,Track Application,Mobile,0.4,FR-17
+ACT252,REC010,2026-07-15 11:38,Student,Search Jobs,Laptop,1.7,FR-13
+ACT253,REC134,2026-07-15 12:45,Student,Report Job,Desktop,0.4,FR-22
+ACT254,REC146,2026-07-15 20:34,Student,Edit Profile,Laptop,1.4,FR-03
+ACT255,REC086,2026-07-16 07:26,Administrator,Report Job,Laptop,0.3,FR-22
+ACT256,REC104,2026-07-16 17:21,Student,Track Application,Laptop,1.5,FR-17
+ACT257,REC110,2026-07-16 18:16,Employer,Verify Account,Laptop,1.4,FR-08
+ACT258,REC084,2026-07-16 20:43,Employer,Register Account,Laptop,1.1,FR-01
+ACT259,REC075,2026-07-16 21:39,Student,Logout,Mobile,1.2,FR-02
+ACT260,REC034,2026-07-17 09:30,Employer,Open Homepage,Laptop,0.1,FR-01
+ACT261,REC147,2026-07-17 11:09,Student,Edit Profile,Laptop,0.4,FR-03
+ACT262,REC010,2026-07-17 14:09,Student,Search Jobs,Mobile,1.0,FR-13
+ACT263,REC109,2026-07-17 18:49,Employer,Update Status,Laptop,1.9,FR-20
+ACT264,REC005,2026-07-17 21:46,Employer,Update Status,Laptop,2.2,FR-20
+ACT265,REC029,2026-07-18 08:21,Student,Save Job,Laptop,1.5,FR-18
+ACT266,REC146,2026-07-18 20:30,Student,Track Application,Laptop,1.3,FR-17
+ACT267,REC066,2026-07-19 08:10,Employer,Open Homepage,Desktop,2.2,FR-01
+ACT268,REC132,2026-07-19 13:01,Student,Upload Resume,Mobile,1.7,FR-06
+ACT269,REC054,2026-07-19 14:12,Student,Upload Resume,Mobile,1.6,FR-06
+ACT270,REC096,2026-07-19 14:34,Student,Upload Resume,Desktop,1.0,FR-06
+ACT271,REC005,2026-07-19 20:26,Employer,Update Status,Laptop,0.1,FR-20
+ACT272,REC050,2026-07-19 21:21,Student,Report Job,Mobile,0.8,FR-22
+ACT273,REC049,2026-07-20 11:53,Administrator,Report Job,Desktop,0.8,FR-22
+ACT274,REC125,2026-07-20 17:16,Employer,Update Status,Desktop,1.5,FR-20
+ACT275,REC134,2026-07-21 14:11,Student,Register Account,Laptop,1.5,FR-01
+ACT276,REC013,2026-07-21 16:18,Student,Upload Resume,Mobile,1.7,FR-06
+ACT277,REC150,2026-07-22 12:44,Employer,Verify Account,Laptop,1.4,FR-08
+ACT278,REC001,2026-07-23 09:02,Student,Send Message,Desktop,1.0,FR-21
+ACT279,REC049,2026-07-23 11:07,Administrator,Verify Account,Desktop,1.5,FR-08
+ACT280,REC080,2026-07-23 11:27,Student,Upload Resume,Mobile,0.8,FR-06
+ACT281,REC111,2026-07-23 11:32,Student,View Job Details,Desktop,2.1,FR-14
+ACT282,REC001,2026-07-23 18:39,Student,Report Job,Laptop,0.9,FR-22
+ACT283,REC081,2026-07-23 20:06,Employer,Update Status,Desktop,1.2,FR-20
+ACT284,REC111,2026-07-24 07:57,Student,View Job Details,Mobile,2.8,FR-14
+ACT285,REC002,2026-07-24 10:08,Administrator,Report Job,Desktop,1.1,FR-22
+ACT286,REC095,2026-07-25 19:49,Employer,Open Homepage,Laptop,1.4,FR-01
+ACT287,REC122,2026-07-26 07:57,Student,Send Message,Mobile,0.3,FR-21
+ACT288,REC033,2026-07-27 13:48,Student,Verify Account,Desktop,1.7,FR-05
+ACT289,REC081,2026-07-27 16:20,Employer,Login,Laptop,0.6,FR-02
+ACT290,REC138,2026-07-28 08:22,Employer,Logout,Laptop,1.1,FR-02
+ACT291,REC081,2026-07-28 17:27,Employer,Send Message,Laptop,1.8,FR-21
+ACT292,REC061,2026-07-29 14:56,Administrator,Report Job,Laptop,1.1,FR-22
+ACT293,REC056,2026-07-29 15:29,Student,Open Homepage,Mobile,1.2,FR-01
+ACT294,REC070,2026-07-30 07:22,Student,Send Message,Mobile,1.1,FR-21
+ACT295,REC032,2026-07-30 08:07,Administrator,Review Applicant,Laptop,1.9,FR-19
+ACT296,REC016,2026-07-30 09:42,Student,Edit Profile,Desktop,1.8,FR-03
+ACT297,REC019,2026-07-30 16:08,Student,Register Account,Desktop,0.4,FR-01
+ACT298,REC133,2026-07-31 10:06,Employer,Update Status,Laptop,1.4,FR-20
+ACT299,REC149,2026-07-31 11:21,Employer,Open Homepage,Desktop,0.1,FR-01
+ACT300,REC029,2026-07-31 19:39,Student,Save Job,Desktop,2.3,FR-18

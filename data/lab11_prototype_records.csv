@@ -1,0 +1,151 @@
+RecordID,SubmittedDate,LastUpdatedDate,ItemCategory,Location,Priority,CurrentStatus,ResolutionDays,RequirementID,OwnerRole
+REC001,2026-05-01,2026-05-04,Messaging,Student Portal (Mobile),Low,Completed,3,FR-21,Student
+REC002,2026-05-01,2026-05-04,Report Job,Admin Panel (Web),Low,Completed,3,FR-22,Administrator
+REC003,2026-05-01,2026-05-03,Profile Management,Employer Portal (Web),Low,In Progress,2,FR-03,Employer
+REC004,2026-05-02,2026-05-04,Resume Upload,Student Portal (Mobile),Low,Completed,2,FR-06,Student
+REC005,2026-05-02,2026-05-02,Application Tracker,Employer Portal (Web),Medium,Completed,0,FR-17,Employer
+REC006,2026-05-02,2026-05-05,Resume Upload,Student Portal (Mobile),Low,Completed,3,FR-06,Student
+REC007,2026-05-03,2026-05-05,Report Job,Student Portal (Web),Medium,Completed,2,FR-22,Student
+REC008,2026-05-03,2026-05-03,Messaging,Student Portal (Web),Low,Completed,0,FR-21,Student
+REC009,2026-05-04,2026-05-06,Company Verification,Employer Portal (Web),Low,Completed,2,FR-08,Employer
+REC010,2026-05-04,2026-05-07,Search Jobs,Student Portal (Mobile),High,Failed,3,FR-13,Student
+REC011,2026-05-05,2026-05-08,Job Application,Student Portal (Web),High,Failed,3,FR-16,Student
+REC012,2026-05-06,2026-05-08,Saved Jobs,Student Portal (Mobile),Medium,Completed,2,FR-18,Student
+REC013,2026-05-06,2026-05-11,Resume Upload,Student Portal (Web),Low,In Progress,5,FR-06,Student
+REC014,2026-05-07,2026-05-13,Dashboard,Student Portal (Web),Medium,In Progress,6,FR-12,Student
+REC015,2026-05-10,2026-05-14,Admin Verification,Admin Panel (Web),High,Failed,4,FR-08,Administrator
+REC016,2026-05-10,2026-05-17,Job Application,Student Portal (Web),Medium,In Progress,7,FR-16,Student
+REC017,2026-05-10,2026-05-13,Application Tracker,Student Portal (Mobile),Low,Completed,3,FR-17,Student
+REC018,2026-05-10,2026-05-12,Registration,Student Portal (Web),Low,Completed,2,FR-01,Student
+REC019,2026-05-11,2026-05-13,Saved Jobs,Student Portal (Mobile),Low,Completed,2,FR-18,Student
+REC020,2026-05-11,2026-05-11,Search Jobs,Student Portal (Web),Medium,Completed,0,FR-13,Student
+REC021,2026-05-12,2026-05-14,Messaging,Employer Portal (Mobile),Medium,Completed,2,FR-21,Employer
+REC022,2026-05-12,2026-05-19,Report Job,Student Portal (Web),Medium,In Progress,7,FR-22,Student
+REC023,2026-05-13,2026-05-13,Admin Verification,Admin Panel (Web),Medium,Completed,0,FR-08,Administrator
+REC024,2026-05-13,2026-05-17,Saved Jobs,Student Portal (Web),High,Failed,4,FR-18,Student
+REC025,2026-05-14,2026-05-15,Registration,Employer Portal (Mobile),Medium,Completed,1,FR-01,Employer
+REC026,2026-05-14,2026-05-17,Admin Verification,Admin Panel (Mobile),Low,Completed,3,FR-08,Administrator
+REC027,2026-05-15,2026-05-19,Dashboard,Student Portal (Mobile),Low,In Progress,4,FR-12,Student
+REC028,2026-05-16,2026-05-19,Saved Jobs,Student Portal (Web),Low,Completed,3,FR-18,Student
+REC029,2026-05-16,2026-05-23,Saved Jobs,Student Portal (Mobile),Medium,In Progress,7,FR-18,Student
+REC030,2026-05-16,2026-05-19,Report Job,Student Portal (Web),Medium,Completed,3,FR-22,Student
+REC031,2026-05-17,2026-05-17,Company Verification,Employer Portal (Mobile),Medium,Completed,0,FR-08,Employer
+REC032,2026-05-17,2026-05-19,Dashboard,Admin Panel (Web),Medium,Completed,2,FR-12,Administrator
+REC033,2026-05-18,2026-05-21,Job Details,Student Portal (Mobile),Medium,In Progress,3,FR-14,Student
+REC034,2026-05-19,2026-05-20,Dashboard,Employer Portal (Web),Medium,Completed,1,FR-12,Employer
+REC035,2026-05-20,2026-05-21,Application Tracker,Student Portal (Web),Medium,Completed,1,FR-17,Student
+REC036,2026-05-21,2026-05-26,Application Tracker,Student Portal (Mobile),Low,In Progress,5,FR-17,Student
+REC037,2026-05-21,2026-05-24,Company Verification,Employer Portal (Web),Medium,Completed,3,FR-08,Employer
+REC038,2026-05-23,2026-05-24,Profile Management,Student Portal (Mobile),High,In Progress,1,FR-03,Student
+REC039,2026-05-24,2026-05-26,Application Tracker,Employer Portal (Mobile),Low,Completed,2,FR-17,Employer
+REC040,2026-05-24,2026-05-27,Dashboard,Student Portal (Web),Low,Completed,3,FR-12,Student
+REC041,2026-05-25,2026-05-28,Login,Student Portal (Web),Low,Completed,3,FR-02,Student
+REC042,2026-05-25,2026-05-30,Dashboard,Student Portal (Mobile),Medium,Failed,5,FR-12,Student
+REC043,2026-05-26,2026-05-28,Dashboard,Student Portal (Mobile),High,In Progress,2,FR-12,Student
+REC044,2026-05-26,2026-05-29,Registration,Student Portal (Web),Medium,Completed,3,FR-01,Student
+REC045,2026-05-27,2026-05-28,Search Jobs,Student Portal (Web),Low,Completed,1,FR-13,Student
+REC046,2026-05-27,2026-05-28,Login,Student Portal (Web),Low,Completed,1,FR-02,Student
+REC047,2026-05-27,2026-05-27,Dashboard,Employer Portal (Mobile),Low,Completed,0,FR-12,Employer
+REC048,2026-05-28,2026-05-28,Registration,Employer Portal (Mobile),Low,Completed,0,FR-01,Employer
+REC049,2026-05-28,2026-05-29,Admin Verification,Admin Panel (Web),Medium,Completed,1,FR-08,Administrator
+REC050,2026-05-28,2026-06-02,Search Jobs,Student Portal (Web),Medium,In Progress,5,FR-13,Student
+REC051,2026-05-29,2026-05-29,Report Job,Student Portal (Mobile),Low,Completed,0,FR-22,Student
+REC052,2026-05-31,2026-06-02,Login,Student Portal (Mobile),Low,Completed,2,FR-02,Student
+REC053,2026-05-31,2026-06-03,Profile Management,Employer Portal (Web),Low,Completed,3,FR-03,Employer
+REC054,2026-06-01,2026-06-02,Resume Upload,Student Portal (Web),Low,Completed,1,FR-06,Student
+REC055,2026-06-02,2026-06-04,Application Tracker,Student Portal (Mobile),Low,Completed,2,FR-17,Student
+REC056,2026-06-04,2026-06-06,Registration,Student Portal (Mobile),Medium,Completed,2,FR-01,Student
+REC057,2026-06-05,2026-06-06,Browse Jobs,Student Portal (Web),Low,In Progress,1,FR-11,Student
+REC058,2026-06-05,2026-06-08,Browse Jobs,Student Portal (Mobile),Medium,Failed,3,FR-11,Student
+REC059,2026-06-06,2026-06-08,Application Tracker,Student Portal (Web),Medium,Completed,2,FR-17,Student
+REC060,2026-06-06,2026-06-07,Job Application,Student Portal (Web),High,Failed,1,FR-16,Student
+REC061,2026-06-07,2026-06-14,Dashboard,Admin Panel (Web),Medium,In Progress,7,FR-12,Administrator
+REC062,2026-06-08,2026-06-09,Company Verification,Employer Portal (Mobile),Low,Completed,1,FR-08,Employer
+REC063,2026-06-09,2026-06-12,Dashboard,Student Portal (Mobile),Medium,Completed,3,FR-12,Student
+REC064,2026-06-09,2026-06-11,Admin Verification,Admin Panel (Mobile),Low,Completed,2,FR-08,Administrator
+REC065,2026-06-09,2026-06-12,Status Management,Employer Portal (Web),Medium,Completed,3,FR-20,Employer
+REC066,2026-06-11,2026-06-11,Dashboard,Employer Portal (Web),Medium,Completed,0,FR-12,Employer
+REC067,2026-06-11,2026-06-11,Registration,Employer Portal (Mobile),Low,Completed,0,FR-01,Employer
+REC068,2026-06-11,2026-06-13,Saved Jobs,Student Portal (Web),Low,Completed,2,FR-18,Student
+REC069,2026-06-11,2026-06-13,Report Job,Student Portal (Web),Medium,Completed,2,FR-22,Student
+REC070,2026-06-11,2026-06-13,Messaging,Student Portal (Web),Medium,Completed,2,FR-21,Student
+REC071,2026-06-11,2026-06-13,Dashboard,Student Portal (Mobile),Low,In Progress,2,FR-12,Student
+REC072,2026-06-12,2026-06-13,Login,Employer Portal (Mobile),Medium,In Progress,1,FR-02,Employer
+REC073,2026-06-12,2026-06-13,Search Jobs,Student Portal (Mobile),Low,Completed,1,FR-13,Student
+REC074,2026-06-13,2026-06-16,Profile Management,Employer Portal (Mobile),Low,Completed,3,FR-03,Employer
+REC075,2026-06-13,2026-06-16,Login,Student Portal (Mobile),High,In Progress,3,FR-02,Student
+REC076,2026-06-13,2026-06-14,Job Posting,Employer Portal (Mobile),Low,Completed,1,FR-10,Employer
+REC077,2026-06-13,2026-06-20,Application Tracker,Student Portal (Mobile),Medium,In Progress,7,FR-17,Student
+REC078,2026-06-15,2026-06-17,Login,Employer Portal (Web),Low,Completed,2,FR-02,Employer
+REC079,2026-06-16,2026-06-16,Report Job,Admin Panel (Mobile),Low,Completed,0,FR-22,Administrator
+REC080,2026-06-16,2026-06-22,Job Application,Student Portal (Mobile),Medium,In Progress,6,FR-16,Student
+REC081,2026-06-16,2026-06-23,Messaging,Employer Portal (Web),Low,In Progress,7,FR-21,Employer
+REC082,2026-06-18,2026-06-21,Messaging,Employer Portal (Mobile),Low,Completed,3,FR-21,Employer
+REC083,2026-06-19,2026-06-21,Report Job,Student Portal (Mobile),High,Failed,2,FR-22,Student
+REC084,2026-06-19,2026-06-21,Registration,Employer Portal (Mobile),Medium,In Progress,2,FR-01,Employer
+REC085,2026-06-19,2026-06-19,Messaging,Student Portal (Mobile),Low,Completed,0,FR-21,Student
+REC086,2026-06-19,2026-06-20,Report Job,Admin Panel (Mobile),Medium,Completed,1,FR-22,Administrator
+REC087,2026-06-19,2026-06-21,Dashboard,Student Portal (Web),Low,Completed,2,FR-12,Student
+REC088,2026-06-21,2026-06-24,Dashboard,Student Portal (Web),Medium,In Progress,3,FR-12,Student
+REC089,2026-06-21,2026-06-22,Report Job,Admin Panel (Mobile),Low,Completed,1,FR-22,Administrator
+REC090,2026-06-21,2026-06-21,Resume Upload,Student Portal (Web),Low,Completed,0,FR-06,Student
+REC091,2026-06-22,2026-06-22,Resume Upload,Student Portal (Web),Low,Completed,0,FR-06,Student
+REC092,2026-06-23,2026-06-24,Job Details,Student Portal (Web),Low,Completed,1,FR-14,Student
+REC093,2026-06-23,2026-06-26,Dashboard,Employer Portal (Mobile),Medium,In Progress,3,FR-12,Employer
+REC094,2026-06-23,2026-06-25,Resume Upload,Student Portal (Web),Medium,Failed,2,FR-06,Student
+REC095,2026-06-24,2026-06-26,Dashboard,Employer Portal (Mobile),Medium,Completed,2,FR-12,Employer
+REC096,2026-06-24,2026-06-27,Resume Upload,Student Portal (Mobile),Low,Completed,3,FR-06,Student
+REC097,2026-06-24,2026-06-24,Messaging,Student Portal (Mobile),Low,Completed,0,FR-21,Student
+REC098,2026-06-24,2026-06-25,Messaging,Student Portal (Web),Low,Completed,1,FR-21,Student
+REC099,2026-06-24,2026-06-26,Status Management,Admin Panel (Mobile),Low,Completed,2,FR-20,Administrator
+REC100,2026-06-27,2026-06-30,Login,Employer Portal (Mobile),Low,Completed,3,FR-02,Employer
+REC101,2026-06-28,2026-06-29,Job Details,Student Portal (Web),Low,In Progress,1,FR-14,Student
+REC102,2026-06-29,2026-06-29,Report Job,Student Portal (Mobile),Medium,Completed,0,FR-22,Student
+REC103,2026-06-30,2026-07-03,Resume Upload,Student Portal (Web),High,Failed,3,FR-06,Student
+REC104,2026-06-30,2026-06-30,Dashboard,Student Portal (Web),Medium,Completed,0,FR-12,Student
+REC105,2026-06-30,2026-07-02,Registration,Student Portal (Web),Medium,Completed,2,FR-01,Student
+REC106,2026-07-01,2026-07-05,Search Jobs,Student Portal (Mobile),High,In Progress,4,FR-13,Student
+REC107,2026-07-01,2026-07-03,Status Management,Employer Portal (Mobile),Low,Completed,2,FR-20,Employer
+REC108,2026-07-03,2026-07-08,Profile Management,Employer Portal (Web),Medium,In Progress,5,FR-03,Employer
+REC109,2026-07-03,2026-07-04,Application Tracker,Employer Portal (Web),Low,Completed,1,FR-17,Employer
+REC110,2026-07-04,2026-07-09,Company Verification,Employer Portal (Mobile),Medium,Failed,5,FR-08,Employer
+REC111,2026-07-04,2026-07-06,Browse Jobs,Student Portal (Mobile),Medium,Completed,2,FR-11,Student
+REC112,2026-07-06,2026-07-09,Application Tracker,Student Portal (Mobile),Low,Completed,3,FR-17,Student
+REC113,2026-07-06,2026-07-07,Report Job,Student Portal (Web),Medium,Completed,1,FR-22,Student
+REC114,2026-07-07,2026-07-10,Report Job,Student Portal (Web),Medium,Completed,3,FR-22,Student
+REC115,2026-07-07,2026-07-12,Job Details,Student Portal (Web),High,Failed,5,FR-14,Student
+REC116,2026-07-07,2026-07-09,Search Jobs,Student Portal (Mobile),Low,Completed,2,FR-13,Student
+REC117,2026-07-07,2026-07-09,Application Tracker,Employer Portal (Web),High,Failed,2,FR-17,Employer
+REC118,2026-07-08,2026-07-10,Messaging,Student Portal (Web),Low,Completed,2,FR-21,Student
+REC119,2026-07-08,2026-07-10,Profile Management,Employer Portal (Web),Low,Completed,2,FR-03,Employer
+REC120,2026-07-08,2026-07-08,Registration,Employer Portal (Mobile),Low,Completed,0,FR-01,Employer
+REC121,2026-07-08,2026-07-11,Login,Student Portal (Mobile),Low,Completed,3,FR-02,Student
+REC122,2026-07-08,2026-07-09,Messaging,Student Portal (Web),Low,Completed,1,FR-21,Student
+REC123,2026-07-09,2026-07-10,Report Job,Admin Panel (Mobile),Low,Completed,1,FR-22,Administrator
+REC124,2026-07-09,2026-07-09,Login,Employer Portal (Mobile),Low,Completed,0,FR-02,Employer
+REC125,2026-07-10,2026-07-13,Application Tracker,Employer Portal (Mobile),Low,Completed,3,FR-17,Employer
+REC126,2026-07-10,2026-07-13,Dashboard,Student Portal (Web),Medium,Completed,3,FR-12,Student
+REC127,2026-07-12,2026-07-12,Dashboard,Student Portal (Web),Low,Completed,0,FR-12,Student
+REC128,2026-07-12,2026-07-13,Messaging,Student Portal (Mobile),Low,Completed,1,FR-21,Student
+REC129,2026-07-12,2026-07-17,Dashboard,Employer Portal (Mobile),Medium,In Progress,5,FR-12,Employer
+REC130,2026-07-14,2026-07-15,Login,Employer Portal (Web),Medium,Failed,1,FR-02,Employer
+REC131,2026-07-14,2026-07-15,Admin Verification,Admin Panel (Web),Medium,In Progress,1,FR-08,Administrator
+REC132,2026-07-14,2026-07-16,Registration,Student Portal (Web),Low,Completed,2,FR-01,Student
+REC133,2026-07-14,2026-07-15,Application Tracker,Employer Portal (Mobile),Low,In Progress,1,FR-17,Employer
+REC134,2026-07-15,2026-07-16,Saved Jobs,Student Portal (Web),Low,Completed,1,FR-18,Student
+REC135,2026-07-16,2026-07-17,Job Application,Student Portal (Mobile),Medium,Completed,1,FR-16,Student
+REC136,2026-07-17,2026-07-18,Company Verification,Employer Portal (Web),Low,Completed,1,FR-08,Employer
+REC137,2026-07-19,2026-07-22,Resume Upload,Student Portal (Web),Low,Completed,3,FR-06,Student
+REC138,2026-07-19,2026-07-20,Dashboard,Employer Portal (Mobile),Low,Completed,1,FR-12,Employer
+REC139,2026-07-21,2026-07-21,Application Tracker,Employer Portal (Web),Medium,Completed,0,FR-17,Employer
+REC140,2026-07-21,2026-07-21,Application Tracker,Student Portal (Mobile),Low,Completed,0,FR-17,Student
+REC141,2026-07-23,2026-07-26,Login,Employer Portal (Web),Low,Completed,3,FR-02,Employer
+REC142,2026-07-24,2026-07-29,Search Jobs,Student Portal (Web),Medium,In Progress,5,FR-13,Student
+REC143,2026-07-25,2026-07-28,Job Details,Student Portal (Web),High,Failed,3,FR-14,Student
+REC144,2026-07-25,2026-07-28,Profile Management,Student Portal (Mobile),Low,Completed,3,FR-03,Student
+REC145,2026-07-26,2026-07-27,Login,Admin Panel (Web),Low,Completed,1,FR-02,Administrator
+REC146,2026-07-27,2026-07-30,Job Application,Student Portal (Mobile),Low,Completed,3,FR-16,Student
+REC147,2026-07-29,2026-07-29,Profile Management,Student Portal (Web),Medium,Completed,0,FR-03,Student
+REC148,2026-07-30,2026-07-30,Login,Employer Portal (Mobile),Low,Completed,0,FR-02,Employer
+REC149,2026-07-31,2026-07-31,Registration,Employer Portal (Mobile),Low,Completed,0,FR-01,Employer
+REC150,2026-07-31,2026-08-03,Company Verification,Employer Portal (Web),Low,Completed,3,FR-08,Employer
