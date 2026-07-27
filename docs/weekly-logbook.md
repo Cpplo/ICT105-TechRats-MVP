@@ -1032,9 +1032,9 @@ Student Internship & Entry-Level Job Platform
 
 | Member Name | Contribution | File/Commit Evidence |
 | --- | --- | --- |
-| [Kyaw Phone Thant] | [e.g. Drafted landing-page-content.md] | [commit hash or issue link] |
-| [Hein Pyae Shan] | [e.g. Drafted go-to-market-plan.md and marketing-message.md] | [commit hash or issue link] |
-| [Phyo Wai Aung] | [e.g. Drafted acquisition-metrics.md and CSV template] | [commit hash or issue link] |
+| [Kyaw Phone Thant] | [e.g. Drafted landing-page-content.md] | [https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/docs/landing-page-content.md] |
+| [Hein Pyae Shan] | [e.g. Drafted go-to-market-plan.md and marketing-message.md] | [https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/docs/go-to-market-plan.md] |
+| [Phyo Wai Aung] | [e.g. Drafted acquisition-metrics.md and CSV template] | [https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/data/acquisition-metrics-template.csv] |
 
 ## Landing Page Progress
 Completed `landing-page-content.md` with headline, problem statement, solution description, a Key Features table traced to FR-05, FR-06, FR-08, FR-13, FR-15, FR-16, FR-17, FR-29, benefits for both students and employers, and a "Try Demo" CTA. Content is based on `system-requirements.md`, `mvp-feature-list.md`, and `wireframe-specification.md` so no feature is advertised beyond current prototype scope.
@@ -1045,8 +1045,6 @@ Target early users are students seeking verified internships/entry-level jobs an
 ## Metrics Plan
 Will track landing page views (M-01), CTA clicks (M-02), demo attempts (M-03), feedback responses (M-04), and interest conversion rate (M-05), logged via `acquisition-metrics-template.csv` with columns for date, channel, and each metric. Success criteria: at least 20 views, 25% CTA click rate, 10 demo attempts, 5 feedback responses, and 15% conversion.
 
-## Problems Encountered
-[insert any issues the group ran into, e.g. missing source data, unclear CTA choice, hosting the landing page, etc.]
 
 ## Next Action Before Lab 13
 [insert next step, e.g. finalize screenshots, host the landing page, begin Lab 13 tasks]
