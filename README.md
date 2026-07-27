@@ -1530,9 +1530,9 @@ Six metrics defined in `docs/startup-metrics.md`, covering Usage, Status, Catego
 ## Lab 12 - Landing Page and Digital Go-to-Market
 
 ### Landing Page
-- Landing page folder/link: [insert path or link, e.g. /landing-page/index.html or hosted URL]
+- Landing page folder/link: [https://github.com/Cpplo/ICT105-TechRats-MVP/tree/main/landingpgae]
 - Main CTA: Try Demo
-- Prototype/demo link: [insert link to Lab 10-11 prototype]
+- Prototype/demo link: [https://github.com/Cpplo/ICT105-TechRats-MVP/tree/main/prototypeinsert link to Lab 10-11 prototype]
 
 ### Go-to-Market Plan
 - Target early users: University students and fresh graduates looking for internships or entry-level jobs, and SMEs/startups looking to recruit verified beginner talent
@@ -1554,6 +1554,6 @@ The landing page's Key Features section reflects verified prototype functionalit
 ### Member Contributions
 | Member | Contribution | Commit/Issue Evidence |
 | --- | --- | --- |
-| [Kyaw Phone Thant] | [e.g. Drafted landing-page-content.md] | [commit hash or issue link] |
-| [Hein Pyae Shane] | [e.g. Built go-to-market-plan.md and marketing-message.md] | [commit hash or issue link] |
-| [Phyo Wai Aung] | [e.g. Set up acquisition-metrics.md and CSV template] | [commit hash or issue link] |
+| [Kyaw Phone Thant] | [e.g. Drafted landing-page-content.md] | [https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/docs/landing-page-content.md] |
+| [Hein Pyae Shane] | [e.g. Built go-to-market-plan.md and marketing-message.md] | [https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/docs/go-to-market-plan.md] |
+| [Phyo Wai Aung] | [e.g. Set up acquisition-metrics.md and CSV template] | [https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/data/acquisition-metrics-template.csv] |
