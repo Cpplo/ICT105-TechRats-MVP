@@ -1526,3 +1526,34 @@ Six metrics defined in `docs/startup-metrics.md`, covering Usage, Status, Catego
 - Re-run the 7 test cases in `docs/prototype-testing-notes.md` live in a browser (desktop + mobile) to confirm the code-review-based results.
 - Capture and add updated screenshots per Task 6.
 - Fill in Member Contributions once ownership is assigned.
+
+## Lab 12 - Landing Page and Digital Go-to-Market
+
+### Landing Page
+- Landing page folder/link: [insert path or link, e.g. /landing-page/index.html or hosted URL]
+- Main CTA: Try Demo
+- Prototype/demo link: [insert link to Lab 10-11 prototype]
+
+### Go-to-Market Plan
+- Target early users: University students and fresh graduates looking for internships or entry-level jobs, and SMEs/startups looking to recruit verified beginner talent
+- Selected channels: Class/course chat group, campus poster QR code, university career center/student club (email or Instagram), LinkedIn (for employers)
+- Main marketing message: We're testing a platform where students find verified, beginner-friendly internships and employers recruit verified early-career talent.
+
+### Acquisition Metrics
+- Metric 1: Landing page views (M-01) — target at least 20 views
+- Metric 2: CTA clicks (M-02) — target at least 25% click rate
+- Metric 3: Interest conversion rate (M-05) — target at least 15% conversion
+
+### Screenshots
+- Landing page screenshot: /screenshots/landing-page.png
+- CTA screenshot: /screenshots/call-to-action.png
+
+### Requirement Alignment
+The landing page's Key Features section reflects verified prototype functionality only — Student & Company Verification (FR-05, FR-08, FR-29), Beginner-Friendly Job Filtering (FR-13), Verified Company Profile Viewing (FR-15), Resume & Application Submission (FR-06, FR-16), and the Application Tracker (FR-17). No feature is advertised unless it is traceable to system-requirements.md and included in mvp-feature-list.md, so the landing page does not promise functionality outside the current prototype scope.
+
+### Member Contributions
+| Member | Contribution | Commit/Issue Evidence |
+| --- | --- | --- |
+| [Kyaw Phone Thant] | [e.g. Drafted landing-page-content.md] | [commit hash or issue link] |
+| [Hein Pyae Shane] | [e.g. Built go-to-market-plan.md and marketing-message.md] | [commit hash or issue link] |
+| [Phyo Wai Aung] | [e.g. Set up acquisition-metrics.md and CSV template] | [commit hash or issue link] |
