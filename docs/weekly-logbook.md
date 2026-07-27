@@ -1016,3 +1016,37 @@ Student Internship & Entry-Level Job Platform
 - Re-run the 7 test cases in `prototype-testing-notes.md` live in a browser (desktop + mobile) to confirm and correct the code-review-based results.
 - Capture updated screenshots per Task 6 and save to `/screenshots/`.
 - Update `README.md` with Lab 11 progress, features, metrics, and screenshots per Task 7.
+
+  # Weekly Logbook - Lab 12
+
+## Group Name
+Teach Rats
+
+## Project Title
+Student Internship & Entry-Level Job Platform
+
+## Lab Date
+[7/27/2026]
+
+## Work Completed Today
+
+| Member Name | Contribution | File/Commit Evidence |
+| --- | --- | --- |
+| [Kyaw Phone Thant] | [e.g. Drafted landing-page-content.md] | [commit hash or issue link] |
+| [Hein Pyae Shan] | [e.g. Drafted go-to-market-plan.md and marketing-message.md] | [commit hash or issue link] |
+| [Phyo Wai Aung] | [e.g. Drafted acquisition-metrics.md and CSV template] | [commit hash or issue link] |
+
+## Landing Page Progress
+Completed `landing-page-content.md` with headline, problem statement, solution description, a Key Features table traced to FR-05, FR-06, FR-08, FR-13, FR-15, FR-16, FR-17, FR-29, benefits for both students and employers, and a "Try Demo" CTA. Content is based on `system-requirements.md`, `mvp-feature-list.md`, and `wireframe-specification.md` so no feature is advertised beyond current prototype scope.
+
+## Go-to-Market Progress
+Target early users are students seeking verified internships/entry-level jobs and SMEs/startups seeking verified beginner talent. Selected channels: class/course chat group, campus poster QR code, university career center/student club (email or Instagram), and LinkedIn for employer outreach. Main marketing message finalized per channel in `marketing-message.md`, each paired with a single clear CTA (Try Demo, Scan QR, or Give Feedback).
+
+## Metrics Plan
+Will track landing page views (M-01), CTA clicks (M-02), demo attempts (M-03), feedback responses (M-04), and interest conversion rate (M-05), logged via `acquisition-metrics-template.csv` with columns for date, channel, and each metric. Success criteria: at least 20 views, 25% CTA click rate, 10 demo attempts, 5 feedback responses, and 15% conversion.
+
+## Problems Encountered
+[insert any issues the group ran into, e.g. missing source data, unclear CTA choice, hosting the landing page, etc.]
+
+## Next Action Before Lab 13
+[insert next step, e.g. finalize screenshots, host the landing page, begin Lab 13 tasks]
