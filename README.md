@@ -1557,3 +1557,225 @@ The landing page's Key Features section reflects verified prototype functionalit
 | [Kyaw Phone Thant] | [e.g. Drafted landing-page-content.md] | [https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/docs/landing-page-content.md] |
 | [Hein Pyae Shane] | [e.g. Built go-to-market-plan.md and marketing-message.md] | [https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/docs/go-to-market-plan.md] |
 | [Phyo Wai Aung] | [e.g. Set up acquisition-metrics.md and CSV template] | [https://github.com/Cpplo/ICT105-TechRats-MVP/blob/main/data/acquisition-metrics-template.csv] |
+
+
+
+## Lab 13 - Sales Scenario, Demo Script, User Testing, and Final Improvement Plan
+
+### Lab 13 Overview
+
+In Lab 13, our team prepared the final prototype presentation and testing evidence for the **Student Internship & Entry-Level Job Platform**. The purpose of this lab was to connect the MVP prototype with a realistic sales scenario, prepare a final demo script, conduct user testing, collect feedback, and identify the final improvements needed before the final submission.
+
+The platform is designed to help students and fresh graduates find beginner-friendly internship and entry-level job opportunities. It also helps employers review early-career applicants and manage application status through a simple prototype workflow.
+
+---
+
+### Project Name
+
+**Student Internship & Entry-Level Job Platform**
+
+---
+
+### Target Users
+
+- University students looking for internships
+- Fresh graduates looking for entry-level jobs
+- Employers looking for beginner-level applicants
+- Admin users who review verification requests and reported jobs
+
+---
+
+### Problem Statement
+
+Many students and fresh graduates struggle to find internship and entry-level job opportunities that match their beginner-level skills. Existing job platforms often include too many advanced positions, unclear eligibility requirements, and limited trust indicators. Employers also need a simple way to review beginner applicants and manage application status.
+
+---
+
+### Proposed Solution
+
+Our prototype provides a simple internship and entry-level job platform where students can browse beginner-friendly jobs, check company verification status, apply for jobs, track application status, save jobs, and communicate with employers. Employers can manage job posts, review applicants, update application status, and communicate with students. Admin users can review verification requests and reported jobs.
+
+---
+
+### Lab 13 Objectives
+
+- Create a realistic sales scenario for the product
+- Prepare a final prototype demo script
+- Create a user testing plan
+- Record user testing results
+- Identify final improvements before Lab 14
+- Create a final demo flow diagram
+- Capture user testing evidence
+- Prepare a short demo outline for the final pitch
+- Update README and weekly logbook
+
+---
+
+### Lab 13 Deliverables
+
+| File | Description |
+|---|---|
+| `/docs/sales-scenario.md` | Explains the customer situation, problem, and product value |
+| `/docs/demo-script.md` | Step-by-step script for presenting the final prototype |
+| `/docs/user-testing-plan.md` | Plan for testing the prototype with users |
+| `/data/user-testing-results.csv` | User testing result data |
+| `/docs/user-testing-results.md` | Summary of user testing findings |
+| `/docs/final-improvement-list.md` | Final list of improvements before Lab 14 |
+| `/diagrams/demo-flow.mmd` | Mermaid diagram showing the final demo flow |
+| `/screenshots/demo-flow.png` | Screenshot/export of the demo flow diagram |
+| `/screenshots/user-testing-evidence.png` | Evidence screenshot from testing or feedback collection |
+| `/pitch/demo-outline.md` | Short outline for presenting the prototype |
+| `/prototype/final-demo-link.md` | Instructions or link for accessing the final prototype |
+| `/docs/weekly-logbook.md` | Updated weekly logbook for Lab 13 |
+
+---
+
+### Sales Scenario Summary
+
+A final-year student is preparing to apply for an internship but is unsure which jobs are suitable for beginner-level experience. Many job posts require advanced skills, and company trust is difficult to check. The student needs a platform that shows beginner-friendly opportunities, clear eligibility, verified company information, and application tracking.
+
+An employer also needs a simple way to find students, review applicant profiles, check resume or portfolio references, and update application status. The platform connects both sides through a simple and trust-focused workflow.
+
+---
+
+### Final Demo Flow
+
+The final demo follows this order:
+
+1. Open landing page or homepage
+2. Explain the target users and problem
+3. Show Login / Role Selection
+4. Open Student Dashboard
+5. Browse internship and entry-level jobs
+6. Open Job Detail Page
+7. Check company verification and eligibility
+8. Apply for a job
+9. Track application status
+10. Switch to Employer Dashboard
+11. Review applicants
+12. Update application status
+13. Show Admin Verification / Report Handling
+14. Explain final user testing results
+15. Explain final improvement plan before Lab 14
+
+---
+
+### User Testing Summary
+
+The prototype was tested using student, employer, and admin workflows. The testing focused on whether users could understand the platform, complete main tasks, and identify useful or confusing features.
+
+#### Main Testing Tasks
+
+| User Role | Testing Task |
+|---|---|
+| Student | Browse jobs, view job detail, apply, save job, track application |
+| Employer | View applicants, review profile, update application status |
+| Admin | Review verification requests and reported jobs |
+
+#### Main Findings
+
+- Students understood the job browsing and job detail workflow.
+- Beginner-friendly labels helped students identify suitable jobs.
+- Company verification badge improved user trust.
+- Application tracking was useful but should be easier to find.
+- Employers found applicant review and status update useful.
+- Admin verification and reported job handling need clearer labels.
+- Some buttons and navigation items should be more visible.
+
+---
+
+### Final Improvement List Summary
+
+| Priority | Improvement | Related Area |
+|---|---|---|
+| Critical | Make Application Tracker easier to find | Student workflow |
+| Critical | Make Report Job button more visible | Job detail page |
+| Important | Explain company verification badge more clearly | Trust and verification |
+| Important | Improve employer applicant filter labels | Employer dashboard |
+| Important | Add stronger confirmation after status updates | Employer/admin actions |
+| Useful | Improve mobile layout and spacing | Responsive design |
+| Future | Add real authentication and database | Future implementation |
+| Future | Add AI job recommendation | Future feature |
+
+---
+
+### Requirement Connection
+
+| Prototype Feature | Requirement ID |
+|---|---|
+| Login / Role Selection | FR-01, FR-02 |
+| Student Profile | FR-03, FR-04 |
+| Resume / Portfolio Reference | FR-05 |
+| Employer Registration | FR-06 |
+| Company Verification | FR-07, FR-08, FR-09 |
+| Job Posting | FR-10 |
+| Browse and Search Jobs | FR-11 |
+| Beginner-Friendly Filters | FR-12 |
+| Job Detail Page | FR-13, FR-14 |
+| Job Application | FR-15 |
+| Application Tracker | FR-16 |
+| Saved Jobs | FR-17 |
+| Applicant Management | FR-18 |
+| Application Status Update | FR-19 |
+| Messaging | FR-20 |
+| Job Reporting | FR-21, FR-22 |
+| Confirmation and Error Messages | FR-23 |
+| Input Validation | FR-24 |
+| Responsive Interface | FR-25 |
+| Privacy-Aware Interface | FR-26 |
+| Requirement Traceability | FR-27 |
+
+---
+
+### Team Contributions
+
+| Team Member | Contribution |
+|---|---|
+| Phyo Wai Aung | Sales scenario, demo script, demo outline, README update, weekly logbook |
+| Hein Pyae Shan | User testing plan, user testing results, testing evidence |
+| Kyaw Phone Thant | Final improvement list, demo flow diagram, screenshot evidence |
+| Team Review | Final demo link, prototype checking, final review before Lab 14 |
+
+---
+
+### Problems Found
+
+- Some users may not immediately notice the Application Tracker.
+- The Report Job button needs better placement.
+- Verification labels need clearer explanation.
+- Employer applicant filters need clearer wording.
+- Admin actions need stronger confirmation messages.
+- Mobile spacing should be improved for smaller screens.
+
+---
+
+### Decisions Made
+
+- Keep the student job browsing and application workflow as the main MVP flow.
+- Keep company verification badge as a trust feature.
+- Keep application tracking as a must-have feature.
+- Improve visibility and wording before the final submission.
+- Use sample data and simulated workflows for the prototype.
+- Avoid collecting real sensitive personal data.
+
+---
+
+### Next Steps Before Lab 14
+
+- Fix the highest-priority usability issues.
+- Improve Application Tracker visibility.
+- Improve Report Job button placement.
+- Add clearer verification explanation.
+- Update final screenshots.
+- Prepare final pitch and demo presentation.
+- Check that all required files are linked in README.
+- Make sure the prototype can be opened and tested easily.
+
+---
+
+### Lab 13 Status
+
+**Status:** Completed  
+**MVP Decision:** Continue with final minor improvements before Lab 14  
+**Final Direction:** Prepare final prototype, final pitch, and final submission package
+```
