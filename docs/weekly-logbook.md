@@ -1048,3 +1048,186 @@ Will track landing page views (M-01), CTA clicks (M-02), demo attempts (M-03), f
 
 ## Next Action Before Lab 13
 [insert next step, e.g. finalize screenshots, host the landing page, begin Lab 13 tasks]
+
+
+## Lab 13 Weekly Logbook
+
+### Lab Title
+
+Lab 13 - Sales Scenario, Demo Script, User Testing, and Final Improvement Plan
+
+### Project Name
+
+Student Internship & Entry-Level Job Platform
+
+### Week Focus
+
+The focus of Lab 13 was to prepare the project for the final prototype demonstration. Our team created a realistic sales scenario, prepared a final demo script, planned user testing, recorded testing evidence, and identified the final improvements needed before Lab 14.
+
+---
+
+### Work Completed This Week
+
+| Task | Description | Status |
+|---|---|---|
+| Sales Scenario | Created a realistic customer situation for students, fresh graduates, and employers | Completed |
+| Demo Script | Prepared a step-by-step script for presenting the prototype | Completed |
+| User Testing Plan | Planned testing tasks for student, employer, and admin users | Completed |
+| User Testing Results | Prepared testing result structure and summary | Completed |
+| Final Improvement List | Listed critical, important, useful, and future improvements | Completed |
+| Demo Flow Diagram | Planned the final demo flow from homepage to main workflows | Completed |
+| Testing Evidence | Prepared screenshot evidence for user testing and feedback collection | Completed |
+| Demo Outline | Created a short outline for the final pitch | Completed |
+| README Update | Added Lab 13 summary, deliverables, findings, and next steps | Completed |
+| Weekly Logbook Update | Recorded Lab 13 progress and team contributions | Completed |
+
+---
+
+### Lab 13 Deliverables
+
+| File | Purpose |
+|---|---|
+| `/docs/sales-scenario.md` | Explains the customer problem and product value |
+| `/docs/demo-script.md` | Provides the final prototype demo script |
+| `/docs/user-testing-plan.md` | Explains how the prototype will be tested |
+| `/data/user-testing-results.csv` | Stores user testing results |
+| `/docs/user-testing-results.md` | Summarizes testing findings |
+| `/docs/final-improvement-list.md` | Lists final improvements before Lab 14 |
+| `/diagrams/demo-flow.mmd` | Shows the final demo flow |
+| `/screenshots/demo-flow.png` | Screenshot evidence of demo flow |
+| `/screenshots/user-testing-evidence.png` | Screenshot evidence of testing |
+| `/pitch/demo-outline.md` | Short pitch/demo outline |
+| `/prototype/final-demo-link.md` | Final prototype access notes |
+| `README.md` | Updated Lab 13 documentation |
+| `/docs/weekly-logbook.md` | Updated weekly progress log |
+
+---
+
+### Team Member Contributions
+
+| Team Member | Contribution |
+|---|---|
+| Phyo Wai Aung | Wrote sales scenario, demo script, demo outline, README update, and weekly logbook |
+| Hein Pyae Shan | Prepared user testing plan, user testing results, and testing evidence |
+| Kyaw Phone Thant | Created final improvement list, demo flow diagram, and screenshot evidence |
+| Team Review | Checked final demo link, reviewed prototype readiness, and confirmed final preparation tasks |
+
+---
+
+### Main Prototype Areas Reviewed
+
+| Area | Review Result |
+|---|---|
+| Landing Page / Homepage | Used as the starting point for the final demo |
+| Login / Role Selection | Used to explain different user flows |
+| Student Dashboard | Shows student-focused job search and application features |
+| Job Listing Page | Allows students to browse beginner-friendly opportunities |
+| Job Detail Page | Shows eligibility, company information, and apply action |
+| Application Tracker | Shows application status after applying |
+| Employer Dashboard | Allows employers to review applicants and job posts |
+| Admin Verification Page | Supports verification review and reported job handling |
+| Messaging | Supports basic student-employer communication |
+| Reports | Supports suspicious job reporting workflow |
+
+---
+
+### User Testing Summary
+
+The prototype was reviewed using student, employer, and admin workflows. The testing focused on whether users could understand the main workflow and complete important tasks.
+
+| User Role | Tested Task |
+|---|---|
+| Student | Browse jobs, view job detail, apply, save job, and track application |
+| Employer | Review applicants, view profile details, and update application status |
+| Admin | Review verification requests and reported jobs |
+
+---
+
+### Main Findings
+
+- Students could understand the job browsing and job detail workflow.
+- Beginner-friendly labels helped students find suitable opportunities.
+- Company verification badge improved trust.
+- Application tracking was useful but should be easier to find.
+- Employers understood applicant review and status update features.
+- Admin verification and report handling need clearer labels.
+- Some buttons and navigation items need better visibility.
+
+---
+
+### Problems Found
+
+| Problem | Area | Priority |
+|---|---|---|
+| Application Tracker is not visible enough | Student Dashboard | Critical |
+| Report Job button is hard to notice | Job Detail Page | Critical |
+| Verification badge needs clearer explanation | Company Profile / Job Detail | Important |
+| Applicant filter labels need improvement | Employer Dashboard | Important |
+| Status update confirmation should be clearer | Employer / Admin Actions | Important |
+| Mobile spacing needs improvement | Responsive Design | Useful |
+
+---
+
+### Decisions Made
+
+- Keep student job browsing as the main MVP workflow.
+- Keep beginner-friendly job labels as an important feature.
+- Keep company verification badge as a trust feature.
+- Keep application tracking as a must-have feature.
+- Improve unclear labels and button visibility before Lab 14.
+- Use sample data and simulated interactions for the prototype.
+- Avoid collecting or displaying real sensitive personal information.
+
+---
+
+### Requirement Connection
+
+| Feature | Requirement ID |
+|---|---|
+| Login / Role Selection | FR-01, FR-02 |
+| Student Profile | FR-03, FR-04 |
+| Resume / Portfolio Reference | FR-05 |
+| Company Verification | FR-07, FR-08, FR-09 |
+| Job Posting | FR-10 |
+| Browse and Search Jobs | FR-11 |
+| Beginner-Friendly Filters | FR-12 |
+| Job Detail Page | FR-13, FR-14 |
+| Job Application | FR-15 |
+| Application Tracker | FR-16 |
+| Saved Jobs | FR-17 |
+| Applicant Management | FR-18 |
+| Application Status Update | FR-19 |
+| Messaging | FR-20 |
+| Job Reporting | FR-21, FR-22 |
+| Confirmation and Error Messages | FR-23 |
+| Responsive Interface | FR-25 |
+| Privacy-Aware Interface | FR-26 |
+
+---
+
+### Reflection
+
+Lab 13 helped the team prepare the prototype for final presentation. Instead of only building screens, the team connected the prototype to a realistic user situation, tested the workflow, and identified final improvements. The most important lesson was that a good MVP should be easy to explain, easy to test, and supported by evidence from user feedback.
+
+---
+
+### Next Steps Before Lab 14
+
+- Improve Application Tracker visibility.
+- Move or highlight the Report Job button.
+- Add clearer explanation for company verification.
+- Improve applicant filter labels.
+- Add stronger confirmation messages.
+- Update final screenshots.
+- Prepare final pitch and final demo.
+- Check all README links and required files before submission.
+
+---
+
+### Lab 13 Status
+
+**Status:** Completed  
+**MVP Decision:** Continue with final minor improvements before Lab 14  
+**Next Lab Focus:** Final prototype preparation, final pitch, and final submission package
+```
+
