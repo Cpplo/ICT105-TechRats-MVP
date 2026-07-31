@@ -1778,4 +1778,265 @@ The prototype was tested using student, employer, and admin workflows. The testi
 **Status:** Completed  
 **MVP Decision:** Continue with final minor improvements before Lab 14  
 **Final Direction:** Prepare final prototype, final pitch, and final submission package
-```
+
+# Student Internship & Entry-Level Job Platform
+
+## Project Overview
+
+The **Student Internship & Entry-Level Job Platform** is an MVP prototype designed to help university students and fresh graduates find beginner-friendly internship and entry-level job opportunities. The platform also supports employers by helping them post opportunities, review applicants, manage application status, and communicate with potential candidates.
+
+This project was developed for **ICT105 Fundamental Technology Entrepreneurship** as a semester-long MVP venture project.
+
+---
+
+## Group Members
+
+| Name | Main Role | Main Contribution |
+|---|---|---|
+| Phyo Wai Aung | Documentation, demo script, README, final report | Final documentation, demo preparation, project coordination |
+| Hein Pyae Shan | Data, testing, employer flow | Sample data, final testing, employer-side review |
+| Kyaw Phone Thant | UI, screenshots, pitch support | Prototype screens, screenshots, final pitch preparation |
+| Team Review | Final checking | Repository review, prototype checking, final submission checklist |
+
+---
+
+## Problem Statement
+
+Many students and fresh graduates struggle to find internship and entry-level job opportunities that match their beginner-level skills. Existing job platforms often include many advanced roles, unclear eligibility requirements, and limited trust indicators.
+
+Employers also need a simple way to find early-career applicants, review student profiles, and manage application status.
+
+---
+
+## Target Users
+
+- University students looking for internships
+- Fresh graduates looking for entry-level jobs
+- Employers looking for beginner-level applicants
+- Admin users who review verification requests and reported jobs
+
+---
+
+## Value Proposition
+
+Our platform helps students find suitable beginner-friendly opportunities faster by showing clear job details, eligibility information, company verification status, saved jobs, and application tracking.
+
+For employers, the platform provides a simple applicant review workflow with student profile summaries, resume or portfolio references, status updates, and messaging.
+
+---
+
+## Final Prototype
+
+| Item | Location |
+|---|---|
+| Final prototype folder | `/prototype/` |
+| Final prototype access notes | `/prototype/final-prototype-link.md` |
+| Landing page / homepage | `/prototype/index.html` |
+| Main styling | `/prototype/style.css` |
+| Main interaction logic | `/prototype/script.js` |
+
+The prototype uses **HTML, CSS, JavaScript, sample data, and localStorage/simulated interaction**. It does not use real authentication, real payment, or production database features.
+
+---
+
+## Main Prototype Features
+
+| Feature | Description |
+|---|---|
+| Login / Role Selection | Allows users to enter as student, employer, or admin |
+| Student Dashboard | Shows student profile, saved jobs, applications, and quick actions |
+| Job Listing Page | Displays internship and entry-level job opportunities |
+| Search and Filter | Allows users to search/filter jobs by beginner-friendly criteria |
+| Job Detail Page | Shows job description, eligibility, company profile, and verification status |
+| Apply for Job | Allows students to simulate submitting a job application |
+| Application Tracker | Shows application status after applying |
+| Employer Dashboard | Allows employers to view jobs, applicants, and application status |
+| Applicant Review | Shows applicant profile, resume/portfolio reference, and status |
+| Messaging | Simulates communication between student and employer |
+| Admin Verification | Simulates review of student/company verification |
+| Report Handling | Allows admin to review suspicious job reports |
+| Metrics Dashboard | Shows product/activity metrics using sample data |
+
+---
+
+## Requirement Traceability Summary
+
+| Requirement ID | Prototype Feature / Screen | Status |
+|---|---|---|
+| FR-01 | Simulated registration and login | Completed |
+| FR-02 | Role selection | Completed |
+| FR-03 | Student profile management | Completed |
+| FR-04 | Student verification detection | Partially Completed |
+| FR-05 | Resume and supporting document reference | Completed |
+| FR-06 | Employer registration | Completed |
+| FR-07 | Company verification detection | Completed |
+| FR-08 | Verified badge display | Completed |
+| FR-09 | Employer posting restriction | Partially Completed |
+| FR-10 | Job posting | Completed |
+| FR-11 | Browse and search jobs | Completed |
+| FR-12 | Beginner-friendly filters | Completed |
+| FR-13 | Job detail viewing | Completed |
+| FR-14 | Company profile viewing | Completed |
+| FR-15 | Job application submission | Completed |
+| FR-16 | Application tracker | Completed |
+| FR-17 | Saved jobs | Completed |
+| FR-18 | Employer applicant management | Completed |
+| FR-19 | Application status update | Completed |
+| FR-20 | Direct messaging | Completed |
+| FR-21 | Job reporting | Completed |
+| FR-22 | Report handling flow | Completed |
+| FR-23 | Confirmation and error messages | Completed |
+| FR-24 | Input validation | Partially Completed |
+| FR-25 | Responsive interface | Partially Completed |
+| FR-26 | Privacy-aware interface | Completed |
+| FR-27 | Requirement traceability | Completed |
+
+Full traceability files:
+
+- `/docs/requirement-traceability-matrix.md`
+- `/data/final-requirement-traceability.csv`
+- `/docs/feature-implementation-status.md`
+
+---
+
+## Final Documentation
+
+| File | Description |
+|---|---|
+| `/docs/system-requirements.md` | Final system requirements |
+| `/docs/user-stories.md` | User stories for student, employer, and admin users |
+| `/docs/mvp-feature-list.md` | MVP feature list |
+| `/docs/feature-implementation-status.md` | Implementation status of each feature |
+| `/docs/requirement-traceability-matrix.md` | Final traceability matrix |
+| `/docs/final-prototype-report.md` | Final MVP report |
+| `/docs/final-demo-script.md` | 5–7 minute final demo script |
+| `/docs/final-reflection.md` | Final reflection |
+| `/docs/final-submission-checklist.md` | Final submission checklist |
+| `/docs/weekly-logbook.md` | Weekly progress log |
+
+---
+
+## Final Data Files
+
+| File | Description |
+|---|---|
+| `/data/final-sample-data.csv` | Final sample data for prototype demonstration |
+| `/data/final-testing-results.csv` | Final testing result data |
+| `/data/final-requirement-traceability.csv` | Requirement traceability data |
+| `/data/member-contribution-template.csv` | Member contribution evidence template |
+
+---
+
+## Final Screenshots
+
+| Screenshot | Purpose |
+|---|---|
+| `/screenshots/final-homepage.png` | Final homepage or landing page |
+| `/screenshots/final-input-form.png` | Final input/application form |
+| `/screenshots/final-record-list.png` | Final job or record list |
+| `/screenshots/final-detail-view.png` | Final job detail or profile view |
+| `/screenshots/final-dashboard.png` | Final dashboard or metrics screen |
+| `/screenshots/final-admin-view.png` | Final admin verification/report handling screen |
+
+---
+
+## Diagrams
+
+| File | Description |
+|---|---|
+| `/diagrams/final-demo-flow.mmd` | Final demo flow diagram |
+
+---
+
+## Final Pitch
+
+| File | Description |
+|---|---|
+| `/pitch/final-pitch-outline.md` | Final venture pitch outline |
+
+The final pitch explains:
+
+- Problem and target users
+- Evidence from discovery and testing
+- Solution and value proposition
+- Final prototype demonstration flow
+- Business model direction
+- Product/startup metrics
+- Technical architecture and data handling
+- Final improvements and future development
+
+---
+
+## User Testing and Validation Summary
+
+The prototype was tested using student, employer, and admin workflows.
+
+### Main findings
+
+- Students understood the job browsing and job detail workflow.
+- Beginner-friendly filters helped students identify suitable jobs.
+- Company verification badge improved trust.
+- Application tracking was useful and should remain a core feature.
+- Employers found applicant review and status update useful.
+- Admin verification and report handling supported trust and safety.
+- Some UI labels, report button placement, and mobile layout need improvement.
+
+---
+
+## Responsible Data and Privacy Notes
+
+The prototype uses sample and simulated data. It does not collect real sensitive personal information.
+
+The team avoided collecting:
+
+- Passport number
+- National ID number
+- Bank information
+- Full home address
+- Real document contents
+- Private passwords
+
+Resume and document data are represented as file names or references only. Student information should only be visible to relevant employers after application.
+
+---
+
+## Business Value
+
+The platform creates value by helping students find beginner-friendly jobs faster and helping employers manage early-career applicants more clearly. The MVP can later develop into a university-focused internship platform with verification, student profiles, employer tools, and analytics.
+
+---
+
+## Limitations
+
+- Authentication is simulated.
+- Data is stored as sample/local data, not a production database.
+- Verification is simulated.
+- Resume upload is shown as a reference, not real file storage.
+- Messaging is prototype-level only.
+- Some mobile layout improvements are still needed.
+- Real employer verification and real job posting moderation are future work.
+
+---
+
+## Final MVP Decision
+
+**MVP Decision:** Continue with final improvements.
+
+The prototype demonstrates the main value of the platform: helping students find beginner-friendly opportunities and helping employers manage applicants. The final version is suitable as a semester MVP prototype and can be improved later with real backend, authentication, database, and verification features.
+
+---
+
+## Final Submission Status
+
+| Item | Status |
+|---|---|
+| Final prototype | Completed |
+| Final report | Completed |
+| Final demo script | Completed |
+| Final pitch outline | Completed |
+| Final screenshots | Completed |
+| Final traceability matrix | Completed |
+| Final reflection | Completed |
+| Final submission checklist | Completed |
+| README update | Completed |
+| Weekly logbook update | Completed |
