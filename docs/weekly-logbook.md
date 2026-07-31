@@ -1222,12 +1222,232 @@ Lab 13 helped the team prepare the prototype for final presentation. Instead of 
 - Prepare final pitch and final demo.
 - Check all README links and required files before submission.
 
----
+
 
 ### Lab 13 Status
 
 **Status:** Completed  
 **MVP Decision:** Continue with final minor improvements before Lab 14  
 **Next Lab Focus:** Final prototype preparation, final pitch, and final submission package
-```
+
+# Weekly Logbook - Lab 14
+
+## Lab Title
+
+Lab 14 - Final MVP Release and Venture Pitch
+
+## Project Name
+
+Student Internship & Entry-Level Job Platform
+
+## Group Name
+
+Tech Rats
+
+## Date
+
+2026-07-31
+
+---
+
+## Week Focus
+
+The focus of Lab 14 was to finalize the MVP prototype, prepare the final release package, complete the final documentation, organize the GitHub repository, prepare the final venture pitch, and check that the project is ready for final submission.
+
+This lab connected all previous work from the semester, including problem discovery, requirements, wireframes, validation results, responsible design review, prototype implementation, metrics, user testing, and final improvement planning.
+
+---
+
+## What We Completed Today
+
+| Task | Description | Status |
+|---|---|---|
+| Final Prototype Audit | Reviewed the prototype against system requirements and feature implementation status | Completed |
+| Final Prototype Packaging | Checked prototype files and final prototype access notes | Completed |
+| Final Sample Data | Prepared final sample data for student, employer, job, application, verification, and report records | Completed |
+| Final Screenshots | Prepared final screenshot evidence for homepage, forms, lists, details, dashboard, and admin view | Completed |
+| Final Prototype Report | Completed final report explaining problem, users, solution, features, validation, metrics, and limitations | Completed |
+| Final Demo Script | Prepared a 5–7 minute demo script for final presentation | Completed |
+| Final Venture Pitch | Prepared final pitch outline for presenting the MVP as an IT venture | Completed |
+| Final Reflection | Wrote final reflection about learning, challenges, testing, and improvements | Completed |
+| Final Checklist | Completed final submission checklist | Completed |
+| README Update | Updated README with final project overview, links, screenshots, pitch, and contribution summary | Completed |
+
+---
+
+## Final Prototype Updates
+
+| Prototype Area | Final Update | Status |
+|---|---|---|
+| Homepage / Landing Page | Shows project purpose, target users, value proposition, and call-to-action | Completed |
+| Login / Role Selection | Allows user to enter as student, employer, or admin | Completed |
+| Student Dashboard | Shows student profile, saved jobs, applications, and quick actions | Completed |
+| Job Listing Page | Displays beginner-friendly internship and entry-level job opportunities | Completed |
+| Job Detail Page | Shows job description, eligibility, company profile, and verification badge | Completed |
+| Application Form | Allows student to simulate applying for a job | Completed |
+| Application Tracker | Shows application status after applying | Completed |
+| Employer Dashboard | Allows employer to view job posts, applicants, and application status | Completed |
+| Applicant Review | Shows student profile, resume/portfolio reference, and status update | Completed |
+| Messaging | Simulates student-employer communication | Completed |
+| Admin Verification Page | Supports simulated verification and reported job review | Completed |
+| Metrics / Dashboard | Shows product or activity summary using sample data | Completed |
+
+---
+
+## Final Documentation Updates
+
+| File | Purpose | Status |
+|---|---|---|
+| `/docs/final-prototype-report.md` | Final MVP report | Completed |
+| `/docs/final-demo-script.md` | Final presentation demo script | Completed |
+| `/docs/final-reflection.md` | Final learning reflection | Completed |
+| `/docs/final-submission-checklist.md` | Final submission checklist | Completed |
+| `/docs/feature-implementation-status.md` | Final feature status review | Completed |
+| `/docs/requirement-traceability-matrix.md` | Requirement-to-prototype traceability | Completed |
+| `/prototype/final-prototype-link.md` | Prototype access notes | Completed |
+| `/pitch/final-pitch-outline.md` | Final venture pitch outline | Completed |
+| `README.md` | Final repository overview | Completed |
+
+---
+
+## Final Data and Evidence Updates
+
+| File | Purpose | Status |
+|---|---|---|
+| `/data/final-sample-data.csv` | Final sample data for prototype demonstration | Completed |
+| `/data/final-testing-results.csv` | Final testing evidence | Completed |
+| `/data/final-requirement-traceability.csv` | Requirement traceability data | Completed |
+| `/data/member-contribution-template.csv` | Member contribution evidence | Completed |
+| `/screenshots/final-homepage.png` | Final homepage screenshot | Completed |
+| `/screenshots/final-input-form.png` | Final form screenshot | Completed |
+| `/screenshots/final-record-list.png` | Final job/list screen screenshot | Completed |
+| `/screenshots/final-detail-view.png` | Final detail screen screenshot | Completed |
+| `/screenshots/final-dashboard.png` | Final dashboard screenshot | Completed |
+| `/screenshots/final-admin-view.png` | Final admin screen screenshot | Completed |
+
+---
+
+## GitHub Contributions Today
+
+| Member | File / Issue / Commit Updated | Evidence Link |
+|---|---|---|
+| Phyo Wai Aung | README, final report, demo script, final checklist, weekly logbook | Add GitHub commit or issue link |
+| Hein Pyae Shan | Final sample data, testing data, employer flow review, final reflection | Add GitHub commit or issue link |
+| Kyaw Phone Thant | Final screenshots, pitch outline, demo flow diagram, UI review | Add GitHub commit or issue link |
+| Team Review | Final prototype check, repository cleanup, broken link review | Add GitHub commit or issue link |
+
+---
+
+## Requirement Review Summary
+
+| Area | Requirement IDs | Final Status |
+|---|---|---|
+| Login and role selection | FR-01, FR-02 | Completed |
+| Student profile and verification | FR-03, FR-04 | Completed / Partially Completed |
+| Resume and document reference | FR-05 | Completed |
+| Employer profile and verification | FR-06, FR-07, FR-08, FR-09 | Completed / Partially Completed |
+| Job posting and job browsing | FR-10, FR-11, FR-12 | Completed |
+| Job detail and company profile | FR-13, FR-14 | Completed |
+| Job application and tracking | FR-15, FR-16 | Completed |
+| Saved jobs | FR-17 | Completed |
+| Applicant management | FR-18 | Completed |
+| Status update | FR-19 | Completed |
+| Messaging | FR-20 | Completed |
+| Job reporting and report handling | FR-21, FR-22 | Completed |
+| Confirmation and validation | FR-23, FR-24 | Completed / Partially Completed |
+| Responsive and privacy-aware interface | FR-25, FR-26 | Completed / Partially Completed |
+| Requirement traceability | FR-27 | Completed |
+
+---
+
+## Final Testing Summary
+
+The team reviewed the final prototype using student, employer, and admin workflows.
+
+| User Role | Tested Workflow | Result |
+|---|---|---|
+| Student | Browse jobs, view details, apply, save job, track application | Passed |
+| Employer | View applicants, review profile, update application status | Passed |
+| Admin | Review verification requests and reported jobs | Passed |
+| General User | Open prototype and follow main navigation | Passed |
+| Team Review | Check README, screenshots, final report, and pitch files | Passed |
+
+---
+
+## Problems Found Before Submission
+
+| Problem | Area | Action Taken / Next Action |
+|---|---|---|
+| Some links may be broken if files are renamed | Repository organization | Check all README links before final submission |
+| Prototype uses simulated data only | Data/backend | Explain limitation clearly in final report |
+| Verification is not real | Trust feature | Label verification as simulated prototype feature |
+| Resume upload is not real file storage | Student application | Show only file name/reference in prototype |
+| Mobile layout still needs improvement | Responsive design | Mark as future improvement |
+| Admin action confirmation could be stronger | Admin workflow | Keep as final improvement note |
+
+---
+
+## Decisions Made
+
+- The project will be submitted as an MVP prototype using sample/simulated data.
+- The final prototype will focus on the core student, employer, and admin workflows.
+- Real authentication, real database, real document storage, and real employer verification are future improvements.
+- The final report will clearly explain the current limitations.
+- The README will act as the main guide for the lecturer to inspect the repository.
+- The final pitch will present the project as a student internship platform, not as a generic web application.
+
+---
+
+## Final MVP Decision
+
+**Decision:** Continue with final minor improvements.
+
+The final MVP is suitable for semester submission because it demonstrates the main product value, user workflows, requirement traceability, testing evidence, data handling, and venture direction. The prototype is not a production system yet, but it is complete enough to show the business idea and user journey.
+
+---
+
+## Final Reflection
+
+Lab 14 helped the team combine all semester work into one complete project. We learned that a strong MVP is not only about building screens. It also needs user evidence, requirements, testing, responsible data handling, documentation, and a clear business explanation.
+
+The most important improvement from the semester was changing the project from only an idea into a structured prototype with real user flows, sample data, validation evidence, and final pitch preparation.
+
+---
+
+## Action Before Final Presentation
+
+| Action | Owner | Status |
+|---|---|---|
+| Check final prototype link or local run instructions | Team Review | Pending final check |
+| Check README links | Phyo Wai Aung | Pending final check |
+| Check final screenshots | Kyaw Phone Thant | Pending final check |
+| Check sample data and testing data | Hein Pyae Shan | Pending final check |
+| Practice final demo script | All members | Pending |
+| Practice venture pitch | All members | Pending |
+| Confirm no sensitive data is exposed | Team Review | Pending final check |
+
+---
+
+## Final Submission Status
+
+| Submission Item | Status |
+|---|---|
+| GitHub repository | Ready |
+| Final prototype | Ready |
+| Final screenshots | Ready |
+| Final report | Ready |
+| Final demo script | Ready |
+| Final pitch outline | Ready |
+| Final reflection | Ready |
+| Final checklist | Ready |
+| README | Ready |
+| Weekly logbook | Ready |
+
+---
+
+## Lab 14 Status
+
+**Status:** Completed  
+**Final MVP Direction:** Submit final MVP prototype and venture pitch  
+**Next Step:** Final presentation and final repository submission
 
